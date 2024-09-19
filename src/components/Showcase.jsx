@@ -19,7 +19,7 @@ export const Showcase = () => {
         className="showcase-revel block w-[70%] max-w-[30rem] mx-auto"
         alt="nandivardhan"
       />
-      <h2 className="showcase-heading flex flex-col mt-10 text-[7vw]">
+      <h2 className="showcase-heading flex flex-col mt-10 text-[7vw] md:text=[5vw]">
         <span className="showcase-revel">Crafting India's Finest</span>
         <span className="showcase-revel"> Real Estate Experiences</span>
       </h2>
