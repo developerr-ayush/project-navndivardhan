@@ -1,3 +1,4 @@
+import { Projects } from "../components/Projects";
 import { Showcase } from "../components/Showcase";
 import { TowardsTomorrow } from "../components/TowardsTomorrow";
 
@@ -7,6 +8,7 @@ export const Home = () => {
       <div className="main-wrap">
         <Showcase />
         <TowardsTomorrow />
+        <Projects />
       </div>
     </>
   );
