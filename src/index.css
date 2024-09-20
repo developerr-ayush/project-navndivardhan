@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   button:focus {
     outline: 1px solid #fff;
     outline-offset: 0.5rem;
@@ -15,4 +18,3 @@
 .hide-scrollbar::-webkit-scrollbar {
   width: 0px;
 }
-  

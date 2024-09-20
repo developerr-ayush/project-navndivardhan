@@ -31,7 +31,10 @@ export const Showcase = () => {
         muted
         loop
       ></video>
-      <button className="scrolldown w-max absolute bottom-24 inset-x-0 mx-auto">
+      <button
+        onClick={() => window.scrollTo(0, window.innerHeight)}
+        className="scrolldown w-max absolute bottom-24 inset-x-0 mx-auto"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
