@@ -1,7 +1,20 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
+gsap.registerPlugin(useGSAP);
 export const Projects = () => {
+  useGSAP(() => {
+    gsap.from(".project-item", {
+      y: 100,
+      opacity: 0,
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: ".project-list",
+      },
+    });
+  });
   return (
     <div className="project-list grid gap-4 md:grid-cols-2 lg:grid-cols-12 ">
       <div className="group project-item md:col-span-8 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">

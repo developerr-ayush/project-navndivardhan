@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
-
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 let newsList = [
   {
     id: 1,
@@ -30,12 +31,22 @@ let newsList = [
   },
 ];
 export const News = () => {
+  useGSAP(() => {
+    gsap.from(".article", {
+      y: 100,
+      opacity: 0,
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: ".news-data",
+      },
+    });
+  });
   return (
-    <div className="px-8 py-8">
+    <div className="px-8 py-8 news-data">
       <h3 className="text-[2.5rem] mb-4 text-[#84754E]">Latest News</h3>
       <div className="grid gap-8 md:grid-cols-3">
         {newsList.map((news) => (
-          <div key={news.id}>
+          <div key={news.id} className="article">
             <img src={`/image/${news.img}`} alt="" />
             <h4 className="mt-8 mb-4 text-[1.4rem] md:text-[1rem] uppercase font-semibold tracking-widest">
               {news.title}
