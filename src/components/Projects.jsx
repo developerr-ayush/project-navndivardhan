@@ -4,14 +4,16 @@ import { FaArrowRight } from "react-icons/fa6";
 export const Projects = () => {
   return (
     <div className="project-list grid gap-4 md:grid-cols-2 lg:grid-cols-12 ">
-      <div className="group project-item col-span-8 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
+      <div className="group project-item md:col-span-8 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
           src="/public/image/manasarovar.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
-        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">Manasarovar</h3>
+        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">
+          Manasarovar
+        </h3>
         <div className="group-hover:opacity-100 group-hover:translate-y-0 transition-all hover summary absolute inset-0  flex flex-col justify-end p-5 translate-y-20 opacity-0 lg:p-[3rem]">
           <p className="text-[1.4rem] mb-4 lg:text-[2rem]">
             An elegant and Luxurious 31 storey tower, featuring high-quality 4
@@ -28,14 +30,16 @@ export const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="group project-item col-span-4 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
+      <div className="group project-item md:col-span-4 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
           src="/public/image/parkway.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
-        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">Parkway</h3>
+        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">
+          Parkway
+        </h3>
         <div className="group-hover:opacity-100 group-hover:translate-y-0 transition-all hover summary absolute inset-0  flex flex-col justify-end p-5 translate-y-20 opacity-0 lg:p-[3rem]">
           <p className="text-[1.4rem] mb-4 lg:text-[2rem]">
             Since the time you walked to school, picnicked at your favourite
@@ -51,14 +55,16 @@ export const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="group project-item col-span-12 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
+      <div className="group project-item md:col-span-12 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
           src="/public/image/reception.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
-        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">Nandivardhan Group</h3>
+        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">
+          Nandivardhan Group
+        </h3>
         <div className="group-hover:opacity-100 group-hover:translate-y-0 transition-all hover summary absolute inset-0  flex flex-col justify-end p-5 translate-y-20 opacity-0 lg:p-[3rem]">
           <p className="text-[1.4rem] mb-4 lg:text-[2rem]">
             The Nandivardhan Group has been the architect of numerous luxury
@@ -74,14 +80,16 @@ export const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="group project-item col-span-6 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
+      <div className="group project-item md:col-span-6 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
           src="/public/image/fortuna.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
-        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">Fortuna</h3>
+        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">
+          Fortuna
+        </h3>
         <div className="group-hover:opacity-100 group-hover:translate-y-0 transition-all hover summary absolute inset-0  flex flex-col justify-end p-5 translate-y-20 opacity-0 lg:p-[3rem]">
           <p className="text-[1.4rem] mb-4 lg:text-[2rem]">
             Some aspire for a central location, some desire comfort living.
@@ -98,14 +106,16 @@ export const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="group project-item col-span-6 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
+      <div className="group project-item md:col-span-6 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
           src="/public/image/mountcasa.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
-        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">Mount Casa</h3>
+        <h3 className="text-[10vw] md:text-[3vw] group-hover:opacity-0 transition-all">
+          Mount Casa
+        </h3>
         <div className="group-hover:opacity-100 group-hover:translate-y-0 transition-all hover summary absolute inset-0  flex flex-col justify-end p-5 translate-y-20 opacity-0 lg:p-[3rem]">
           <p className="text-[1.4rem] mb-4 lg:text-[2rem]">
             This iconic tower boasts 22 storey, with an urban experience of life

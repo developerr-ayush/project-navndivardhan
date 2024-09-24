@@ -99,11 +99,18 @@ export const Header = () => {
     <header className="bg-gradient-to-b z-20 from-black/80 to-transparent  px-4 py-7 flex justify-between items-center fixed w-full">
       <button
         onClick={handleHamburger}
-        className="hamburger w-8 h-8 flex flex-col justify-center gap-2"
+        className="hamburger w-8 h-8 flex flex-col justify-center gap-2 lg:hidden"
       >
         <span className="w-full h-1 bg-white "></span>
         <span className="w-full h-1 bg-white "></span>
         <span className="w-full h-1 bg-white "></span>
+      </button>
+
+      <button
+        onClick={handleHamburger}
+        className="hidden lg:flex flex-col justify-center items-center gap-2 text-[1rem] w-20 h-20 border rounded-full text-white border-white border-solid"
+      >
+        Menu
       </button>
 
       <div
@@ -114,11 +121,17 @@ export const Header = () => {
       } transition-all duration-500`}
       >
         <button
-          className="w-8 h-8 fixed top-10 left-4"
+          className="w-8 h-8 fixed top-10 left-4 lg:hidden"
           onClick={handleHamburger}
         >
           <span className="block w-full h-1 bg-black mb-4 rotate-45 translate-y-[0.7rem]"></span>
           <span className="block w-full h-1 bg-black mb-4 -rotate-45 -translate-y-2"></span>
+        </button>
+        <button
+          onClick={handleHamburger}
+          className="hidden mt-7 ml-4 lg:flex flex-col justify-center items-center gap-2 text-[1rem] w-20 h-20 border rounded-full text-black border-black border-solid"
+        >
+          Close
         </button>
         <ul className="pt-20 pl-10 max-h-full overflow-y-auto hide-scrollbar">
           {list.map((item) => (
