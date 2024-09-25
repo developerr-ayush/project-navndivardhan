@@ -22,7 +22,7 @@ export const Projects = () => {
       <div className="group project-item md:col-span-8 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
-          src="/public/image/manasarovar.jpg"
+          src="/image/manasarovar.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
@@ -48,7 +48,7 @@ export const Projects = () => {
       <div className="group project-item md:col-span-4 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
-          src="/public/image/parkway.jpg"
+          src="/image/parkway.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
@@ -73,7 +73,7 @@ export const Projects = () => {
       <div className="group project-item md:col-span-12 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
-          src="/public/image/reception.jpg"
+          src="/image/reception.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
@@ -98,7 +98,7 @@ export const Projects = () => {
       <div className="group project-item md:col-span-6 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
-          src="/public/image/fortuna.jpg"
+          src="/image/fortuna.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
@@ -124,7 +124,7 @@ export const Projects = () => {
       <div className="group project-item md:col-span-6 relative h-[70vh] text-white flex items-center justify-center overflow-hidden">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover -z-[1]"
-          src="/public/image/mountcasa.jpg"
+          src="/image/mountcasa.jpg"
           alt=""
         />
         <div className="overlay absolute inset-0 bg-black/50 -z-[1]"></div>
