@@ -10,6 +10,7 @@ export const Showcase = () => {
       duration: 0.5,
       stagger: 0.5,
       y: 30,
+      delay: 2,
     });
   });
   return (
