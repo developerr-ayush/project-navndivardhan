@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 let newsList = [
   {
     id: 1,
@@ -36,8 +37,11 @@ export const News = () => {
       y: 100,
       opacity: 0,
       stagger: 0.2,
+      animationDirection: "alternate",
       scrollTrigger: {
         trigger: ".news-data",
+        start: "30% bottom",
+        toggleActions: "restart none none reverse",
       },
     });
   });

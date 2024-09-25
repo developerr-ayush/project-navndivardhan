@@ -9,8 +9,8 @@ export const TowardsTomorrow = () => {
     let timeline = gsap.timeline({
       scrollTrigger: {
         trigger: ".towards",
-        markers: true,
-        start: "top top",
+        start: "30% bottom",
+        toggleActions: "restart none none reverse",
       },
     });
     timeline.from(".towards-tomorrow-title", {

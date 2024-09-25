@@ -11,7 +11,9 @@ export const Projects = () => {
       opacity: 0,
       stagger: 0.2,
       scrollTrigger: {
-        trigger: ".project-list",
+        trigger: ".project-item",
+        toggleActions: "restart none none reverse",
+        start: "30% bottom",
       },
     });
   });
