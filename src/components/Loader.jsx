@@ -7,7 +7,7 @@ export const Loader = () => {
     gsap.to(loader, {
       autoAlpha: 0,
       duration: 1,
-      delay: 2,
+      delay: 4,
       onComplete: () => {
         loader.style.display = "none";
       },

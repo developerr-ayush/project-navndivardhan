@@ -49,13 +49,13 @@ export const TowardsTomorrow = () => {
             locations and essential amenities to deliver exceptional living
             experiences.
           </p>
-          <a
+          {/* <a
             href="#"
             className="text-[#84754E] tracking-[.2em] flex gap-2 items-center text-[1.2rem]"
           >
             VIEW SITE PLAN
             <FaArrowRight />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
