@@ -16,7 +16,11 @@ export const Loader = () => {
     [];
   return (
     <div className="loader fixed inset-0 bg-white z-20 flex items-center justify-center">
-      <img className="w-[40vw] max-w-[20rem]" src="/image/nv-logo.gif" alt="" />
+      <img
+        className="w-[40vw] max-w-[20rem]"
+        src="/image/nandivardhan-logo.gif"
+        alt=""
+      />
     </div>
   );
 };
