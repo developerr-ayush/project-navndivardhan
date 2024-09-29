@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/header";
 import menuList from "@/data/menu.json";
+import { Loader } from "@/components/loader";
 const fontPrimary = localFont({
   src: "./fonts/Montserrat.ttf",
   variable: "--font-primary",
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${fontPrimary.variable} ${fontSecondary.variable} antialiased`}
       >
+        <Loader />
         <Header menuList={menuList} />
         {children}
       </body>

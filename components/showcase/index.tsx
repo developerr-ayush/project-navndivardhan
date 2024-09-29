@@ -2,6 +2,7 @@ import React from 'react'
 import hero from '@/public/image/hero.png'
 import Image from 'next/image'
 import arrowRight from '@/public/icon/arrow-right.svg'
+import pattern from '@/public/image/pattern.png'
 export const Showcase = () => {
     return (
         <div className='showcase grid-cols-1 grid lg:grid-cols-12 min-h-screen'>
@@ -14,6 +15,7 @@ export const Showcase = () => {
                 <a href="/" className='absolute right-16 top-1/2 -translate-y-1/2'>
                     <Image src={arrowRight} alt="arrow" className="filter brightness-0 invert lg:filter-none w-18 h-18 mt-4" />
                 </a>
+                <Image src={pattern} alt="pattern" className="absolute inset-0 object-cover h-full" />
             </div>
         </div>
     )
