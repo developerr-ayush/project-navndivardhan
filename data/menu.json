@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "name": "About",
+    "link": "/"
+  },
+  {
+    "id": 3,
+    "name": "Design",
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "name": "Projects",
+    "link": "/",
+    "submenu": [
+      {
+        "id": 1,
+        "name": "Residential",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "name": "Commercial & Retail",
+        "link": "/"
+      },
+      {
+        "id": 3,
+        "name": "Upcoming Projects",
+        "link": "/"
+      },
+      {
+        "id": 4,
+        "name": "Ongoing Projects",
+        "link": "/"
+      },
+      {
+        "id": 5,
+        "name": "Completed Projects",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Re-Development",
+    "link": "/"
+  },
+  {
+    "id": 5,
+    "name": "NRI Corner",
+    "link": "/"
+  },
+  {
+    "id": 6,
+    "name": "HR Corner",
+    "link": "/"
+  },
+  {
+    "id": 7,
+    "name": "Media",
+    "link": "/"
+  },
+  {
+    "id": 8,
+    "name": "Blogs",
+    "link": "/"
+  },
+  {
+    "id": 9,
+    "name": "Contact US",
+    "link": "/"
+  }
+]
