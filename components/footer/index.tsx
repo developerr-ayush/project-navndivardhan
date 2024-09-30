@@ -1,5 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -15,6 +21,94 @@ export const Footer = () => {
           />
           <hr className="w-full" />
         </div>
+        <div className="grid gap-4 lg:gap-12 lg:grid-cols-3 my-4 lg:my-20">
+          <div className="col-span-1 max-w-[20rem] text-white">
+            <h3 className="underline text-[2rem] font-primary font-semibold underline-offset-[8px] mb-[3rem] decoration-white/50">
+              Contact Details
+            </h3>
+            <p className="mb-2">
+              Address: 2403 A Wing, Marathon Futurex, N.M. Joshi Marg, Lower
+              Parel, Mumbai 400013
+            </p>
+            <p>
+              Phone: <a href="tel:+9102269038383 ">022 69038383 </a>
+            </p>
+            <p>
+              Email:
+              <a href="mailto:info@nandivardhan.com">info@nandivardhan.com</a>
+            </p>
+            <p>
+              Instagram:
+              <a href="https://www.instagram.com/@nandivardhann__">
+                [@nandivardhann__]
+              </a>
+            </p>
+          </div>
+          <div className="col-span-1 max-w-[20rem] text-white">
+            <h3 className="underline text-[2rem] font-primary font-semibold underline-offset-[8px] mb-[3rem] decoration-white/50">
+              Ongoing Projects
+            </h3>
+            <p>
+              <a href="/">Mount Casa</a>
+            </p>
+            <p>
+              <a href="/">Fortuna Blue</a>
+            </p>
+          </div>
+          <div className="col-span-1 max-w-[20rem] text-white">
+            <h3 className="underline text-[2rem] font-primary font-semibold underline-offset-[8px] mb-[3rem] decoration-white/50">
+              Quick Links
+            </h3>
+          </div>
+        </div>
+        <ul className="text-white list-none gap-2 flex">
+          <li>
+            <a
+              href="/"
+              className="flex justify-center items-center border border-white border-solid rounded-full  w-8 h-8"
+            >
+              <FaFacebookF size={20} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              className="flex justify-center items-center border border-white border-solid rounded-full  w-8 h-8"
+            >
+              <FaInstagram size={20} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              className="flex justify-center items-center border border-white border-solid rounded-full  w-8 h-8"
+            >
+              <FaLinkedinIn size={20} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              className="flex justify-center items-center border border-white border-solid rounded-full  w-8 h-8"
+            >
+              <FaYoutube size={20} />
+            </a>
+          </li>
+        </ul>
+        <p className="my-8 text-white">
+          This Website/micro-sites are the sole property of Raheja Universal
+          (Pvt) Ltd. The contents of this web-site/micro-site, including but not
+          limited to, text, graphics, logos, software, trademarks, plans,
+          drawings, amenities, specifications and other information etc., are
+          the property of Raheja Unviersal (Pvt) Ltd. and are protected by law.
+          All the information/contents/text/images included but not limited to
+          the photography herein is the exclusive property of Raheja Universal
+          (Pvt) Ltd. and should not be copied, reproduced, published,
+          republished, posted, transmitted or distributed in any way without
+          express, advance and or written consent.
+        </p>
+        <hr />
+        <p className="text-white mt-6">© Copyright 2024 </p>
       </div>
     </footer>
   );

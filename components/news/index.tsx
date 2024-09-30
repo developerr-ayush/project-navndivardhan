@@ -43,7 +43,7 @@ export const News = () => {
               />
             </div>
             <div className="content row-start-1 col-start-1 bg-gradient-to-t from-black to-transparent flex text-white items-end p-5 text-center">
-              <h3 className="text-[1.6vw]">{news.title}</h3>
+              <h3 className="text-[2rem] lg:text-[1.6vw]">{news.title}</h3>
             </div>
           </div>
         ))}
