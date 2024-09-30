@@ -32,7 +32,7 @@ export const Header = ({ menuList }: HeaderProps) => {
         });
     });
     return (
-        <header className="  px-4 py-7 flex justify-between items-center fixed w-full z-20">
+        <header className="  px-4 py-7 flex justify-between items-center absolute w-full z-20">
             <a
                 href="/"
                 className="flex w-28 md:w-40 lg:w-48 "

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import image from '@/public/image/about.png'
 export const About = () => {
     return (
-        <div className='grid lg:grid-cols-12 items-center'>
+        <div className='grid lg:grid-cols-12 items-center '>
 
             <div className="lg:col-span-7 p-[3vw]">
                 <h2 className='text-[7vw] lg:text-[3vw] text-[#00a8dd]'>About Nandivardhan Group  </h2>
