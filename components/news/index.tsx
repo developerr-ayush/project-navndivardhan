@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { title } from "process";
 import arrowRight from "@/public/icon/arrow-right-blue.svg";
 
 import React from "react";
 
-let news = [
+const news = [
   {
     img: "/image/news-1.png",
     title: "Balancing Luxury with Affordability:  Is It Possible?",
