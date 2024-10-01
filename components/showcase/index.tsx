@@ -3,9 +3,11 @@ import hero from "@/public/image/hero.png";
 import Image from "next/image";
 import arrowRight from "@/public/icon/arrow-right.svg";
 import pattern from "@/public/image/pattern.png";
+import { GSAP } from "./gsap";
 export const Showcase = () => {
   return (
     <div className="showcase grid-cols-1 grid lg:grid-cols-12 min-h-screen">
+      <GSAP />
       <div className="lg:col-span-5 row-start-1 col-start-1 -row-end-1 -col-end-1">
         <Image
           src={hero}
@@ -16,17 +18,33 @@ export const Showcase = () => {
         />
       </div>
       <div className="lg:col-span-7 flex justify-center flex-col row-start-1 col-start-1 -row-end-1 -col-end-1 p-[2vw] lg:pr-[10vw] relative">
-        <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-primary leading-none">
-          Towards <br /> Tomorrow
+        <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-primary leading-none flex justify-start">
+          <span className="animate block">T</span>
+          <span className="animate block">o</span>
+          <span className="animate block">w</span>
+          <span className="animate block">a</span>
+          <span className="animate block">r</span>
+          <span className="animate block">d</span>
+          <span className="animate block">s</span>
         </h1>
-        <p className="text-white lg:text-[#0e9f5a] text-[1.25rem] mt-2">
+        <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-primary leading-none flex justify-start">
+          <span className="animate block"> T</span>
+          <span className="animate block"> o</span>
+          <span className="animate block"> m</span>
+          <span className="animate block"> o</span>
+          <span className="animate block"> r</span>
+          <span className="animate block"> r</span>
+          <span className="animate block"> o</span>
+          <span className="animate block"> w</span>
+        </h1>
+        <p className="text-white lg:text-[#0e9f5a] text-[1.25rem] mt-2 para">
           From premium residences to commercial hubs, every project is a
           testament to our commitment to quality, innovation, and
           sustainability.{" "}
         </p>
         <a
           href="/"
-          className="lg:absolute lg:right-16 lg:top-1/2 lg:-translate-y-1/2"
+          className="lg:absolute lg:right-16 lg:top-1/2 lg:-translate-y-1/2 arrow"
         >
           <Image
             src={arrowRight}
@@ -37,7 +55,7 @@ export const Showcase = () => {
         <Image
           src={pattern}
           alt="pattern"
-          className="absolute inset-0 object-cover h-full"
+          className="absolute inset-0 object-cover h-full -z-[1]"
         />
       </div>
     </div>
