@@ -2,7 +2,6 @@
 import { DELAY } from "@/util";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import React, { use } from "react";
 
 export const GSAP = () => {
   useGSAP(() => {
