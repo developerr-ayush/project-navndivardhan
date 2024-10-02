@@ -26,12 +26,12 @@ export const GSAP = () => {
         scrub: 1,
       },
     });
-    gsap.from(".news-item", {
+    gsap.from(".product-item", {
       y: 100,
       opacity: 0,
       stagger: 0.3,
       scrollTrigger: {
-        trigger: ".news",
+        trigger: ".project",
         start: "top 50%",
         end: "top 40%",
         scrub: 1,
