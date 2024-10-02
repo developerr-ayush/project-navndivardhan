@@ -1,4 +1,5 @@
 import { About } from "@/components/about";
+import { ContactUs } from "@/components/contact-popup";
 import { Footer } from "@/components/footer";
 import { News } from "@/components/news";
 import { Project } from "@/components/project";
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Showcase />
-      <h2 className="text-[5vw] text-center py-10 text-[#b2b3b3]">
+      <h2 className="text-[4.5vw] text-center py-10 text-[#b2b3b3]">
         Transforming Spaces, Elevating Lives
       </h2>
       <About />
@@ -18,6 +19,7 @@ export default function Home() {
       <Sustainability />
       <News />
       <Footer />
+      <ContactUs />
     </>
   );
 }

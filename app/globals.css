@@ -4,8 +4,11 @@
 :root {
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Classyvogueregular", serif;
+  --swiper-navigation-size: 6rem !important;
 }
-
+p {
+  line-height: 2;
+}
 h1,
 h2,
 h3,
@@ -16,4 +19,21 @@ h6 {
 }
 .font-primary {
   font-family: var(--font-primary);
+}
+body :is(.swiper-button-next, .swiper-button-prev)::after {
+  content: "";
+  width: 4rem;
+  flex-shrink: 0;
+  height: 4rem;
+
+  background-image: url("/icon/arrow-swiper.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body :is(.swiper-button-prev)::after {
+  rotate: 180deg;
+}
+.vertical-text {
+  text-orientation: sideways;
+  writing-mode: vertical-lr;
 }

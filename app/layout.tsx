@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fontPrimary.variable} ${fontSecondary.variable} antialiased`}
+        className={`${fontPrimary.variable} ${fontSecondary.variable} antialiased overflow-x-hidden`}
       >
         <Loader />
         <Header menuList={menuList} />
