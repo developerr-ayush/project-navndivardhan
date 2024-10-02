@@ -32,7 +32,7 @@ export const GSAP = () => {
       stagger: 0.3,
       scrollTrigger: {
         trigger: ".project",
-        start: "top 50%",
+        start: "top 90%",
         end: "top 40%",
         scrub: 1,
       },
