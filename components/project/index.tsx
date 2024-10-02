@@ -30,10 +30,10 @@ export const Project = () => {
   return (
     <div className="my-10 p-[3vw] project">
       <GSAP />
-      <h2 className="text-[2rem] lg:text-[3.125rem] text-[#00a8dd] project-title">
+      <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects
       </h2>
-      <h3 className="mb-4 text-[2.4rem] lg:text-[3.6rem] project-desc">
+      <h3 className="mb-4 text-[2.4rem] lg:text-[3.6rem] project-desc text-center">
         Explore our innovative projects, crafted with precision and excellence
       </h3>
       <Swiper

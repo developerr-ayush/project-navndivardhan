@@ -6,7 +6,7 @@ export const Sustainability = () => {
     <div className=" p-[3vw]  max-w-[70rem] mx-auto sustainability">
       <GSAP />
       <div className="head lg:text-center mb-8 lg:mb-16 sustainability-title">
-        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#00a8dd]">
+        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866]">
           Sustainability
         </h2>
         <p className="sustainability-desc">
@@ -24,7 +24,7 @@ export const Sustainability = () => {
             width={1080}
             height={1920}
           />
-          <h3 className="mt-4 text-[#0e9f5a] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
+          <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
             Green certificate
           </h3>
           <p>
@@ -41,7 +41,7 @@ export const Sustainability = () => {
             width={1080}
             height={1920}
           />
-          <h3 className="mt-4 text-[#0e9f5a] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
+          <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
             Green certificate
           </h3>
           <p>

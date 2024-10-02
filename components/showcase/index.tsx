@@ -37,7 +37,7 @@ export const Showcase = () => {
           <span className="animate block"> o</span>
           <span className="animate block"> w</span>
         </h1>
-        <p className="text-white lg:text-[#0e9f5a] text-[1.25rem] mt-2 para">
+        <p className="text-white lg:text-[#bb8866] text-[1.25rem] mt-2 para">
           From premium residences to commercial hubs, every project is a
           testament to our commitment to quality, innovation, and
           sustainability.{" "}

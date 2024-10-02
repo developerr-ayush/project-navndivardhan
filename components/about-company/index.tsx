@@ -18,7 +18,7 @@ export const AboutCompany = () => {
         />
       </div>
       <div className="lg:col-span-6 p-[3vw] content">
-        <h2 className="text-[7vw] lg:text-[3vw] text-[#00a8dd]">
+        <h2 className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
           About Company
         </h2>
         <p className="mb-4">

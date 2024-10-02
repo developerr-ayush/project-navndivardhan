@@ -4,7 +4,7 @@ export const Team = () => {
   return (
     <div>
       <div className="text-center max-w-[45rem] mx-auto my-20">
-        <h2 className="text-[20px] lg:text-[50px] text-[#00a8dd]">
+        <h2 className="text-[20px] lg:text-[50px] text-[#bb8866]">
           Leadership Team
         </h2>
         <p className="text-[30px] lg:text-[48px] leading-none font-semibold">
@@ -20,7 +20,7 @@ export const Team = () => {
               alt=""
             />
             <div className="text">
-              <h3 className="text-[20px] md:text-[50px] text-[#00a8dd]  font-semibold">
+              <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  font-semibold">
                 Mr. Anil Nagraj Mutha
               </h3>
               <p className="text-[20px] md:text-[25px] leading-none font-semibold">
@@ -48,7 +48,7 @@ export const Team = () => {
               alt=""
             />
             <div className="text lg:text-right">
-              <h3 className="text-[20px] md:text-[50px] text-[#00a8dd]  font-semibold">
+              <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  font-semibold">
                 Mr. Yash Ritesh Mutha
               </h3>
               <p className="text-[20px] md:text-[25px] leading-none font-semibold">
@@ -75,7 +75,7 @@ export const Team = () => {
               alt=""
             />
             <div className="text">
-              <h3 className="text-[20px] md:text-[50px] text-[#00a8dd]  font-semibold">
+              <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  font-semibold">
                 Mr. Nagraj Talaji Mutha
               </h3>
               <p className="text-[20px] md:text-[25px] leading-none font-semibold">

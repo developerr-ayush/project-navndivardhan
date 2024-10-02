@@ -24,7 +24,7 @@ export const News = () => {
     <div className=" p-[3vw] news">
       <GSAP />
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
-        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#00a8dd] mb-2 news-title">
+        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 news-title">
           Latest News
         </h2>
         <p className="text-[3.2rem] leading-none font-semibold news-desc">
@@ -55,7 +55,6 @@ export const News = () => {
           href="/"
           className="flex uppercase items-center gap-2 text-[#85888a] text-[1.4rem] tracking-widest"
         >
-          Read More
           <Image src={arrowRight} alt="arrow" className="  w-12 h-12  arrow" />
         </Link>
       </div>

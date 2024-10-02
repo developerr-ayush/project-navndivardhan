@@ -8,7 +8,7 @@ export const About = () => {
     <div className="grid lg:grid-cols-12 items-center about overflow-hidden">
       <GSAP />
       <div className="lg:col-span-7 p-[3vw] content">
-        <h2 className="text-[7vw] lg:text-[3vw] text-[#00a8dd]">
+        <h2 className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
           About Nandivardhan Group{" "}
         </h2>
         <p className="mb-4">
@@ -29,9 +29,8 @@ export const About = () => {
         </p>
         <a
           href="/"
-          className="flex uppercase items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
+          className="flex  items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
         >
-          Read More
           <Image src={arrowRight} alt="arrow" className="  w-12 h-12 arrow " />
         </a>
       </div>
