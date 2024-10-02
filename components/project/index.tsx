@@ -5,7 +5,7 @@ import "swiper/css";
 import { GSAP } from "./gsap";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 const projects = [
   {
