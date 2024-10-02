@@ -1,6 +1,4 @@
 import { About } from "@/components/about";
-import { ContactUs } from "@/components/contact-popup";
-import { Footer } from "@/components/footer";
 import { News } from "@/components/news";
 import { Project } from "@/components/project";
 import { Showcase } from "@/components/showcase";
@@ -18,8 +16,6 @@ export default function Home() {
       <Project />
       <Sustainability />
       <News />
-      <Footer />
-      <ContactUs />
     </>
   );
 }

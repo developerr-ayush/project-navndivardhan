@@ -4,6 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/header";
 import menuList from "@/data/menu.json";
 import { Loader } from "@/components/loader";
+import { ContactUs } from "@/components/contact-popup";
+import { Footer } from "@/components/footer";
 const fontPrimary = localFont({
   src: "./fonts/Montserrat.ttf",
   variable: "--font-primary",
@@ -33,6 +35,8 @@ export default function RootLayout({
         <Loader />
         <Header menuList={menuList} />
         {children}
+        <Footer />
+        <ContactUs />
       </body>
     </html>
   );

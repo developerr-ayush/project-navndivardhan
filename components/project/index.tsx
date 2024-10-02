@@ -4,8 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { GSAP } from "./gsap";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 const projects = [
   {
@@ -39,11 +38,10 @@ export const Project = () => {
       </h3>
       <Swiper
         className="product-swiper"
-        modules={[Navigation, Pagination]}
+        modules={[Navigation]}
         spaceBetween={20}
         loop={true}
         navigation
-        pagination={{ clickable: true }}
         breakpoints={{
           640: { slidesPerView: 1 }, // For phones
           1024: { slidesPerView: 3 }, // For desktops
