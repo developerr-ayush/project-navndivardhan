@@ -3,7 +3,7 @@ import React from "react";
 export const Team = () => {
   return (
     <div className="bg-[#eaecec] py-14">
-      <div className="text-center max-w-[50rem] mx-auto my-20 ">
+      <div className="text-center max-w-[100ch] mx-auto my-20 px-[4rem]">
         <h2 className="text-[20px] lg:text-[50px] text-[#bb8866]">
           Leadership Team
         </h2>
