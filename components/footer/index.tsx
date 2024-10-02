@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import {
   FaFacebookF,
@@ -59,6 +60,9 @@ export const Footer = () => {
             <h3 className="underline text-[2rem] font-primary font-semibold underline-offset-[8px] mb-[3rem] decoration-white/50">
               Quick Links
             </h3>
+            <p>
+              <Link href="/faq">FAQ</Link>
+            </p>
           </div>
         </div>
         <ul className="text-white list-none gap-2 flex">
