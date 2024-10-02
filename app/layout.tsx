@@ -6,6 +6,7 @@ import menuList from "@/data/menu.json";
 import { Loader } from "@/components/loader";
 import { ContactUs } from "@/components/contact-popup";
 import { Footer } from "@/components/footer";
+import Head from "next/head";
 const fontPrimary = localFont({
   src: "./fonts/Montserrat.ttf",
   variable: "--font-primary",
@@ -29,6 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body
         className={`${fontPrimary.variable} ${fontSecondary.variable} antialiased overflow-x-hidden`}
       >

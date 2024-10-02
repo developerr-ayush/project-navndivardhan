@@ -11,11 +11,11 @@ export const Team = () => {
           Empowering visionaries driving innovation and success.
         </p>
       </div>
-      <div className="container px-4">
+      <div className="container mx-auto px-4">
         <div className="team-item my-10">
           <div className="info md:flex items-center lg:gap-[4rem]">
             <img
-              className="w-[15rem] max-w-full"
+              className="w-[15rem] max-w-full mb-4"
               src="/image/team-1.png"
               alt=""
             />
@@ -41,13 +41,13 @@ export const Team = () => {
           </p>
         </div>
         <div className="team-item my-10">
-          <div className="info md:flex items-center flex-row-reverse lg:gap-[4rem]">
+          <div className="info md:flex items-center lg:flex-row-reverse lg:gap-[4rem]">
             <img
-              className="w-[15rem] max-w-full"
+              className="w-[15rem] max-w-full mb-4"
               src="/image/team-1.png"
               alt=""
             />
-            <div className="text text-right">
+            <div className="text lg:text-right">
               <h3 className="text-[20px] md:text-[50px] text-[#00a8dd]  font-semibold">
                 Mr. Yash Ritesh Mutha
               </h3>
@@ -56,7 +56,7 @@ export const Team = () => {
               </p>
             </div>
           </div>
-          <p className="mt-8 text-right">
+          <p className="mt-8 lg:text-right">
             Yash Ritesh Mutha spearheads the sales strategies for Nandivardhan,
             bringing with him a modern perspective and a deep understanding of
             customer needs. His innovative sales techniques have been crucial in
@@ -70,7 +70,7 @@ export const Team = () => {
         <div className="team-item my-10">
           <div className="info md:flex items-center lg:gap-[4rem]">
             <img
-              className="w-[15rem] max-w-full"
+              className="w-[15rem] max-w-full mb-4"
               src="/image/team-1.png"
               alt=""
             />

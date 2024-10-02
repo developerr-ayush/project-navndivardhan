@@ -53,7 +53,7 @@ export const AboutCompany = () => {
         </p>
         <a
           href="/"
-          className="flex uppercase items-center gap-2 text-[#85888a] text-[1.4rem] tracking-widest "
+          className="flex uppercase items-center gap-2 text-[#85888a] font-semibold text-[1.2rem] "
         >
           Read More
           <Image src={arrowRight} alt="arrow" className="  w-12 h-12 arrow " />

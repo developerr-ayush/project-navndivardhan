@@ -20,6 +20,7 @@ export const About = () => {
           solutions for aging societies. Our legacy is built on trust,
           transparency, and a commitment to elevating urban living experiences.
           <br />
+          <br />
           With a portfolio that includes 15 landmark projects, Nandivardhan
           Group stands tall as a symbol of quality, reliability, and visionary
           thinking in the industry. Our work is driven by core values of
@@ -28,7 +29,7 @@ export const About = () => {
         </p>
         <a
           href="/"
-          className="flex uppercase items-center gap-2 text-[#85888a] text-[1.4rem] tracking-widest "
+          className="flex uppercase items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
         >
           Read More
           <Image src={arrowRight} alt="arrow" className="  w-12 h-12 arrow " />

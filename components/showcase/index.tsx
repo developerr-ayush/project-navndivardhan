@@ -17,8 +17,8 @@ export const Showcase = () => {
           height={1000}
         />
       </div>
-      <div className="lg:col-span-7 flex justify-center flex-col row-start-1 col-start-1 -row-end-1 -col-end-1 p-[2vw] lg:pr-[10vw] relative">
-        <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-primary leading-none flex justify-start">
+      <div className="lg:col-span-7 flex justify-center flex-col row-start-1 col-start-1 -row-end-1 -col-end-1 p-[2vw] lg:pl-[8vw] lg:pr-[10vw] relative">
+        <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-secondary leading-none flex justify-start">
           <span className="animate block">T</span>
           <span className="animate block">o</span>
           <span className="animate block">w</span>
@@ -27,7 +27,7 @@ export const Showcase = () => {
           <span className="animate block">d</span>
           <span className="animate block">s</span>
         </h1>
-        <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-primary leading-none flex justify-start">
+        <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-secondary leading-none flex justify-start">
           <span className="animate block"> T</span>
           <span className="animate block"> o</span>
           <span className="animate block"> m</span>
