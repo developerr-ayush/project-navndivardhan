@@ -5,13 +5,13 @@ import "swiper/css";
 import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 
-export const Hero = () => {
+export const Hero = ({ img }: { img: string }) => {
   return (
     <div className="h-[100vh]">
       <Swiper modules={[Navigation]} navigation slidesPerView={1}>
         <SwiperSlide>
           <img
-            src="/image/hero.jpeg"
+            src={img}
             alt="hero"
             className="w-full h-[85vh] md:h-[80vh] object-cover"
           />
@@ -19,7 +19,7 @@ export const Hero = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/image/hero.jpeg"
+            src={img}
             alt="hero"
             className="w-full h-[85vh] md:h-[80vh] object-cover"
           />
@@ -27,7 +27,7 @@ export const Hero = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/image/hero.jpeg"
+            src={img}
             alt="hero"
             className="w-full h-[85vh] md:h-[80vh] object-cover"
           />

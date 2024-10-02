@@ -7,7 +7,7 @@ import React from "react";
 export default function page() {
   return (
     <>
-      <Hero />
+      <Hero img="/image/hero.jpeg" />
 
       <AboutCompany />
       <Team />
