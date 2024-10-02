@@ -15,6 +15,7 @@ export const Hero = () => {
             alt="hero"
             className="w-full h-screen object-cover"
           />
+          <div className="overlay absolute inset-0 bg-black/50 mix-blend-multiply"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img
@@ -22,6 +23,7 @@ export const Hero = () => {
             alt="hero"
             className="w-full h-screen object-cover"
           />
+          <div className="overlay absolute inset-0 bg-black/50 mix-blend-multiply"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img
@@ -29,6 +31,7 @@ export const Hero = () => {
             alt="hero"
             className="w-full h-screen object-cover"
           />
+          <div className="overlay absolute inset-0 bg-black/50 mix-blend-multiply"></div>
         </SwiperSlide>
       </Swiper>
     </div>

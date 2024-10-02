@@ -2,8 +2,8 @@ import React from "react";
 
 export const Team = () => {
   return (
-    <div>
-      <div className="text-center max-w-[45rem] mx-auto my-20">
+    <div className="bg-[#eaecec] py-14">
+      <div className="text-center max-w-[50rem] mx-auto my-20 ">
         <h2 className="text-[20px] lg:text-[50px] text-[#bb8866]">
           Leadership Team
         </h2>
@@ -12,11 +12,11 @@ export const Team = () => {
         </p>
       </div>
       <div className="container mx-auto px-4">
-        <div className="team-item my-10">
+        <div className="team-item my-14">
           <div className="info md:flex items-center lg:gap-[4rem]">
             <img
               className="w-[15rem] max-w-full mb-4"
-              src="/image/team-1.png"
+              src="/image/anil-mutha.png"
               alt=""
             />
             <div className="text">
@@ -40,11 +40,11 @@ export const Team = () => {
             real estate.
           </p>
         </div>
-        <div className="team-item my-10">
+        <div className="team-item my-14">
           <div className="info md:flex items-center lg:flex-row-reverse lg:gap-[4rem]">
             <img
               className="w-[15rem] max-w-full mb-4"
-              src="/image/team-1.png"
+              src="/image/yash-mutha.png"
               alt=""
             />
             <div className="text lg:text-right">
@@ -67,7 +67,7 @@ export const Team = () => {
             satisfaction
           </p>
         </div>
-        <div className="team-item my-10">
+        <div className="team-item my-14">
           <div className="info md:flex items-center lg:gap-[4rem]">
             <img
               className="w-[15rem] max-w-full mb-4"
