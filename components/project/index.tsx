@@ -28,12 +28,12 @@ const projects = [
 ];
 export const Project = () => {
   return (
-    <div className="my-10 p-[3vw] project">
+    <div className="my-10 p-[3vw] project overflow-hidden">
       <GSAP />
       <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects
       </h2>
-      <h3 className="mb-4 text-[2.4rem] lg:text-[3.6rem] project-desc text-center">
+      <h3 className="mb-4 text-[1.4rem] lg:text-[3.6rem] project-desc text-center">
         Explore our innovative projects, crafted with precision and excellence
       </h3>
       <Swiper
@@ -48,13 +48,13 @@ export const Project = () => {
         }}
       >
         {projects.map((project, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="overflow-hidden">
             <div className="product-item group grid">
               <div className=" col-start-1 row-start-1">
                 <img
                   src={project.image}
                   alt="project"
-                  className="aspect-[9/16] object-cover"
+                  className="aspect-[9/16] object-cover group-hover:scale-105 transition-all duration-300"
                 />
               </div>
               <div className=" col-start-1 group-hover:opacity-0 transition-all duration-300   row-start-1 flex justify-end p-4 lg:p-8 text-white bg-gradient-to-t from-black to-transparent flex-col">

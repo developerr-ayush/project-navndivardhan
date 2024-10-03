@@ -6,6 +6,7 @@ import menuList from "@/data/menu.json";
 import { Loader } from "@/components/loader";
 import { ContactUs } from "@/components/contact-popup";
 import { Footer } from "@/components/footer";
+import { Cursor } from "@/components/cursor";
 const fontPrimary = localFont({
   src: "./fonts/Montserrat.ttf",
   variable: "--font-primary",
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body
         className={`${fontPrimary.variable} ${fontSecondary.variable} antialiased overflow-x-hidden`}
       >
+        <Cursor />
         <Loader />
         <Header menuList={menuList} />
         {children}

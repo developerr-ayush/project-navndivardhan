@@ -6,36 +6,26 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 export const GSAP = () => {
   useGSAP(() => {
-    gsap.from(".news-title", {
-      y: -100,
-      opacity: 0,
+    let tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".news",
         start: "top 80%",
         end: "top 40%",
-        scrub: 1,
+        toggleActions: "play none reverse reset",
       },
     });
-    gsap.from(".news-desc", {
+    tl.from(".news-title", {
       y: -100,
       opacity: 0,
-      scrollTrigger: {
-        trigger: ".news",
-        start: "top 80%",
-        end: "top 40%",
-        scrub: 1,
-      },
     });
-    gsap.from(".product-item", {
+    tl.from(".news-desc", {
+      y: -100,
+      opacity: 0,
+    });
+    tl.from(".news-item", {
       y: 100,
       opacity: 0,
       stagger: 0.3,
-      scrollTrigger: {
-        trigger: ".project",
-        start: "top 50%",
-        end: "top 40%",
-        scrub: 1,
-      },
     });
   });
   return null;

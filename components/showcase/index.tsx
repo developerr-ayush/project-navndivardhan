@@ -49,7 +49,7 @@ export const Showcase = () => {
           <Image
             src={arrowRight}
             alt="arrow"
-            className="filter brightness-0 invert lg:filter-none w-18 h-18 mt-4"
+            className="filter brightness-0 invert lg:filter-none w-18 h-18 mt-10"
           />
         </a>
         <Image

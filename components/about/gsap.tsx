@@ -6,24 +6,24 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 export const GSAP = () => {
   useGSAP(() => {
-    gsap.from(".content", {
+    gsap.from(".about .content", {
       x: -100,
       opacity: 0,
       scrollTrigger: {
-        trigger: ".about",
+        trigger: " .about .content",
         start: "top 80%",
         end: "top 40%",
-        scrub: 1,
+        toggleActions: "play none reverse reset",
       },
     });
-    gsap.from(".image", {
+    gsap.from(" .about  .image", {
       x: 100,
       opacity: 0,
       scrollTrigger: {
-        trigger: ".about",
+        trigger: ".about .image",
         start: "top 80%",
         end: "top 40%",
-        scrub: 1,
+        toggleActions: "play none reverse reset",
       },
     });
   });

@@ -19,13 +19,16 @@ export const Sustainability = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-          <div className="sustainability-project">
-            <Image
-              src="/image/green-certificate.png"
-              alt="green certificate"
-              width={1080}
-              height={1920}
-            />
+          <div className="sustainability-project group">
+            <div className="overflow-hidden">
+              <Image
+                src="/image/green-certificate.png"
+                className="group-hover:scale-105 transition-all duration-300"
+                alt="green certificate"
+                width={1080}
+                height={1920}
+              />
+            </div>
             <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
               Green certificate
             </h3>
@@ -37,12 +40,15 @@ export const Sustainability = () => {
             </p>
           </div>
           <div className="sustainability-project">
-            <Image
-              src="/image/case-study.png"
-              alt="green certificate"
-              width={1080}
-              height={1920}
-            />
+            <div className="overflow-hidden group">
+              <Image
+                src="/image/case-study.png"
+                className="group-hover:scale-105 transition-all duration-300"
+                alt="green certificate"
+                width={1080}
+                height={1920}
+              />
+            </div>
             <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
               Case Study – Fortuna Blue:
             </h3>
