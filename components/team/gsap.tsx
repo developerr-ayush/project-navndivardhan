@@ -8,21 +8,21 @@ export const GSAP = () => {
   useGSAP(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".sustainability",
+        trigger: ".leadership",
         start: "top 80%",
         end: "top 40%",
         toggleActions: "play none reverse reset",
       },
     });
-    tl.from(".sustainability-title", {
+    tl.from(".leadership-title", {
       y: -100,
       opacity: 0,
     });
-    tl.from(".sustainability-desc", {
+    tl.from(".leadership-desc", {
       y: -100,
       opacity: 0,
     });
-    tl.from(".sustainability-project", {
+    tl.from(".team-item", {
       y: 100,
       opacity: 0,
       stagger: 0.3,

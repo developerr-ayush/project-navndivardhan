@@ -6,7 +6,7 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 export const GSAP = () => {
   useGSAP(() => {
-    let tl = gsap.timeline({
+    const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".project",
         start: "top 80%",

@@ -5,8 +5,8 @@ import { useGSAP } from "@gsap/react";
 
 export const Cursor = () => {
   const cursorRef = useRef(null);
-  let { contextSafe } = useGSAP();
-  const moveCursor = contextSafe((e: any) => {
+  const { contextSafe } = useGSAP();
+  const moveCursor = contextSafe((e: MouseEvent) => {
     gsap.to(cursorRef.current, {
       x: e.clientX - 10, // Adjusting position to center the cursor
       y: e.clientY - 10,

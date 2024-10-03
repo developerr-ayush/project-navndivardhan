@@ -33,9 +33,9 @@ export const Project = () => {
       <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects
       </h2>
-      <h3 className="mb-4 text-[1.4rem] lg:text-[3.6rem] project-desc text-center">
+      <p className="mb-4 text-[1.4rem] lg:text-[3.6rem] project-desc text-center leading-none">
         Explore our innovative projects, crafted with precision and excellence
-      </h3>
+      </p>
       <Swiper
         className="product-swiper"
         modules={[Navigation]}

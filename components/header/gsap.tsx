@@ -10,7 +10,7 @@ export const GSAP = () => {
   const [prevScrollY, setPrevScrollY] = useState(0);
 
   // GSAP animation to hide/show the header
-  let { contextSafe } = useGSAP();
+  const { contextSafe } = useGSAP();
   const hideHeader = contextSafe(() => {
     gsap.to(".header", { y: "-100%", duration: 0.5 });
   });

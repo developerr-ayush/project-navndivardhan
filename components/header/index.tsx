@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 import { GSAP } from "./gsap";
+import Link from "next/link";
 gsap.registerPlugin(useGSAP);
 
 interface menuList {
@@ -77,12 +78,14 @@ export const Header = ({ menuList }: HeaderProps) => {
         <ul className="pt-20 pl-10 max-h-full overflow-y-auto hide-scrollbar ">
           {menuList.map((item) => (
             <li key={item.id} className="list-item">
-              <a
+              <Link
                 href={item.link}
                 className="flex items-center gap-3 before:content=[''] before:w-6 before:h-1 before:bg-black text-[1.8rem] my-4"
+               
+                onClick={handleHamburger}
               >
                 {item.name}
-              </a>
+              </Link>
               {item.submenu && <SubMenu item={item} />}
             </li>
           ))}

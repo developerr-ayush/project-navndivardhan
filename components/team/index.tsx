@@ -1,13 +1,15 @@
 import React from "react";
+import { GSAP } from "./gsap";
 
 export const Team = () => {
   return (
-    <div className="bg-[#eaecec] py-14">
+    <div className="bg-[#eaecec] py-14 leadership">
+      <GSAP />
       <div className="text-center max-w-[100ch] mx-auto my-20 px-[4rem]">
-        <h2 className="text-[20px] lg:text-[50px] text-[#bb8866]">
+        <h2 className="text-[20px] lg:text-[50px] text-[#bb8866] leadership-title">
           Leadership Team
         </h2>
-        <p className="text-[30px] lg:text-[48px] leading-none font-semibold">
+        <p className="text-[30px] lg:text-[48px] leading-none font-semibold leadership-desc">
           Empowering visionaries driving innovation and success.
         </p>
       </div>
