@@ -1,5 +1,4 @@
 import React from "react";
-import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import Image from "next/image";
 import image from "@/public/image/about-company.png";
 import { GSAP } from "./gsap";
