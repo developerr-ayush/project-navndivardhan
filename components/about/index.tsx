@@ -31,7 +31,11 @@ export const About = () => {
           href="/"
           className="flex  items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
         >
-          <Image src={arrowRight} alt="arrow" className="  w-12 h-12 arrow " />
+          <Image
+            src={arrowRight}
+            alt="arrow"
+            className="  w-12 h-12 arrow rotate-180"
+          />
         </a>
       </div>
       <div className="lg:col-span-5 p-[3vw] image">

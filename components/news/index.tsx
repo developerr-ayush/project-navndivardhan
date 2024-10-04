@@ -55,7 +55,11 @@ export const News = () => {
           href="/"
           className="flex uppercase items-center gap-2 text-[#85888a] text-[1.4rem] tracking-widest"
         >
-          <Image src={arrowRight} alt="arrow" className="  w-12 h-12  arrow" />
+          <Image
+            src={arrowRight}
+            alt="arrow"
+            className="  w-12 h-12  arrow rotate-180"
+          />
         </Link>
       </div>
     </div>

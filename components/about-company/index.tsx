@@ -51,13 +51,6 @@ export const AboutCompany = () => {
           excellence, ensuring Nandivardhan remains a name synonymous with
           quality, trust, and forward-thinking development.
         </p>
-        <a
-          href="/"
-          className="flex uppercase items-center gap-2 text-[#85888a] font-semibold text-[1.2rem] "
-        >
-          Read More
-          <Image src={arrowRight} alt="arrow" className="  w-12 h-12 arrow " />
-        </a>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 export const Contact = () => {
   return (
     <>
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="mx-auto max-w-2xl text-center col-span-2 -order-1">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl uppercase">
           Enquire Now
         </h2>
@@ -11,11 +11,7 @@ export const Contact = () => {
           Please enter your details
         </p>
       </div>
-      <form
-        action="#"
-        method="POST"
-        className="mx-auto mt-16 max-w-xl sm:mt-20"
-      >
+      <form action="#" method="POST" className="mx-auto mt-10 max-w-xl w-full">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 ">
           <div className="sm:col-span-2">
             <label

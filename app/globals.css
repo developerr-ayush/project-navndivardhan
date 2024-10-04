@@ -33,7 +33,7 @@ body :is(.swiper-button-next, .swiper-button-prev)::after {
   background-size: contain;
   background-repeat: no-repeat;
 }
-body :is(.swiper-button-prev)::after {
+body :is(.swiper-button-next)::after {
   rotate: 180deg;
 }
 .vertical-text {
