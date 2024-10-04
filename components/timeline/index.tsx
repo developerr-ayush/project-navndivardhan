@@ -1,60 +1,41 @@
-import { FC } from "react";
+"use client";
 
-interface TimelineItem {
-  year: number;
-  title: string;
-  content: string;
-}
+import { Swiper, SwiperSlide } from "swiper/react";
 
-interface TimelineProps {
-  items: TimelineItem[];
-}
+const timelineData = [
+  {
+    year: 2024,
+    description:
+      "Expanding beyond their stronghold in Thane, Raymond Realty has made an exciting move with the launch of 'The Address by GS' - Bandra. This venture marks their entry into a new territory, promising innovation and quality synonymous with the Raymond brand. Launched its first High Street Retail project - Park Avenue in Thane.",
+  },
+  {
+    year: 2017,
+    description:
+      "Understanding the strength of its brand equity, Raymond entered the real estate sector through 'Raymond Realty' to offer affordable housing solutions. The team started with as few as 20 employees. The focus was to go beyond real estate conventions and introduce a new standard of living that pushes the envelope on every aspect of construction quality, design aesthetic, and comfort feasibility.",
+  },
+  {
+    year: 2019,
+    description:
+      "Launched its first project, TEN X Habitat in Thane, which is a thriving gated community designed to elevate the benchmark of living standards.",
+  },
+];
 
-const Timeline: FC<TimelineProps> = ({ items }) => {
+export default function Timeline() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="relative wrap overflow-hidden md:p-10 p-4 max-w-[80rem] mx-auto">
-        <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2 md:block hidden"></div>
-        <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-8 md:hidden block"></div>
-        {items.map((item, index) => (
-          <div
-            className={`mb-8 md:mb-0 flex justify-between items-center w-full flex-row-reverse ${
-              index % 2 === 0 ? "flex-row-reverse md:flex-row" : " flex-row"
-            } `}
-            key={item.year}
-          >
-            <div className="order-1 md:w-5/12 w-full px-1 py-4 ">
-              <div
-                className={`p-4 rounded-lg shadow-lg relative  ${
-                  index % 2 === 0 ? "md:mr-4" : "md:ml-4"
-                } bg-white`}
-              >
-                <div
-                  className={`absolute top-1/2 -mt-3 ${
-                    index % 2 === 0 ? "md:-left-4 left-4" : "md:-right-4 left-4"
-                  } w-0 h-0 border-t-8 border-b-8 border-transparent ${
-                    index % 2 === 0
-                      ? "md:border-r-8 border-l-8"
-                      : "md:border-l-8 border-l-8"
-                  } border-white`}
-                ></div>
-                <h3 className="mb-3 font-bold text-gray-800 text-xl">
-                  {item.title}
-                </h3>
-                <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                  {item.content}
-                </p>
-              </div>
+    <div className=" p-8  flex flex-col justify-center">
+      <h2 className="text-4xl font-bold text-center mb-12">Timeline</h2>
+      <hr />
+      <Swiper slidesPerView={3}>
+        {timelineData.map((data, index) => (
+          <SwiperSlide key={index}>
+            <div className="flex flex-col items-center  gap-7">
+              <h3 className="text-2xl font-bold ps-[4vw]">{data.year}</h3>
+              <hr className="h-0.5 w-full bg-black" />
+              <p className="text-lg text-center ps-[4vw]">{data.description}</p>
             </div>
-            <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-14 h-14 rounded-full md:absolute md:left-1/2 md:-ml-[1.5rem]">
-              <h3 className="mx-auto font-semibold text-lg text-white">
-                {item.year}
-              </h3>
-            </div>
-          </div>
+          </SwiperSlide>
         ))}
-      </div>
+      </Swiper>
     </div>
   );
-};
-export { Timeline };
+}

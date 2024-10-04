@@ -80,8 +80,7 @@ export const Header = ({ menuList }: HeaderProps) => {
             <li key={item.id} className="list-item">
               <Link
                 href={item.link}
-                className="flex items-center gap-3 before:content=[''] before:w-6 before:h-1 before:bg-black text-[1.8rem] my-4"
-               
+                className="flex items-center gap-3 text-[1.8rem] my-4"
                 onClick={handleHamburger}
               >
                 {item.name}
@@ -101,7 +100,7 @@ const SubMenu = ({ item }: SubMenuProps) => {
         <li key={subItem.id}>
           <a
             href={subItem.link}
-            className="flex items-center gap-3 before:content=[''] before:w-4 before:h-1 before:bg-black text-[1.2rem] my-4"
+            className="flex items-center gap-3   before:bg-black text-[1.2rem] my-4"
           >
             {subItem.name}
           </a>
