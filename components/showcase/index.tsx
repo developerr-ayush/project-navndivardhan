@@ -1,7 +1,7 @@
 import React from "react";
 import hero from "@/public/image/hero.png";
 import Image from "next/image";
-import arrowRight from "@/public/icon/arrow-right.svg";
+import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import pattern from "@/public/image/pattern.png";
 import { GSAP } from "./gsap";
 export const Showcase = () => {
@@ -44,12 +44,12 @@ export const Showcase = () => {
         </p>
         <a
           href="/"
-          className="lg:absolute lg:right-16 lg:top-1/2 lg:-translate-y-1/2 arrow"
+          className="lg:absolute lg:right-16 lg:top-1/2 lg:-translate-y-1/2 w-20 h-20 arrow"
         >
           <Image
             src={arrowRight}
             alt="arrow"
-            className="filter brightness-0 invert lg:filter-none w-18 h-18 mt-10"
+            className="filter brightness-0 invert lg:filter-none w-20 h-20 mt-10 rotate-180"
           />
         </a>
         <Image

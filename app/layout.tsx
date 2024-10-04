@@ -13,7 +13,7 @@ const fontPrimary = localFont({
   weight: "100 400 900",
 });
 const fontSecondary = localFont({
-  src: "./fonts/Classyvogueregular.ttf",
+  src: "./fonts/Chronicle-Display-Roman.otf",
   variable: "--font-secondary",
   weight: "100 400 900",
 });
