@@ -8,7 +8,7 @@ export const Loader = () => {
   const loader = useRef<HTMLDivElement>(null);
   useEffect(() => {
     gsap.to(loader, {
-      autoAlpha: 0,
+      opacity: 0,
       duration: DELAY,
       onComplete: () => {
         if (loader?.current?.style) {

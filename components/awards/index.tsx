@@ -1,17 +1,17 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import GSAP from "../blog/gsap";
+import GSAP from "./gsap";
 
 export const Awards = () => {
   return (
     <div className="awards">
       <GSAP />
       <div className="text-center max-w-[100ch] mx-auto my-20 px-[4rem]">
-        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
+        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center awards-title">
           Awards
         </h2>
-        <p className=" mb-4 text-[1.4rem] lg:text-[3.6rem] project-desc text-center leading-none">
+        <p className=" mb-4 text-[1.4rem] lg:text-[3.6rem] awards-desc text-center leading-none">
           Recognizing excellence and celebrating journey of achievements.
         </p>
       </div>

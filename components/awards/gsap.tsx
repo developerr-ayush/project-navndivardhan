@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
-export const GSAP = () => {
+export default function GSAP() {
   useGSAP(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -29,4 +29,4 @@ export const GSAP = () => {
     });
   });
   return null;
-};
+}

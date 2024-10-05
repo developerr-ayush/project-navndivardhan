@@ -1,37 +1,91 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Navigation } from "swiper/modules";
+import "swiper/css/navigation";
+import { GSAP } from "./gsap";
 
 const timelineData = [
   {
-    year: 2024,
-    description:
-      "Expanding beyond their stronghold in Thane, Raymond Realty has made an exciting move with the launch of 'The Address by GS' - Bandra. This venture marks their entry into a new territory, promising innovation and quality synonymous with the Raymond brand. Launched its first High Street Retail project - Park Avenue in Thane.",
-  },
-  {
     year: 2017,
     description:
-      "Understanding the strength of its brand equity, Raymond entered the real estate sector through 'Raymond Realty' to offer affordable housing solutions. The team started with as few as 20 employees. The focus was to go beyond real estate conventions and introduce a new standard of living that pushes the envelope on every aspect of construction quality, design aesthetic, and comfort feasibility.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
+  },
+  {
+    year: 2018,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
   },
   {
     year: 2019,
     description:
-      "Launched its first project, TEN X Habitat in Thane, which is a thriving gated community designed to elevate the benchmark of living standards.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
+  },
+  {
+    year: 2020,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
+  },
+  {
+    year: 2021,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
+  },
+  {
+    year: 2022,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
+  },
+  {
+    year: 2023,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
+  },
+  {
+    year: 2024,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est eveniet dolorum quidem voluptatibus incidunt alias nam vitae illum, ex, beatae esse reiciendis repellendus itaque culpa minus maiores natus quae?",
   },
 ];
 
 export default function Timeline() {
   return (
-    <div className=" p-8  flex flex-col justify-center">
-      <h2 className="text-4xl font-bold text-center mb-12">Timeline</h2>
-      <hr />
-      <Swiper slidesPerView={3}>
+    <div className=" py-8 mt-[3rem] flex flex-col justify-center timeline">
+      <GSAP />
+
+      <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
+        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 timeline-title">
+          Timeline
+        </h2>
+        <p className="text-[1.8rem] leading-none font-semibold timeline-desc">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
+          perspiciatis?
+        </p>
+      </div>
+      <Swiper
+        className="mt-10 w-full timeline-swiper px-[4rem] timeline-swiper"
+        slidesPerView={1}
+        centeredSlides={true}
+        modules={[Navigation]}
+        navigation
+        breakpoints={{
+          640: { slidesPerView: 2 }, // For phones
+          1024: { slidesPerView: 3 }, // For desktops
+        }}
+      >
         {timelineData.map((data, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col items-center  gap-7">
-              <h3 className="text-2xl font-bold ps-[4vw]">{data.year}</h3>
-              <hr className="h-0.5 w-full bg-black" />
-              <p className="text-lg text-center ps-[4vw]">{data.description}</p>
+              <h3 className="text-2xl md:text-[2.8rem] font-bold px-5 text-[#bb8866]">
+                {data.year}
+              </h3>
+              <div className="w-full flex items-center">
+                <hr className="h-0.5 w-full bg-black" />
+                <div className="rounded-full w-5 h-5 bg-[#bb8866] shrink-0"></div>
+                <hr className="h-0.5 w-full bg-black" />
+              </div>
+              <p className="text-lg text-center px-5">{data.description}</p>
             </div>
           </SwiperSlide>
         ))}

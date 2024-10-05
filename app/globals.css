@@ -113,3 +113,8 @@ body :is(.swiper-button-next)::after {
     @apply bg-background text-foreground;
   }
 }
+
+.timeline-swiper .swiper-button-next,
+.timeline-swiper .swiper-button-prev {
+  filter: invert(1);
+}
