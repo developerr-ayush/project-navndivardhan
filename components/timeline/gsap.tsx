@@ -9,8 +9,7 @@ export const GSAP = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".timeline",
-        start: "top 80%",
-        end: "top 40%",
+        start: "top 90%",
         toggleActions: "play none reverse reset",
       },
     });
