@@ -41,7 +41,7 @@ export const Footer = () => {
             <p>
               Instagram:
               <a href="https://www.instagram.com/@nandivardhann__">
-                [@nandivardhann__]
+                @nandivardhann__
               </a>
             </p>
           </div>
