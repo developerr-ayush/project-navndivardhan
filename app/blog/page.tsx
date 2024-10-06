@@ -5,7 +5,7 @@ import blog from "@/data/blog.json";
 export default function contact() {
   return (
     <div>
-      <Hero img="/image/contact.jpeg" />
+      <Hero img="/image/blog.jpeg" />
       <div className=" mx-auto px-6 py-20">
         <Blog blogPosts={blog} />
       </div>

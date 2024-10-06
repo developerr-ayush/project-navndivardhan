@@ -8,7 +8,7 @@ export default function contact() {
     <div>
       <Hero img="/image/contact.jpeg" />
       <div className="container mx-auto">
-        <div className="md:grid md:grid-cols-2 mx-auto px-6 py-20">
+        <div className="lg:grid lg:grid-cols-2 mx-auto px-6 py-20">
           <Address />
           <Contact />
         </div>
