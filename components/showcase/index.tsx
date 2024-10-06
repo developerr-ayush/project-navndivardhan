@@ -43,7 +43,7 @@ export const Showcase = () => {
           sustainability.{" "}
         </p>
         <a
-          href="/"
+          href="/contact"
           className="lg:absolute lg:right-16 lg:top-1/2 lg:-translate-y-1/2 w-20 h-20 arrow"
         >
           <Image

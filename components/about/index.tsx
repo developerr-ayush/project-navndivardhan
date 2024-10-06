@@ -28,7 +28,7 @@ export const About = () => {
           project not only meets but exceeds client expectations.
         </p>
         <a
-          href="/"
+          href="/about"
           className="flex  items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
         >
           <Image
