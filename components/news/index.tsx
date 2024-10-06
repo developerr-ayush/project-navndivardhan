@@ -21,7 +21,7 @@ const news = [
 ];
 export const News = () => {
   return (
-    <div className=" p-[3vw] news overflow-hidden">
+    <div className=" p-[3vw] news-section overflow-hidden">
       <GSAP />
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
         <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 news-title">

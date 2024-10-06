@@ -8,22 +8,22 @@ export const GSAP = () => {
   useGSAP(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".news",
+        trigger: ".media",
         start: "top 80%",
-        end:"+=50",
-        
+        end: "+=50",
+
         toggleActions: "play none reverse reset",
       },
     });
-    tl.from(".news-title", {
+    tl.from(".media-title", {
       y: -100,
       opacity: 0,
     });
-    tl.from(".news-desc", {
+    tl.from(".media-desc", {
       y: -100,
       opacity: 0,
     });
-    tl.from(".news-item", {
+    tl.from(".media-swiper", {
       y: 100,
       opacity: 0,
       stagger: 0.3,

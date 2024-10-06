@@ -36,6 +36,7 @@ export const Media = () => {
         <Swiper
           slidesPerGroup={1}
           spaceBetween={20}
+          className="media-swiper"
           breakpoints={{
             640: { slidesPerView: 2 }, // For phones
             1024: { slidesPerView: 3 }, // For desktops
