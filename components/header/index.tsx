@@ -57,13 +57,13 @@ export const Header = ({ menuList }: HeaderProps) => {
       </header>
       <div
         ref={container}
-        className={`hamburder-menu px-4  z-[21]
+        className={`hamburder-menu px-4 flex-col flex  z-[21]
       fixed top-0 left-0 w-full h-full  bg-white text-black max-w-[40rem] ${
         menuOpen ? " active translate-x-0" : "-translate-x-full"
       } transition-all duration-500`}
       >
         <button
-          className="w-8 h-8 fixed top-10 left-4 lg:hidden"
+          className="w-8 h-8 fixed top-10 left-4 lg:hidden shrink-0"
           onClick={handleHamburger}
         >
           <span className="block w-full h-1 bg-black mb-4 rotate-45 translate-y-[0.7rem]"></span>
@@ -71,11 +71,11 @@ export const Header = ({ menuList }: HeaderProps) => {
         </button>
         <button
           onClick={handleHamburger}
-          className="hidden mt-7 ml-4 lg:flex flex-col justify-center items-center gap-2 text-[1rem] w-20 h-20 border rounded-full text-black border-black border-solid"
+          className="hidden shrink-0 mt-7 ml-4 lg:flex flex-col justify-center items-center gap-2 text-[1rem] w-20 h-20 border rounded-full text-black border-black border-solid"
         >
           Close
         </button>
-        <ul className="pt-20 pl-10 max-h-full overflow-y-auto hide-scrollbar ">
+        <ul className="pt-10 pl-10 max-h-full overflow-y-auto hide-scrollbar ">
           {menuList.map((item) => (
             <li key={item.id} className="list-item">
               <Link
