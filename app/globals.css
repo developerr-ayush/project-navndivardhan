@@ -128,3 +128,11 @@ body :is(.swiper-button-next)::after {
 html {
   scroll-behavior: smooth;
 }
+.text-bg-img {
+  background-image: url("/image/case-study.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: text;
+  color: transparent;
+}

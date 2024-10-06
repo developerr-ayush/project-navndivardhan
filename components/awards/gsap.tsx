@@ -10,6 +10,8 @@ export default function GSAP() {
       scrollTrigger: {
         trigger: ".awards",
         start: "top 80%",
+        end: "+=50",
+
         toggleActions: "play none reverse reset",
       },
     });

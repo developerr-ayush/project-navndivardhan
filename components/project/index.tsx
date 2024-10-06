@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { GSAP } from "./gsap";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 const projects = [
   {
@@ -28,7 +28,7 @@ const projects = [
 ];
 export const Project = () => {
   return (
-    <div className="my-10 p-[3vw] project overflow-hidden">
+    <div className=" bg-[#eaecec] my-10 p-[3vw] project overflow-hidden">
       <GSAP />
       <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects
@@ -38,8 +38,9 @@ export const Project = () => {
       </p>
       <Swiper
         className="product-swiper"
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         spaceBetween={20}
+        autoplay={{ delay: 3000 }}
         loop={true}
         navigation
         breakpoints={{

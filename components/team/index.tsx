@@ -15,7 +15,7 @@ export const Team = () => {
       </div>
       <div className="container mx-auto px-4">
         <div className="team-item my-14">
-          <div className="info md:flex items-center lg:gap-[4rem]">
+          <div className="info md:flex items-center gap-4 lg:gap-[4rem]">
             <img
               className="w-[15rem] max-w-full mb-4"
               src="/image/anil-mutha.png"
@@ -43,7 +43,7 @@ export const Team = () => {
           </p>
         </div>
         <div className="team-item my-14">
-          <div className="info md:flex items-center lg:flex-row-reverse lg:gap-[4rem]">
+          <div className="info md:flex items-center gap-4 lg:flex-row-reverse lg:gap-[4rem]">
             <img
               className="w-[15rem] max-w-full mb-4"
               src="/image/yash-mutha.png"
@@ -70,7 +70,7 @@ export const Team = () => {
           </p>
         </div>
         <div className="team-item my-14">
-          <div className="info md:flex items-center lg:gap-[4rem]">
+          <div className="info md:flex items-center gap-4 lg:gap-[4rem]">
             <img
               className="w-[15rem] max-w-full mb-4"
               src="/image/team-1.png"
