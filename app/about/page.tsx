@@ -1,7 +1,7 @@
 import { AboutCompany } from "@/components/about-company";
 import { Awards } from "@/components/awards";
 import { Hero } from "@/components/hero";
-import { Team } from "@/components/team";
+import { OurLeader } from "@/components/our-leader";
 import Timeline from "@/components/timeline";
 import React from "react";
 
@@ -10,9 +10,9 @@ export default function page() {
     <>
       <Hero img="/image/hero.jpeg" />
       <AboutCompany />
-      <Team />
-      <Awards />
       <Timeline />;
+      <OurLeader />
+      <Awards />
     </>
   );
 }

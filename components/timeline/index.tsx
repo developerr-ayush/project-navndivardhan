@@ -51,7 +51,7 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <div className=" py-8 mt-[3rem] flex flex-col justify-center timeline">
+    <div className=" py-8 px-8 mt-[3rem] flex flex-col justify-center timeline">
       <GSAP />
 
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
