@@ -21,7 +21,7 @@ export const Awards = () => {
         slidesPerView={1}
         centeredSlides={true}
         breakpoints={{
-          640: { slidesPerView: 1.75 }, // For phones
+          768: { slidesPerView: 1.75 }, // For phones
           1024: { slidesPerView: 3 }, // For desktops
         }}
       >
