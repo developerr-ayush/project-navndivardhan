@@ -10,7 +10,6 @@ export const GSAP = () => {
       scrollTrigger: {
         trigger: ".project",
         start: "top 80%",
-        end: "top 40%",
         toggleActions: "play none reverse reset",
       },
     });

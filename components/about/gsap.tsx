@@ -12,7 +12,6 @@ export const GSAP = () => {
       scrollTrigger: {
         trigger: " .about .content",
         start: "top 80%",
-        end: "top 40%",
         toggleActions: "play none reverse reset",
       },
     });
@@ -22,7 +21,6 @@ export const GSAP = () => {
       scrollTrigger: {
         trigger: ".about .image",
         start: "top 80%",
-        end: "top 40%",
         toggleActions: "play none reverse reset",
       },
     });
