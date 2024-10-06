@@ -17,32 +17,22 @@
   {
     "id": 4,
     "name": "Projects",
-    "link": "/",
+    "link": "/projects",
     "submenu": [
       {
         "id": 1,
-        "name": "Residential",
-        "link": "/"
-      },
-      {
-        "id": 2,
-        "name": "Commercial & Retail",
-        "link": "/"
-      },
-      {
-        "id": 3,
         "name": "Upcoming Projects",
-        "link": "/"
+        "link": "/projects#upcoming"
       },
       {
         "id": 4,
         "name": "Ongoing Projects",
-        "link": "/"
+        "link": "/projects#ongoing"
       },
       {
         "id": 5,
         "name": "Completed Projects",
-        "link": "/"
+        "link": "/projects#completed"
       }
     ]
   },
