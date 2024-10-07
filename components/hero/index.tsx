@@ -8,23 +8,7 @@ import "swiper/css/navigation";
 export const Hero = ({ img }: { img: string }) => {
   return (
     <div className="h-[100vh]">
-      <Swiper modules={[Navigation]} navigation slidesPerView={1}>
-        <SwiperSlide>
-          <img
-            src={img}
-            alt="hero"
-            className="w-full h-[85vh] md:h-[80vh] object-cover"
-          />
-          <div className="overlay absolute inset-0 bg-black/50 mix-blend-multiply"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={img}
-            alt="hero"
-            className="w-full h-[85vh] md:h-[80vh] object-cover"
-          />
-          <div className="overlay absolute inset-0 bg-black/50 mix-blend-multiply"></div>
-        </SwiperSlide>
+      <Swiper slidesPerView={1}>
         <SwiperSlide>
           <img
             src={img}

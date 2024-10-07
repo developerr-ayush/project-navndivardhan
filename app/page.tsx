@@ -20,9 +20,9 @@ export default function Home() {
       <UpcomingVideo />
       <YearsExp />
       <h2 className="text-[4vw] text-center py-10 bg-black text-[#bb8866]  content-center">
-        35000+ Delight Customer
+        35000+ Delight Customer 500+ Happy Families
         <br />
-        500+ Happy Families Landmark Customers
+        Landmark Customers
       </h2>
       <Founder />
       <Project />

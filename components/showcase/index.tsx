@@ -9,13 +9,20 @@ export const Showcase = () => {
     <div className="showcase grid-cols-1 grid lg:grid-cols-12 min-h-screen">
       <GSAP />
       <div className="lg:col-span-5 row-start-1 col-start-1 -row-end-1 -col-end-1">
-        <Image
+        {/* <Image
           src={hero}
           alt="logo"
           className="w-full h-full block object-cover"
           width={500}
           height={1000}
-        />
+        /> */}
+        <video
+          className="w-full h-screen object-cover"
+          autoPlay
+          loop
+          muted
+          src="/video/Luxry-video-vertical.mp4"
+        ></video>
       </div>
       <div className="lg:col-span-7 flex justify-center flex-col row-start-1 col-start-1 -row-end-1 -col-end-1 p-[2vw] lg:pl-[8vw] lg:pr-[10vw] relative">
         <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-secondary leading-none flex justify-start">

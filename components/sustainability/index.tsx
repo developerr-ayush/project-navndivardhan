@@ -1,15 +1,16 @@
 import Image from "next/image";
 import React from "react";
 import { GSAP } from "./gsap";
+import { Title } from "../title";
 export const Sustainability = () => {
   return (
     <div className="bg-[#eaecec] py-14">
       <div className=" p-[3vw]  max-w-[70rem] mx-auto sustainability ">
         <GSAP />
         <div className="head lg:text-center mb-8 lg:mb-16 sustainability-title">
-          <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866]">
+          <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]">
             Sustainability
-          </h2>
+          </Title>
           <p className="sustainability-desc">
             At Nandivardhan Group, sustainability is not just a buzzword – it’s
             a core principle that guides every decision we make. Our projects

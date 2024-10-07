@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import image from "@/public/image/about-company.png";
 import { GSAP } from "./gsap";
+import { Title } from "../title";
 export const AboutCompany = () => {
   return (
     <div className="grid lg:grid-cols-12 items-center about overflow-hidden">
@@ -17,9 +18,9 @@ export const AboutCompany = () => {
         />
       </div>
       <div className="lg:col-span-6 p-[3vw] content">
-        <h2 className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
+        <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
           About Company
-        </h2>
+        </Title>
         <p className="mb-4">
           Nandivardhan Group has been a pioneering force in Mumbai and
           Thane&apos;s real estate landscape, known for redefining urban living

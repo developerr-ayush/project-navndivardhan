@@ -6,7 +6,7 @@
   },
   {
     "id": 2,
-    "name": "About",
+    "name": "About Us",
     "link": "/about"
   },
   {
@@ -63,7 +63,7 @@
   },
   {
     "id": 9,
-    "name": "Contact US",
+    "name": "Contact Us",
     "link": "/contact"
   }
 ]

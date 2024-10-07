@@ -136,3 +136,66 @@ html {
   background-clip: text;
   color: transparent;
 }
+
+.testimonial-swiper.swiper {
+  padding-bottom: 2rem;
+}
+.testimonial-swiper .swiper-button-next,
+.testimonial-swiper .swiper-button-prev {
+  color: hsl(var(--primary));
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  background-color: hsl(var(--primary));
+  opacity: 0.5;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .testimonial-swiper .swiper-button-next,
+  .testimonial-swiper .swiper-button-prev {
+    display: none;
+  }
+}
+.title-hover {
+  position: relative;
+  width: max-content;
+  max-width: 100%;
+}
+.title-hover span::after,
+.title-hover span::before {
+  content: "";
+  height: 0.2rem;
+  background-color: currentColor;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: -0.8vw;
+  /* transition: transform 2s cubic-bezier(0.43, 0.195, 0.02, 1); */
+  transition: transform 0.5s 0.1s cubic-bezier(0.43, 0.195, 0.02, 1);
+  width: 100%;
+  transform-origin: 100% 0;
+  z-index: -1;
+}
+
+.title-hover span::before {
+  transform: scaleX(0) translateZ(0);
+  transition: transform 0.5s cubic-bezier(0.43, 0.195, 0.02, 1);
+}
+.title-hover:hover span::before {
+  transform: scaleX(1) translateZ(0);
+  transform-origin: 0 0;
+  transition: transform 0.5s 0.1s cubic-bezier(0.43, 0.195, 0.02, 1);
+}
+.title-hover span::after {
+  transform: scaleX(1) translateZ(0);
+  transform-origin: 0% 0;
+}
+.title-hover:hover span::after {
+  transform: scaleX(0) translateZ(0);
+  transform-origin: 100% 0;
+  transition: transform 0.5s cubic-bezier(0.43, 0.195, 0.02, 1);
+}

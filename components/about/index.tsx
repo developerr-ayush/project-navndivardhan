@@ -3,14 +3,15 @@ import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import Image from "next/image";
 import image from "@/public/image/about.png";
 import { GSAP } from "./gsap";
+import { Title } from "../title";
 export const About = () => {
   return (
-    <div className="grid lg:grid-cols-12 items-center about overflow-hidden">
+    <div className="grid lg:grid-cols-12 items-center about overflow-hidden container mx-auto">
       <GSAP />
       <div className="lg:col-span-7 p-[3vw] content">
-        <h2 className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
-          About Nandivardhan Group{" "}
-        </h2>
+        <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
+          About Nandivardhan Group
+        </Title>
         <p className="mb-4">
           For over 20 years, Nandivardhan Group has been a leader in
           transforming Mumbai’s real estate sector, delivering both premium

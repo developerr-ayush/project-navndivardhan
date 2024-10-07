@@ -2,15 +2,16 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import GSAP from "./gsap";
+import { Title } from "../title";
 
 export const Awards = () => {
   return (
     <div className="awards">
       <GSAP />
       <div className="text-center max-w-[100ch] mx-auto my-20 px-[4rem]">
-        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center awards-title">
+        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center awards-title">
           Awards
-        </h2>
+        </Title>
         <p className=" mb-4 text-[1.4rem] lg:text-[3.6rem] awards-desc text-center leading-none">
           Recognizing excellence and celebrating journey of achievements.
         </p>
