@@ -60,7 +60,7 @@ export default function TestimonialCarousel() {
               <CardContent className="p-8">
                 <Quote className="w-12 h-12 text-primary mb-4 mx-auto" />
                 <blockquote className="text-lg text-center mb-6">
-                  "{testimonial.content}"
+                  {testimonial.content}
                 </blockquote>
                 <div className="text-center">
                   <p className="font-semibold text-primary">

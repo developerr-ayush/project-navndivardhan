@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "@/public/image/hero.png";
+// import hero from "@/public/image/hero.png";
 import Image from "next/image";
 import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import pattern from "@/public/image/pattern.png";

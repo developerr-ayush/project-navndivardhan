@@ -5,7 +5,7 @@ interface TitleProps {
   children?: React.ReactNode;
 }
 export const Title = ({ as, className, children }: TitleProps) => {
-  let Tag = as || "h3";
+  const Tag = as || "h3";
   return (
     <Tag className={`title-hover ${className}`}>
       <span>{children}</span>

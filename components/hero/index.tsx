@@ -2,7 +2,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Navigation } from "swiper/modules";
+// import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 
 export const Hero = ({ img }: { img: string }) => {
