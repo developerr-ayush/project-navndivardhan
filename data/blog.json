@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "description": "Learn the basics of React and start building your first component-based application.",
+    "author": "Jane Doe",
+    "date": "2023-05-01",
+    "image": "/image/about-company.png"
+  },
+  {
+    "id": 2,
+    "title": "Advanced TypeScript Techniques",
+    "description": "Dive deep into TypeScript and discover advanced techniques to improve your code quality.",
+    "author": "John Smith",
+    "date": "2023-05-05",
+    "image": "/image/about-company.png"
+  },
+  {
+    "id": 3,
+    "title": "Mastering CSS Grid",
+    "description": "Learn how to create complex layouts with ease using CSS Grid.",
+    "author": "Emily Johnson",
+    "date": "2023-05-10",
+    "image": "/image/about-company.png"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to GraphQL",
+    "description": "Discover the power of GraphQL and how it can revolutionize your API development.",
+    "author": "Michael Brown",
+    "date": "2023-05-15",
+    "image": "/image/about-company.png"
+  },
+  {
+    "id": 5,
+    "title": "Building Responsive Websites",
+    "description": "Learn the best practices for creating websites that look great on all devices.",
+    "author": "Sarah Wilson",
+    "date": "2023-05-20",
+    "image": "/image/about-company.png"
+  },
+  {
+    "id": 6,
+    "title": "JavaScript Performance Optimization",
+    "description": "Improve the speed and efficiency of your JavaScript code with these optimization techniques.",
+    "author": "David Lee",
+    "date": "2023-05-25",
+    "image": "/image/about-company.png"
+  }
+]

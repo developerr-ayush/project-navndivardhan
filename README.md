@@ -1,53 +1,36 @@
-# React project Setup
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Welcome
+## Getting Started
 
-Welcome to the React project Setup! This guide will help you understand how to run the project locally, prepare it for production, and make the most out of its features.
-
-### Getting Started
-
-If you want to work on the React Project setup on your own computer, follow these steps:
-
-1. **Open your terminal.**
-2. **Go to the project directory.**
-3. **Run this command:**
-
-   ```bash
-   npm run dev
-   ```
-
-This will start a local server, and you can see the website by going to [http://localhost:3000](http://localhost:3000).
-
-### Production Build
-
-When you're ready to make the website public, use this command:
+First, run the development server:
 
 ```bash
-npm run build
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-This creates a `dist/` folder with the finished website ready for production.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Image Compression
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-The project automatically optimizes [jpg/png/jpeg] images for better performance:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- **For [jpg/png/jpeg] images:**
-  - Compression to WebP format.
-  - Quality set to 80%.
-  - Lossless set to false.
-- **Other image types (e.g., svg or gif):**
-  - The compressor simply copies the files.
+## Learn More
 
-This ensures your images are optimized for the web, making your website faster without sacrificing quality.
+To learn more about Next.js, take a look at the following resources:
 
-- make sure to add your images in img/ folder and then run the project as it will compress after wards
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## SCSS
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-The project uses SCSS for styling, and Dart SCSS is used for compilation. Here are some key points:
+## Deploy on Vercel
 
-- **Compilation:** Dart SCSS is used to compile SCSS.
-- **Optimization:** Group PostCSS, CSSnano, and Group Media Queries are employed to efficiently compress and run SCSS.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-By using SCSS and these tools, the website maintains a clean and organized style while ensuring optimal performance.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

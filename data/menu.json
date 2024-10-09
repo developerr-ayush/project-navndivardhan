@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "name": "About Us",
+    "link": "/about"
+  },
+  {
+    "id": 3,
+    "name": "Design",
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "name": "Projects",
+    "link": "/projects",
+    "submenu": [
+      {
+        "id": 1,
+        "name": "Upcoming Projects",
+        "link": "/projects#upcoming"
+      },
+      {
+        "id": 4,
+        "name": "Ongoing Projects",
+        "link": "/projects#ongoing"
+      },
+      {
+        "id": 5,
+        "name": "Completed Projects",
+        "link": "/projects#completed"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Re-Development",
+    "link": "/"
+  },
+  {
+    "id": 5,
+    "name": "NRI Corner",
+    "link": "/"
+  },
+  {
+    "id": 6,
+    "name": "HR Corner",
+    "link": "/"
+  },
+  {
+    "id": 120,
+    "name": "Testimonial",
+    "link": "/"
+  },
+  {
+    "id": 7,
+    "name": "Media",
+    "link": "/"
+  },
+  {
+    "id": 8,
+    "name": "Blogs",
+    "link": "/blog"
+  },
+  {
+    "id": 9,
+    "name": "Contact Us",
+    "link": "/contact"
+  }
+]
