@@ -69,7 +69,8 @@ export default function Timeline() {
         slidesPerView={1}
         centeredSlides={true}
         modules={[Navigation]}
-        navigation
+        autoplay
+        // navigation
         breakpoints={{
           640: { slidesPerView: 2 }, // For phones
           1024: { slidesPerView: 3 }, // For desktops

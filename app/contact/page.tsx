@@ -9,8 +9,8 @@ export default function contact() {
       <Hero img="/image/contact.jpeg" />
       <div className="container mx-auto">
         <div className="lg:grid lg:grid-cols-2 mx-auto px-6 py-20">
-          <Address />
           <Contact />
+          <Address />
         </div>
       </div>
     </div>

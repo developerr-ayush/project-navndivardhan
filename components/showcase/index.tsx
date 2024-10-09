@@ -1,14 +1,14 @@
 import React from "react";
 // import hero from "@/public/image/hero.png";
-import Image from "next/image";
-import arrowRight from "@/public/icon/arrow-right-blue.svg";
-import pattern from "@/public/image/pattern.png";
+// import Image from "next/image";
+// import arrowRight from "@/public/icon/arrow-right-blue.svg";
+// import pattern from "@/public/image/pattern.png";
 import { GSAP } from "./gsap";
 export const Showcase = () => {
   return (
     <div className="showcase grid-cols-1 grid lg:grid-cols-12 min-h-screen">
       <GSAP />
-      <div className="lg:col-span-5 row-start-1 col-start-1 -row-end-1 -col-end-1">
+      <div className="lg:col-span-12 row-start-1 col-start-1 -row-end-1 -col-end-1">
         {/* <Image
           src={hero}
           alt="logo"
@@ -21,10 +21,10 @@ export const Showcase = () => {
           autoPlay
           loop
           muted
-          src="/video/Luxry-video-vertical.mp4"
+          src="/video/Luxry-video.mp4"
         ></video>
       </div>
-      <div className="lg:col-span-7 flex justify-center flex-col row-start-1 col-start-1 -row-end-1 -col-end-1 p-[2vw] lg:pl-[8vw] lg:pr-[10vw] relative">
+      {/* <div className="lg:col-span-7 flex justify-center flex-col row-start-1 col-start-1 -row-end-1 -col-end-1 p-[2vw] lg:pl-[8vw] lg:pr-[10vw] relative">
         <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-secondary leading-none flex justify-start">
           <span className="animate block">T</span>
           <span className="animate block">o</span>
@@ -64,7 +64,7 @@ export const Showcase = () => {
           alt="pattern"
           className="absolute inset-0 object-cover h-full -z-[1]"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

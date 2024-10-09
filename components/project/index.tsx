@@ -34,7 +34,7 @@ export const Project = () => {
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects
       </Title>
-      <p className="mb-4 text-[1.4rem] lg:text-[3.6rem] project-desc text-center leading-none">
+      <p className="mb-4 text-[1.4rem] lg:text-[2.6rem] mb-8 project-desc text-center leading-none">
         Explore our innovative projects, crafted with precision and excellence
       </p>
       <Swiper

@@ -1,13 +1,15 @@
 import React from "react";
 import GSAP from "./gsap";
+import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import { Title } from "../title";
+import Image from "next/image";
 
 export const Founder = () => {
   return (
     <div className="container my-6 px-6 mx-auto Founder">
       <GSAP />
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]  text-center founder-title">
-        Meet Our Founder
+        Leader
       </Title>
       <div className="founder-item my-14 mx-auto max-w-[60rem]">
         <div className="info md:flex items-center gap-4 lg:gap-[4rem] founder-img">
@@ -34,6 +36,16 @@ export const Founder = () => {
               developments but also solidified Nandivardhan&apos;s reputation as
               a trusted and respected name in real estate.
             </p>
+            <a
+              href="/about"
+              className="flex  items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
+            >
+              <Image
+                src={arrowRight}
+                alt="arrow"
+                className="  w-12 h-12 arrow rotate-180"
+              />
+            </a>
           </div>
         </div>
       </div>

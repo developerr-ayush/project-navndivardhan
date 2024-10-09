@@ -21,12 +21,6 @@ export const Address = () => {
           <b> Email: </b>
           <a href="mailto:info@nandivardhan.com">info@nandivardhan.com</a>
         </p>
-        <p>
-          <b> Instagram:</b>
-          <a href="https://www.instagram.com/@nandivardhann__">
-            [@nandivardhann__]
-          </a>
-        </p>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import { About } from "@/components/about";
+import { Counter } from "@/components/counter";
 import { Founder } from "@/components/founder";
 import { Media } from "@/components/media";
 import { News } from "@/components/news";
@@ -13,17 +14,28 @@ export default function Home() {
   return (
     <>
       <Showcase />
-      <h2 className="text-[4.5vw] text-center py-10 bg-black text-[#bb8866]">
+      <h2 className="text-[4vw] text-center py-10 bg-black text-[#bb8866]">
         Transforming Spaces, Elevating Lives
       </h2>
       <About />
       <UpcomingVideo />
       <YearsExp />
-      <h2 className="text-[4vw] text-center py-10 bg-black text-[#bb8866]  content-center">
-        35000+ Delight Customer 500+ Happy Families
+      <div className="text-[4vw] text-center py-16 bg-black text-[#bb8866]  content-center flex justify-center items-baseline gap-8 leading-none">
+        <div className="flex  gap-2 items-end">
+          <Counter counter={35000} />+
+          <span className="text-[2rem] text-left leading-none">
+            Delight <br />
+            Customer
+          </span>
+        </div>
         <br />
-        Landmark Customers
-      </h2>
+        <div className="flex  gap-2 items-end">
+          <Counter counter={500} />+
+          <span className="text-[2rem] text-left leading-none">
+            Happy <br /> Families
+          </span>
+        </div>
+      </div>
       <Founder />
       <Project />
       <Media />
