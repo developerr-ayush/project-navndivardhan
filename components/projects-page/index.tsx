@@ -54,7 +54,7 @@ export const Projects = () => {
       <div className="body">
         {activeTab === "completed" && (
           <div className="project-group" id="completed">
-            <p className="title lg:text-right text-[2rem] lg:text-[3rem] text-[#bb8866]">
+            <p className="title  text-[2rem] lg:text-[3rem] text-[#bb8866]">
               <b className="font-bold">Completed</b> Projects
             </p>
             <Swiper
@@ -66,7 +66,7 @@ export const Projects = () => {
             >
               <SwiperSlide>
                 <div className="projects-item shadow-xl isolate bg-[#e1e1e1] flex flex-col-reverse md:flex-row items-center justify-between relative">
-                  <div className="content text-center p-8">
+                  <div className="content text-center p-8 mx-auto">
                     <Image
                       src={pattern}
                       alt="pattern"
@@ -104,7 +104,7 @@ export const Projects = () => {
             >
               <SwiperSlide>
                 <div className="projects-item shadow-xl isolate bg-[#e1e1e1] flex flex-col-reverse md:flex-row items-center justify-between relative">
-                  <div className="content text-center p-8">
+                  <div className="content text-center p-8 mx-auto">
                     <Image
                       src={pattern}
                       alt="pattern"
@@ -130,7 +130,7 @@ export const Projects = () => {
 
         {activeTab === "upcoming" && (
           <div className="project-group" id="upcoming">
-            <p className="title lg:text-right text-[2rem] lg:text-[3rem] text-[#bb8866]">
+            <p className="title  text-[2rem] lg:text-[3rem] text-[#bb8866]">
               <b className="font-bold">Upcoming</b> Projects
             </p>
             <Swiper
@@ -142,7 +142,7 @@ export const Projects = () => {
             >
               <SwiperSlide>
                 <div className="projects-item shadow-xl isolate bg-[#e1e1e1] flex flex-col-reverse md:flex-row items-center justify-between relative">
-                  <div className="content text-center p-8">
+                  <div className="content text-center p-8 mx-auto">
                     <Image
                       src={pattern}
                       alt="pattern"

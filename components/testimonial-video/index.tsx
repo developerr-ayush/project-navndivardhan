@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 export default function TestimonialVideoCarousel() {
   return (
-    <div className="w-full container mx-auto px-4 py-12">
+    <div className="w-full  py-12">
       <Swiper
         modules={[Navigation, Pagination, A11y, Autoplay]}
         spaceBetween={30}

@@ -40,7 +40,7 @@ const testimonials = [
 
 export default function TestimonialCarousel() {
   return (
-    <div className="w-full container mx-auto px-4 py-12">
+    <div className="w-full  mx-auto py-12">
       <Swiper
         modules={[Navigation, Pagination, A11y, Autoplay]}
         spaceBetween={30}
