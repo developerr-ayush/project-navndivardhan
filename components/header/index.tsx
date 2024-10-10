@@ -74,7 +74,7 @@ export const Header = ({ menuList }: HeaderProps) => {
             <li key={item.id} className="list-item">
               <a
                 href={item.link}
-                className="flex items-center gap-3 text-[1.8rem] my-4"
+                className="flex items-center gap-3 text-[1.6rem] my-4"
                 onClick={handleHamburger}
               >
                 {item.name}
