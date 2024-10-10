@@ -16,7 +16,7 @@ export const Founder = () => {
           <Image
             width={500}
             height={800}
-            className="w-[15rem] max-w-full mb-4"
+            className="w-[20rem] shrink-0 max-w-full mb-4"
             src="/image/anil-mutha.png"
             alt=""
           />

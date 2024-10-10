@@ -65,7 +65,7 @@ export const Header = ({ menuList }: HeaderProps) => {
       <div
         ref={container}
         className={`hamburder-menu px-4 flex-col flex  z-[21]
-      fixed top-0 left-0 w-full h-full  bg-white text-black max-w-[40rem] ${
+      fixed top-0 left-0 w-full h-full  bg-white/90 backdrop-blur-sm text-black max-w-[40rem] ${
         menuOpen ? " active translate-x-0" : "-translate-x-full"
       } transition-all duration-500`}
       >
@@ -74,7 +74,7 @@ export const Header = ({ menuList }: HeaderProps) => {
             <li key={item.id} className="list-item">
               <a
                 href={item.link}
-                className="flex items-center gap-3 text-[1.6rem] my-4"
+                className="flex items-center gap-3 text-[1.6rem] my-4 text-[#bb8866] hover:text-black"
                 onClick={handleHamburger}
               >
                 {item.name}
@@ -94,7 +94,7 @@ const SubMenu = ({ item }: SubMenuProps) => {
         <li key={subItem.id}>
           <a
             href={subItem.link}
-            className="flex items-center gap-3   before:bg-black text-[1.2rem] my-4"
+            className="flex items-center gap-3  text-[#bb8866] before:bg-black text-[1.2rem] my-4 hover:text-black"
           >
             {subItem.name}
           </a>
