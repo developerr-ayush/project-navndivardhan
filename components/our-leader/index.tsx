@@ -26,7 +26,9 @@ export const OurLeader = () => {
       <div className="body flex-1 lg:mx-0 grid md:grid-cols-2 gap-8 max-w-[40rem] mx-auto">
         <div className="flex   flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
           <div className="relative shrink-0 w-48 h-48 mb-4 rounded-sm overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/anil-mutha.png"
               alt={`Portrait of persom`}
               className="rounded-sm"
@@ -43,7 +45,9 @@ export const OurLeader = () => {
         </div>
         <div className="flex   flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
           <div className="relative shrink-0 w-48 h-48 mb-4 rounded-sm overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/yash-mutha.png"
               alt={`Portrait of persom`}
               className="rounded-sm"

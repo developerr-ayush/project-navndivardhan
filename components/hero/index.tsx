@@ -4,13 +4,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
+import Image from "next/image";
 
 export const Hero = ({ img }: { img: string }) => {
   return (
     <div className="h-[100vh]">
       <Swiper slidesPerView={1}>
         <SwiperSlide>
-          <img
+          <Image
+            width={1920}
+            height={1080}
             src={img}
             alt="hero"
             className="w-full h-[85vh] md:h-[80vh] object-cover"

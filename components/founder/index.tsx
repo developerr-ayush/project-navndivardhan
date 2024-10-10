@@ -13,7 +13,9 @@ export const Founder = () => {
       </Title>
       <div className="founder-item my-14 mx-auto max-w-[60rem]">
         <div className="info md:flex items-center gap-4 lg:gap-[4rem] founder-img">
-          <img
+          <Image
+            width={500}
+            height={800}
             className="w-[15rem] max-w-full mb-4"
             src="/image/anil-mutha.png"
             alt=""

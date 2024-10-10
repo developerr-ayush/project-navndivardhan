@@ -1,5 +1,6 @@
 import React from "react";
 import { GSAP } from "./gsap";
+import Image from "next/image";
 
 export const Team = () => {
   return (
@@ -16,7 +17,9 @@ export const Team = () => {
       <div className="container mx-auto px-4">
         <div className="team-item my-14">
           <div className="info md:flex items-center gap-4 lg:gap-[4rem]">
-            <img
+            <Image
+              width={500}
+              height={500}
               className="w-[15rem] max-w-full mb-4"
               src="/image/anil-mutha.png"
               alt=""
@@ -44,7 +47,9 @@ export const Team = () => {
         </div>
         <div className="team-item my-14">
           <div className="info md:flex items-center gap-4 lg:flex-row-reverse lg:gap-[4rem]">
-            <img
+            <Image
+              width={500}
+              height={500}
               className="w-[15rem] max-w-full mb-4"
               src="/image/yash-mutha.png"
               alt=""

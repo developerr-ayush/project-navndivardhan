@@ -6,6 +6,7 @@ import { GSAP } from "./gsap";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Title } from "../title";
+import Image from "next/image";
 
 const projects = [
   {
@@ -53,7 +54,9 @@ export const Project = () => {
           <SwiperSlide key={index} className="overflow-hidden">
             <div className="product-item group grid">
               <div className=" col-start-1 row-start-1">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   src={project.image}
                   alt="project"
                   className="aspect-[9/16] object-cover group-hover:scale-105 transition-all duration-300"
@@ -66,7 +69,13 @@ export const Project = () => {
                 <p className="text-[1.5rem] font-bold">{project.desc}</p>
               </div>
               <div className="group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 shadow-2xl shadow-black opacity-0 scale-0 absolute inset-0 w-max h-max bg-black aspect-square flex items-center justify-center m-auto rounded-full p-4">
-                <img src={project.logo} alt="logo" className="w-24 " />
+                <Image
+                  width={500}
+                  height={500}
+                  src={project.logo}
+                  alt="logo"
+                  className="w-24 "
+                />
               </div>
             </div>
           </SwiperSlide>

@@ -3,6 +3,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import GSAP from "./gsap";
 import { Title } from "../title";
+import Image from "next/image";
 
 export const Awards = () => {
   return (
@@ -34,7 +35,9 @@ export const Awards = () => {
               minima alias similique at error ab mollitia dignissimos eos
               inventore, quis ex magni.
             </p>
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/awards.png"
               alt=""
               className="absolute inset-0 m-auto"
@@ -49,7 +52,9 @@ export const Awards = () => {
               minima alias similique at error ab mollitia dignissimos eos
               inventore, quis ex magni.
             </p>
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/awards.png"
               alt=""
               className="absolute inset-0 m-auto"
@@ -64,7 +69,9 @@ export const Awards = () => {
               minima alias similique at error ab mollitia dignissimos eos
               inventore, quis ex magni.
             </p>
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/awards.png"
               alt=""
               className="absolute inset-0 m-auto"
@@ -79,7 +86,9 @@ export const Awards = () => {
               minima alias similique at error ab mollitia dignissimos eos
               inventore, quis ex magni.
             </p>
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/awards.png"
               alt=""
               className="absolute inset-0 m-auto"
@@ -94,7 +103,9 @@ export const Awards = () => {
               minima alias similique at error ab mollitia dignissimos eos
               inventore, quis ex magni.
             </p>
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/awards.png"
               alt=""
               className="absolute inset-0 m-auto"
@@ -109,7 +120,9 @@ export const Awards = () => {
               minima alias similique at error ab mollitia dignissimos eos
               inventore, quis ex magni.
             </p>
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/image/awards.png"
               alt=""
               className="absolute inset-0 m-auto"

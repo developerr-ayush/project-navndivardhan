@@ -82,7 +82,13 @@ export const Projects = () => {
                     </a>
                   </div>
                   <div className="image md:w-1/2 min-w-[14rem] shrink-0">
-                    <img src="/image/parkway.jpeg" alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      src="/image/parkway.jpeg"
+                      className="w-full"
+                      alt="temp"
+                    />
                   </div>
                 </div>
               </SwiperSlide>
@@ -120,7 +126,13 @@ export const Projects = () => {
                     </a>
                   </div>
                   <div className="image md:w-1/2 min-w-[14rem] shrink-0">
-                    <img src="/image/parkway.jpeg" alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      src="/image/parkway.jpeg"
+                      alt="temp"
+                      className="w-full"
+                    />
                   </div>
                 </div>
               </SwiperSlide>
@@ -158,7 +170,13 @@ export const Projects = () => {
                     </a>
                   </div>
                   <div className="image md:w-1/2 min-w-[14rem] shrink-0">
-                    <img src="/image/parkway.jpeg" alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      src="/image/parkway.jpeg"
+                      alt="temp"
+                      className="w-full"
+                    />
                   </div>
                 </div>
               </SwiperSlide>
