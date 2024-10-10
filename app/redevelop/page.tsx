@@ -1,5 +1,7 @@
 import { Hero } from "@/components/hero";
 import { Redevelop } from "@/components/redevelop";
+import { RedevelopmentForm } from "@/components/redevelopment-form";
+import { RedevelopmentProcess } from "@/components/redevelopment-process";
 import React from "react";
 
 export default function page() {
@@ -7,6 +9,8 @@ export default function page() {
     <>
       <Hero img="/image/projects.jpg" />
       <Redevelop />
+      <RedevelopmentProcess />
+      <RedevelopmentForm />
     </>
   );
 }
