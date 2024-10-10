@@ -129,8 +129,9 @@ html {
   scroll-behavior: smooth;
 }
 .text-bg-img {
-  background-image: url("/image/case-study.png");
+  background-image: url("/image/years.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-clip: text;

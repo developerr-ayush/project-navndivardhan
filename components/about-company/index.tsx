@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image from "@/public/image/about-company.png";
+import image from "@/public/image/about.jpg";
 import { GSAP } from "./gsap";
 import { Title } from "../title";
 export const AboutCompany = () => {

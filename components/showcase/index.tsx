@@ -4,6 +4,7 @@ import React from "react";
 // import arrowRight from "@/public/icon/arrow-right-blue.svg";
 // import pattern from "@/public/image/pattern.png";
 import { GSAP } from "./gsap";
+import Image from "next/image";
 export const Showcase = () => {
   return (
     <div className="showcase grid-cols-1 grid lg:grid-cols-12 min-h-screen">
@@ -23,6 +24,18 @@ export const Showcase = () => {
           muted
           src="/video/Luxry-video.mp4"
         ></video>
+        <div className="absolute flex flex-col justify-center items-center inset-0 bg-black/50">
+          <Image
+            className="showcase-logo"
+            alt="nandivardhan-logo"
+            width={500}
+            height={500}
+            src="/image/nandivardhan-logo.png"
+          />
+          <h3 className="text-white text-center text-[2rem] md:text-[3rem] max-w-[40rem]">
+            Crafting India's Finest Real Estate Experiences
+          </h3>
+        </div>
       </div>
       {/* <div className="lg:col-span-7 flex justify-center flex-col row-start-1 col-start-1 -row-end-1 -col-end-1 p-[2vw] lg:pl-[8vw] lg:pr-[10vw] relative">
         <h1 className="uppercase text-[10vw] text-white lg:text-black lg:text-[5.1rem] font-secondary leading-none flex justify-start">

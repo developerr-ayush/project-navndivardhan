@@ -13,7 +13,7 @@ export const Awards = () => {
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center awards-title">
           Awards
         </Title>
-        <p className=" text-[1.8rem] leading-none font-semibold timeline-desc">
+        <p className=" text-[1.8rem] leading-none font-semibold awards-desc">
           Recognizing excellence and celebrating journey of achievements.
         </p>
       </div>

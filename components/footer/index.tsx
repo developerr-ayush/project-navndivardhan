@@ -100,16 +100,16 @@ export const Footer = () => {
           </li>
         </ul>
         <p className="my-8 text-white">
-          This Website/micro-sites are the sole property of Raheja Universal
-          (Pvt) Ltd. The contents of this web-site/micro-site, including but not
-          limited to, text, graphics, logos, software, trademarks, plans,
-          drawings, amenities, specifications and other information etc., are
-          the property of Raheja Unviersal (Pvt) Ltd. and are protected by law.
-          All the information/contents/text/images included but not limited to
-          the photography herein is the exclusive property of Raheja Universal
-          (Pvt) Ltd. and should not be copied, reproduced, published,
-          republished, posted, transmitted or distributed in any way without
-          express, advance and or written consent.
+          This Website/micro-sites are the sole property of Nandivardhan Group.
+          The contents of this web-site/micro-site, including but not limited
+          to, text, graphics, logos, software, trademarks, plans, drawings,
+          amenities, specifications and other information etc., are the property
+          of Nandivardhan Group and are protected by law. All the
+          information/contents/text/images, including but not limited to the
+          photography herein, is the exclusive property of Nandivardhan Group
+          and should not be copied, reproduced, published, republished, posted,
+          transmitted or distributed in any way without express, advance, and
+          written consent.
         </p>
         <hr />
         <p className="text-white mt-6">© Copyright 2024 </p>

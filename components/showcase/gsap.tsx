@@ -12,6 +12,12 @@ export const GSAP = () => {
       opacity: 0,
       duration: 0.1,
     });
+    gsap.from(".showcase-logo", {
+      delay: DELAY + 0.3,
+      scale: 0,
+      opacity: 0,
+      duration: 1,
+    });
     gsap.from(".para", {
       delay: DELAY + 0.8,
       y: 100,

@@ -20,19 +20,29 @@ export default function Home() {
       <About />
       <UpcomingVideo />
       <YearsExp />
-      <div className="text-[4vw] text-center py-16 bg-black text-[#bb8866]  content-center flex justify-center items-baseline gap-8 leading-none">
-        <div className="flex  gap-2 items-end">
-          <Counter counter={35000} />+
+      <div className="text-[4vw] items-center text-center py-16 bg-black text-[#bb8866]  content-center flex-col md:flex-row flex justify-center md:items-baseline gap-8 leading-none">
+        <div className="flex  gap-4 md:w-[30%] lg:w-[25%] xl:w-[20%] items-end">
+          <div>
+            <Counter counter={22} />
+          </div>
           <span className="text-[2rem] text-left leading-none">
-            Delight <br />
-            Customer
+            Projects <br className="hidden lg:block" /> delivered
           </span>
         </div>
-        <br />
-        <div className="flex  gap-2 items-end">
-          <Counter counter={500} />+
+        <div className="flex  gap-4 md:w-[30%] lg:w-[25%] xl:w-[20%] items-end">
+          <div>
+            <Counter counter={800} />
+          </div>
           <span className="text-[2rem] text-left leading-none">
-            Happy <br /> Families
+            Happy <br className="hidden lg:block" /> Families
+          </span>
+        </div>
+        <div className="flex  gap-4 md:w-[30%] lg:w-[25%] xl:w-[20%] items-end">
+          <div>
+            <Counter counter={4} />
+          </div>
+          <span className="text-[2rem] text-left leading-none">
+            million <br className="hidden lg:block" /> Sqft
           </span>
         </div>
       </div>

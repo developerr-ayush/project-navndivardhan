@@ -6,10 +6,10 @@ import Image from "next/image";
 
 export const Founder = () => {
   return (
-    <div className="container my-6 px-6 mx-auto Founder">
+    <div className="container p-[3vw]  mx-auto Founder">
       <GSAP />
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]  text-center founder-title">
-        Leader
+        Leadership
       </Title>
       <div className="founder-item my-14 mx-auto max-w-[60rem]">
         <div className="info md:flex items-center gap-4 lg:gap-[4rem] founder-img">
@@ -21,7 +21,7 @@ export const Founder = () => {
             alt=""
           />
           <div className="text">
-            <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  font-semibold">
+            <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  ">
               Mr. Anil Nagraj Mutha
             </h3>
             <p className="text-[20px] md:text-[25px] leading-none font-semibold">

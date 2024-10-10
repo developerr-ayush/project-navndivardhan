@@ -30,7 +30,7 @@ const projects = [
 ];
 export const Project = () => {
   return (
-    <div className=" bg-[#eaecec] my-10 p-[3vw] project overflow-hidden">
+    <div className=" bg-[#eaecec] my-10 px-[3vw] py-[5vw] project overflow-hidden">
       <GSAP />
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects

@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 import { GSAP } from "./gsap";
+import { IoCloseOutline } from "react-icons/io5";
 // import Link from "next/link";
 gsap.registerPlugin(useGSAP);
 
@@ -50,9 +51,15 @@ export const Header = ({ menuList }: HeaderProps) => {
           onClick={handleHamburger}
           className="hamburger w-8 h-8 flex flex-col justify-center gap-2"
         >
-          <span className="w-full h-1 bg-white  "></span>
-          <span className="w-full h-1 bg-white  "></span>
-          <span className="w-full h-1 bg-white  "></span>
+          {!menuOpen ? (
+            <>
+              <span className="w-full h-0.5 bg-white  "></span>
+              <span className="w-full h-0.5 bg-white  "></span>
+              <span className="w-full h-0.5 bg-white  "></span>
+            </>
+          ) : (
+            <IoCloseOutline color="white" size={40} />
+          )}
         </button>
       </header>
       <div
@@ -62,19 +69,6 @@ export const Header = ({ menuList }: HeaderProps) => {
         menuOpen ? " active translate-x-0" : "-translate-x-full"
       } transition-all duration-500`}
       >
-        <button
-          className="w-8 h-8 fixed top-10 left-4 lg:hidden shrink-0"
-          onClick={handleHamburger}
-        >
-          <span className="block w-full h-1 bg-black mb-4 rotate-45 translate-y-[0.7rem]"></span>
-          <span className="block w-full h-1 bg-black mb-4 -rotate-45 -translate-y-2"></span>
-        </button>
-        <button
-          onClick={handleHamburger}
-          className="hidden shrink-0 mt-7 ml-4 lg:flex flex-col justify-center items-center gap-2 text-[1rem] w-20 h-20 border rounded-full text-black border-black border-solid"
-        >
-          Close
-        </button>
         <ul className="pt-10 pl-10 max-h-full overflow-y-auto hide-scrollbar ">
           {menuList.map((item) => (
             <li key={item.id} className="list-item">

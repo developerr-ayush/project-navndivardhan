@@ -52,7 +52,7 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <div className=" py-8 px-8 mt-[3rem] flex flex-col justify-center timeline">
+    <div className=" py-[3vw]  mt-[3rem] flex flex-col justify-center timeline">
       <GSAP />
 
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
@@ -79,7 +79,7 @@ export default function Timeline() {
         {timelineData.map((data, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col items-center  gap-7">
-              <h3 className="text-2xl md:text-[2.8rem] font-bold px-5 text-[#bb8866]">
+              <h3 className="text-2xl md:text-[2.8rem]  px-6 text-[#bb8866]">
                 {data.year}
               </h3>
               <div className="w-full flex items-center">
@@ -87,7 +87,7 @@ export default function Timeline() {
                 <div className="rounded-full w-5 h-5 bg-[#bb8866] shrink-0"></div>
                 <hr className="h-0.5 w-full bg-black" />
               </div>
-              <p className="text-lg text-center px-5">{data.description}</p>
+              <p className="text-lg text-center px-6">{data.description}</p>
             </div>
           </SwiperSlide>
         ))}

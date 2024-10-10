@@ -50,7 +50,7 @@ export const Counter = ({ counter }: { counter: number }) => {
 
   return (
     <span ref={counterRef}>
-      <span>{currentCount}</span>
+      <span className="text-[2rem] md:text-[3.6rem]">{currentCount}+</span>
     </span>
   );
 };

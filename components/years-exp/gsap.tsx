@@ -14,13 +14,7 @@ const GSAP = () => {
         toggleActions: "play none reverse reset",
       },
     });
-    tl.from(".text-bg-img ", {
-      duration: 1,
-      y: 100,
-      opacity: 0,
-      stagger: 0.4,
-      ease: "power2.inOut",
-    });
+
     tl.from(".YearsExp .textual-context", {
       duration: 1,
       y: 100,
