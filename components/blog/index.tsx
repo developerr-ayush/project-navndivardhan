@@ -9,6 +9,7 @@ interface BlogPost {
   author: string;
   date: string;
   image: string;
+  href: string;
 }
 
 interface BlogProps {
@@ -22,7 +23,8 @@ function Blog({ blogPosts }: BlogProps) {
       <h2 className="text-3xl font-bold mb-8 text-center">Our Blog</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 blog">
         {blogPosts.map((post) => (
-          <div
+          <a
+            href={`${post.href}`}
             key={post.id}
             className="blog-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
           >
@@ -41,7 +43,7 @@ function Blog({ blogPosts }: BlogProps) {
                 <span>{post.date}</span>
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>
