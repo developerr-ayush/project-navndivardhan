@@ -3,10 +3,11 @@ import GSAP from "./gsap";
 import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import { Title } from "../title";
 import Image from "next/image";
+import { SectionWrapper } from "../section-wrapper";
 
 export const Founder = () => {
   return (
-    <div className="container p-[3vw]  mx-auto Founder">
+    <SectionWrapper className="container   mx-auto Founder">
       <GSAP />
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]  text-center founder-title">
         Leadership
@@ -51,6 +52,6 @@ export const Founder = () => {
           </div>
         </div>
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

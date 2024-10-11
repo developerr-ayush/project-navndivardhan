@@ -1,20 +1,27 @@
 import { Hero } from "@/components/hero";
+import { SectionWrapper } from "@/components/section-wrapper";
 import TestimonialCarousel from "@/components/testimonial";
 import TestimonialVideoCarousel from "@/components/testimonial-video";
+import { Title } from "@/components/title";
 import React from "react";
 
 export default function page() {
   return (
     <div>
       <Hero img="/image/projects.jpg" />
-      <h3 className="text-[2rem] text-center mt-8 font-bold">
-        Whats our Partners have to Says
-      </h3>
-      <TestimonialCarousel />
-      <h3 className="text-[2rem] text-center mt-8 font-bold">
-        Whats our Customer Have to say Says
-      </h3>
-      <TestimonialVideoCarousel />
+      <SectionWrapper className="px-0">
+        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center">
+          Whats our Partners have to Says
+        </Title>
+        <TestimonialCarousel />
+      </SectionWrapper>
+      <SectionWrapper className="px-0">
+        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center">
+          Whats our Customer Have to say Says
+        </Title>
+
+        <TestimonialVideoCarousel />
+      </SectionWrapper>
     </div>
   );
 }

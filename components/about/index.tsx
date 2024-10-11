@@ -4,9 +4,10 @@ import Image from "next/image";
 import image from "@/public/image/about.png";
 import { GSAP } from "./gsap";
 import { Title } from "../title";
+import { SectionWrapper } from "../section-wrapper";
 export const About = () => {
   return (
-    <div className="grid lg:grid-cols-12 items-center about overflow-hidden container mx-auto">
+    <SectionWrapper className="grid lg:grid-cols-12 items-center about overflow-hidden container mx-auto">
       <GSAP />
       <div className="lg:col-span-7 p-[3vw] content">
         <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
@@ -48,6 +49,6 @@ export const About = () => {
           height={1000}
         />
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

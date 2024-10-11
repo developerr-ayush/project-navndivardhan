@@ -1,10 +1,11 @@
 import React from "react";
 import { Title } from "../title";
 import { TextField } from "@mui/material";
+import { SectionWrapper } from "../section-wrapper";
 
 export const RedevelopmentForm = () => {
   return (
-    <div>
+    <SectionWrapper className="p-[3vw]">
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 media-title">
           Register Your Enquire
@@ -62,6 +63,6 @@ export const RedevelopmentForm = () => {
           </div>
         </div>
       </form>
-    </div>
+    </SectionWrapper>
   );
 };

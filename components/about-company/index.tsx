@@ -3,9 +3,10 @@ import Image from "next/image";
 import image from "@/public/image/about.jpg";
 import { GSAP } from "./gsap";
 import { Title } from "../title";
+import { SectionWrapper } from "../section-wrapper";
 export const AboutCompany = () => {
   return (
-    <div className="grid lg:grid-cols-12 items-center about overflow-hidden">
+    <SectionWrapper className="grid lg:grid-cols-12 items-center about overflow-hidden">
       <GSAP />
 
       <div className="lg:col-span-6 p-[3vw] image">
@@ -17,7 +18,7 @@ export const AboutCompany = () => {
           height={1000}
         />
       </div>
-      <div className="lg:col-span-6 p-[3vw] content">
+      <div className="lg:col-span-6  content">
         <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
           About Company
         </Title>
@@ -52,6 +53,6 @@ export const AboutCompany = () => {
           quality, trust, and forward-thinking development.
         </p>
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

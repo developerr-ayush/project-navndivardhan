@@ -2,10 +2,11 @@ import Image from "next/image";
 import React from "react";
 import { GSAP } from "./gsap";
 import { Title } from "../title";
+import { SectionWrapper } from "../section-wrapper";
 export const Sustainability = () => {
   return (
-    <div className="bg-[#eaecec] py-14">
-      <div className=" p-[3vw]  max-w-[70rem] mx-auto sustainability ">
+    <SectionWrapper className="bg-[#eaecec] ">
+      <div className="   max-w-[70rem] mx-auto sustainability ">
         <GSAP />
         <div className="head lg:text-center mb-8 lg:mb-16 sustainability-title">
           <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]">
@@ -61,6 +62,6 @@ export const Sustainability = () => {
           </div>
         </div>
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

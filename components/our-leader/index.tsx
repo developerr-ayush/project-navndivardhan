@@ -2,15 +2,18 @@ import React from "react";
 import { Title } from "../title";
 import Image from "next/image";
 import arrowRight from "@/public/icon/arrow-right-blue.svg";
+import { GSAP } from "./gsap";
+import { SectionWrapper } from "../section-wrapper";
 
 export const OurLeader = () => {
   return (
-    <div className=" gap-8 container mx-auto px-4 lg:flex lg:items-center lg:justify-center">
+    <SectionWrapper className=" gap-8 container mx-auto  lg:flex lg:items-center lg:justify-center leader">
+      <GSAP />
       <div className="head  max-w-[70rem] mx-auto lg:mx-0 lg:text-left lg:max-w-[30%]  mb-8 lg:mb-16 ">
-        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 timeline-title">
+        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 leader-title">
           Our Leaders
         </Title>
-        <p className="text-[1.8rem] leading-none font-semibold timeline-desc">
+        <p className="text-[1.8rem] leading-none font-semibold leader-desc">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
           perspiciatis?
         </p>
@@ -24,7 +27,7 @@ export const OurLeader = () => {
       </div>
 
       <div className="body flex-1 lg:mx-0 grid md:grid-cols-2 gap-8 max-w-[40rem] mx-auto">
-        <div className="flex   flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="flex  item flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
           <div className="relative shrink-0 w-52 h-52 mb-4 rounded-sm overflow-hidden">
             <Image
               width={500}
@@ -43,7 +46,7 @@ export const OurLeader = () => {
             </p>
           </div>
         </div>
-        <div className="flex   flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="flex  item flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
           <div className="relative shrink-0 w-52 h-52 mb-4 rounded-sm overflow-hidden">
             <Image
               width={500}
@@ -63,6 +66,6 @@ export const OurLeader = () => {
           </div>
         </div>
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

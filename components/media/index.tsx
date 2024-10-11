@@ -5,6 +5,7 @@ import React from "react";
 import { GSAP } from "./gsap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Title } from "../title";
+import { SectionWrapper } from "../section-wrapper";
 
 const media = [
   {
@@ -22,7 +23,7 @@ const media = [
 ];
 export const Media = () => {
   return (
-    <div className=" p-[3vw] media overflow-hidden">
+    <SectionWrapper className=" media overflow-hidden">
       <GSAP />
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 media-title">
@@ -63,6 +64,6 @@ export const Media = () => {
           ))}
         </Swiper>
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

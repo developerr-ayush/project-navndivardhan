@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Title } from "../title";
 import Image from "next/image";
+import { SectionWrapper } from "../section-wrapper";
 
 const projects = [
   {
@@ -30,12 +31,12 @@ const projects = [
 ];
 export const Project = () => {
   return (
-    <div className=" bg-[#eaecec] my-10 px-[3vw] py-[5vw] project overflow-hidden">
+    <SectionWrapper className=" bg-[#eaecec] project overflow-hidden">
       <GSAP />
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects
       </Title>
-      <p className="mb-4 text-[1.4rem] lg:text-[2.6rem] mb-8 project-desc text-center leading-none">
+      <p className=" text-[1.4rem] lg:text-[2.6rem] mb-8 project-desc text-center leading-none">
         Explore our innovative projects, crafted with precision and excellence
       </p>
       <Swiper
@@ -81,6 +82,6 @@ export const Project = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </SectionWrapper>
   );
 };

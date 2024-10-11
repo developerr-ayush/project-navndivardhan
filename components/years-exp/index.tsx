@@ -1,9 +1,10 @@
 import React from "react";
 import GSAP from "./gsap";
+import { SectionWrapper } from "../section-wrapper";
 
 export const YearsExp = () => {
   return (
-    <div className="my-16 YearsExp">
+    <SectionWrapper className=" YearsExp">
       <GSAP />
       <div
         className="flex items-end justify-center gap-3
@@ -20,6 +21,6 @@ export const YearsExp = () => {
           <span>In Real Estate Development</span>
         </h2>
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

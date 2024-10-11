@@ -6,6 +6,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import { GSAP } from "./gsap";
 import { Title } from "../title";
+import { SectionWrapper } from "../section-wrapper";
 
 const timelineData = [
   {
@@ -52,7 +53,7 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <div className=" py-[3vw]  mt-[3rem] flex flex-col justify-center timeline">
+    <SectionWrapper className="  flex px-0 flex-col justify-center timeline">
       <GSAP />
 
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
@@ -92,6 +93,6 @@ export default function Timeline() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </SectionWrapper>
   );
 }

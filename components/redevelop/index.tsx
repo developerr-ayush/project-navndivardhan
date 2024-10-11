@@ -3,9 +3,10 @@ import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import Image from "next/image";
 import { GSAP } from "./gsap";
 import { Title } from "../title";
+import { SectionWrapper } from "../section-wrapper";
 export const Redevelop = () => {
   return (
-    <div className="grid lg:grid-cols-12 items-center about overflow-hidden container mx-auto">
+    <SectionWrapper className="grid lg:grid-cols-12 items-center about overflow-hidden container mx-auto">
       <GSAP />
       <div className="lg:col-span-7 p-[3vw] content">
         <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
@@ -43,6 +44,6 @@ export const Redevelop = () => {
           height={1000}
         />
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

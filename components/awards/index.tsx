@@ -4,12 +4,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import GSAP from "./gsap";
 import { Title } from "../title";
 import Image from "next/image";
+import { SectionWrapper } from "../section-wrapper";
 
 export const Awards = () => {
   return (
-    <div className="awards">
+    <SectionWrapper className="awards">
       <GSAP />
-      <div className="text-center max-w-[100ch] mx-auto my-20 px-[4rem]">
+      <div className="text-center max-w-[100ch] mx-auto mb-10  px-[4rem]">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center awards-title">
           Awards
         </Title>
@@ -130,6 +131,6 @@ export const Awards = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </div>
+    </SectionWrapper>
   );
 };
