@@ -200,3 +200,11 @@ html {
   transform-origin: 100% 0;
   transition: transform 0.5s cubic-bezier(0.43, 0.195, 0.02, 1);
 }
+.Mui-focused {
+  color: #bb8866 !important;
+  border-color: #bb8866 !important;
+}
+
+.Mui-focused fieldset {
+  border-color: #bb8866 !important;
+}
