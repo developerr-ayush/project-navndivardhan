@@ -5,14 +5,14 @@ import { Title } from "../title";
 import { SectionWrapper } from "../section-wrapper";
 export const Sustainability = () => {
   return (
-    <SectionWrapper className="bg-[#eaecec] ">
+    <SectionWrapper className="bg-black ">
       <div className="   max-w-[70rem] mx-auto sustainability ">
         <GSAP />
         <div className="head lg:text-center mb-8 lg:mb-16 sustainability-title">
           <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]">
             Sustainability
           </Title>
-          <p className="sustainability-desc">
+          <p className="sustainability-desc text-white">
             At Nandivardhan Group, sustainability is not just a buzzword – it’s
             a core principle that guides every decision we make. Our projects
             are designed with long-term environmental impacts in mind, focusing
@@ -31,11 +31,10 @@ export const Sustainability = () => {
                 height={1920}
               />
             </div>
-            <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
+            <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem]  font-semibold lg:mt-8">
               Green certificate
             </h3>
-            <p>
-              {" "}
+            <p className="text-white">
               Every project complies with green building norms and receives
               certifications that reflect our dedication to creating
               eco-friendly spaces.
@@ -51,10 +50,10 @@ export const Sustainability = () => {
                 height={1920}
               />
             </div>
-            <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem] font-primary font-semibold lg:mt-8">
+            <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem]  font-semibold lg:mt-8">
               Case Study – Fortuna Blue:
             </h3>
-            <p>
+            <p className="text-white">
               This project integrates solar energy systems and rainwater
               harvesting, showcasing Nandivardhan’s commitment to sustainability
               in urban living.

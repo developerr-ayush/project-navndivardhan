@@ -12,12 +12,12 @@ export const Founder = () => {
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]  text-center founder-title">
         Leadership
       </Title>
-      <div className="founder-item my-14 mx-auto max-w-[60rem]">
+      <div className="founder-item my-8  mx-auto max-w-[60rem]">
         <div className="info md:flex items-center gap-4 lg:gap-[4rem] founder-img">
           <Image
             width={500}
             height={800}
-            className="w-[20rem] shrink-0 max-w-full mb-4"
+            className="w-[20rem] lg:w-[25rem] shrink-0 max-w-full mb-4"
             src="/image/anil-mutha.png"
             alt=""
           />

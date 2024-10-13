@@ -26,19 +26,19 @@ export const OurLeader = () => {
         </a>
       </div>
 
-      <div className="body flex-1 lg:mx-0 grid md:grid-cols-2 gap-8 max-w-[40rem] mx-auto">
+      <div className="body flex-1 lg:mx-0 grid md:grid-cols-2 gap-8 max-w-[50rem] mx-auto">
         <div className="flex  item flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <div className="relative shrink-0 w-52 h-52 mb-4 rounded-sm overflow-hidden">
+          <div className="relative shrink-0 aspect-square w-full  mb-4 rounded-sm overflow-hidden">
             <Image
               width={500}
               height={500}
               src="/image/anil-mutha.png"
               alt={`Portrait of persom`}
-              className="rounded-sm"
+              className="rounded-sm w-full"
             />
           </div>
           <div className="content text-center ">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+            <h3 className="text-xl font-semibold text-[#bb8866] md:text-2xl mb-2">
               Mr. Anil Nagraj Mutha
             </h3>
             <p className="text-sm text-gray-600 mb-4">
@@ -47,17 +47,17 @@ export const OurLeader = () => {
           </div>
         </div>
         <div className="flex  item flex-col  gap-4 items-center px-4 py-8 my-10 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <div className="relative shrink-0 w-52 h-52 mb-4 rounded-sm overflow-hidden">
+          <div className="relative shrink-0 aspect-square w-full  mb-4 rounded-sm overflow-hidden">
             <Image
               width={500}
               height={500}
               src="/image/yash-mutha.png"
               alt={`Portrait of persom`}
-              className="rounded-sm"
+              className="rounded-sm w-full"
             />
           </div>
           <div className="content text-center ">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+            <h3 className="text-xl font-semibold text-[#bb8866] md:text-2xl mb-2">
               Mr. Anil Nagraj Mutha
             </h3>
             <p className="text-sm text-gray-600 mb-4">

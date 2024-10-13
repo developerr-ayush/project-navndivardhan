@@ -68,7 +68,6 @@ export default function Timeline() {
       <Swiper
         className="mt-10 w-full timeline-swiper px-[4rem] timeline-swiper"
         slidesPerView={1}
-        centeredSlides={true}
         modules={[Navigation]}
         autoplay
         // navigation
