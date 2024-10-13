@@ -1,4 +1,4 @@
-import { CalendarDays, Clock } from "lucide-react";
+import { CalendarDays } from "lucide-react";
 import { BlogThumbnail } from "../blog-thumbnail";
 import { BlogPost } from "@/components/blog";
 

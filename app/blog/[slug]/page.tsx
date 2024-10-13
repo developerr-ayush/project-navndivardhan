@@ -3,9 +3,9 @@ import React from "react";
 import { notFound } from "next/navigation"; // Import the notFound function
 import { BlogPost } from "@/components/blog";
 
-let fetchBlogDetail = async (slug: string) => {
+const fetchBlogDetail = async (slug: string) => {
   try {
-    let fetchData = await fetch(
+    const fetchData = await fetch(
       `https://api-nandivardhan.codestudioshub.com/api/blog/blog/${slug}`
     );
     // console.log(fetchData);
@@ -14,7 +14,7 @@ let fetchBlogDetail = async (slug: string) => {
       throw new Error(`Error fetching blog: ${fetchData.statusText}`);
     }
 
-    let data = await fetchData.json();
+    const data = await fetchData.json();
     // console.log(data);
     // console.log("data", data);
 
@@ -28,7 +28,7 @@ let fetchBlogDetail = async (slug: string) => {
 
 export default async function page({ params }: { params: { slug: string } }) {
   try {
-    let blogDetail: BlogPost = await fetchBlogDetail(params?.slug);
+    const blogDetail: BlogPost = await fetchBlogDetail(params?.slug);
 
     // If no blogDetail is returned, throw to trigger the notFound page
     if (!blogDetail) {
@@ -40,7 +40,7 @@ export default async function page({ params }: { params: { slug: string } }) {
         <BlogDetail blogDetail={blogDetail} />
       </div>
     );
-  } catch (error) {
+  } catch {
     // If any error occurs (e.g., the blog is not found), trigger the 404 page
     notFound();
   }
