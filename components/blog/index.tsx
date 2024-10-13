@@ -6,6 +6,7 @@ export interface BlogPost {
   id: number;
   title: string;
   description: string;
+  content: string;
   author: {
     id: number;
     username: string;
@@ -27,12 +28,12 @@ function Blog({ blogPosts }: BlogProps) {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 blog">
         {blogPosts.map((post) => (
           <a
-            href={`/blog-detail/${post?.slug}`}
+            href={`/blog/${post?.slug}`}
             key={post?.id}
             className="blog-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
           >
             <Image
-              src={post?.banner}
+              src={post?.banner || ""}
               alt={post?.title}
               width={400}
               height={200}

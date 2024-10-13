@@ -1,4 +1,5 @@
 import { KeyBenefits } from "@/components/key-benefits";
+import { ProjectAmenities } from "@/components/project-amenities";
 import { ProjectBanner } from "@/components/project-banner";
 import { ProjectInfo } from "@/components/project-info";
 import { ProjectOverview } from "@/components/project-overview";
@@ -14,6 +15,7 @@ export default function page() {
       <ProjectInfo />
       <ProjectOverview />
       <KeyBenefits />
+      <ProjectAmenities />
     </div>
   );
 }

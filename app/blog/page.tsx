@@ -8,6 +8,7 @@ async function getBlogs() {
     { cache: "no-cache" }
   );
   const data = await res.json();
+  // console.log(data.data.results);
   return data.data.results;
 }
 export default async function contact() {
