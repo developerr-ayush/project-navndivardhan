@@ -1,4 +1,6 @@
+import { ExcelentConnectivity } from "@/components/excelent-connectivity";
 import { KeyBenefits } from "@/components/key-benefits";
+import { LocateUs } from "@/components/locate-us";
 import { ProjectAmenities } from "@/components/project-amenities";
 import { ProjectBanner } from "@/components/project-banner";
 import { ProjectInfo } from "@/components/project-info";
@@ -16,6 +18,8 @@ export default function page() {
       <ProjectOverview />
       <KeyBenefits />
       <ProjectAmenities />
+      <ExcelentConnectivity />
+      <LocateUs/>
     </div>
   );
 }
