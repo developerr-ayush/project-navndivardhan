@@ -1,3 +1,4 @@
+import { FAQ } from "@/components/faq";
 import { Hero } from "@/components/hero";
 import { Redevelop } from "@/components/redevelop";
 import { RedevelopmentForm } from "@/components/redevelopment-form";
@@ -11,6 +12,7 @@ export default function page() {
       <Redevelop />
       <RedevelopmentProcess />
       <RedevelopmentForm />
+      <FAQ />
     </>
   );
 }

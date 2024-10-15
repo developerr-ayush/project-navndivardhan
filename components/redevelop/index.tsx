@@ -6,23 +6,36 @@ import { Title } from "../title";
 import { SectionWrapper } from "../section-wrapper";
 export const Redevelop = () => {
   return (
-    <SectionWrapper className="grid lg:grid-cols-12 items-center about overflow-hidden container mx-auto">
+    <SectionWrapper className="grid lg:grid-cols-12 items-center about overflow-hidden  mx-auto">
       <GSAP />
+      <div className="lg:col-span-5 p-[3vw] image">
+        <Image
+          src="/image/construction.jpg"
+          alt="logo"
+          className="w-full h-full object-cover"
+          width={500}
+          height={1000}
+        />
+      </div>
       <div className="lg:col-span-7 p-[3vw] content">
         <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
-          Lorem ipsum dolor sit
+          Why Choose Redevelopment?
         </Title>
         <p className="mb-4">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
-          cupiditate libero voluptatum asperiores totam non sint suscipit, fugit
-          id rem aperiam rerum. Officiis iste esse ducimus eligendi debitis, id
-          repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Redevelopment offers numerous benefits, both for residents and the
+          community. Here’s why it’s the smarter choice:
           <br />
+          <b>Improved Infrastructure:</b> Old and outdated buildings are
+          replaced with modern structures, increasing safety and comfort.
           <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-          quidem illum minus officiis. Distinctio iste nostrum minima totam
-          inventore ea illum, blanditiis praesentium itaque cupiditate aperiam?
-          Pariatur eum quos quo nemo amet, beatae eaque commodi?
+          <b>Enhanced Lifestyle:</b> New amenities like gyms, parks, and
+          co-working spaces improve overall quality of life.
+          <br />
+          <b>Sustainable Growth:</b> Redevelopment promotes eco-friendly
+          practices and helps minimize urban sprawl.
+          <br />
+          <b>Better Returns on Investment:</b> Property value increases with
+          modern upgrades, offering better returns for residents and investors.
         </p>
         <a
           href="/about"
@@ -34,15 +47,6 @@ export const Redevelop = () => {
             className="  w-12 h-12 arrow rotate-180"
           />
         </a>
-      </div>
-      <div className="lg:col-span-5 p-[3vw] image">
-        <Image
-          src="/image/construction.jpg"
-          alt="logo"
-          className="w-full h-full object-cover"
-          width={500}
-          height={1000}
-        />
       </div>
     </SectionWrapper>
   );
