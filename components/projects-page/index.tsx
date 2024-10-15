@@ -80,7 +80,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -108,7 +108,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -136,7 +136,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -180,7 +180,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -208,7 +208,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -236,7 +236,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -280,7 +280,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -308,7 +308,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
@@ -336,7 +336,7 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="" className="text-[#bb8866] underline uppercase">
+                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
                       View Details
                     </a>
                   </div>
