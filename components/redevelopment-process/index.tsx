@@ -13,8 +13,8 @@ export const RedevelopmentProcess = () => {
           How We Approach Redevelopment
         </p>
       </div>
-      <div className="grid grid-cols-1 gcontainer mx-auto px-8 lg:grid-cols-6 gap-4 mb-10">
-        <div className="item grid lg:col-span-2 text-center place-content-center  p-4 border border-solid  my-4">
+      <div className="grid grid-cols-1 gcontainer justify-center flex-wrap mx-auto px-8 lg:flex gap-4 mb-10">
+        <div className="item grid w-[30%] text-center place-content-center  p-4 border border-solid  my-4">
           <Image
             src="/icon/feasibility.png"
             alt="image"
@@ -29,7 +29,7 @@ export const RedevelopmentProcess = () => {
           <p>Evaluating the potential and equirements of the property.</p>
         </div>
 
-        <div className="item grid lg:col-span-2 text-center place-content-center  p-4 border border-solid  my-4">
+        <div className="item grid w-[30%] text-center place-content-center  p-4 border border-solid  my-4">
           <Image
             src="/icon/resident.png"
             alt="image"
@@ -47,7 +47,7 @@ export const RedevelopmentProcess = () => {
           </p>
         </div>
 
-        <div className="item grid lg:col-span-2 text-center place-content-center  p-4 border border-solid  my-4">
+        <div className="item grid w-[30%] text-center place-content-center  p-4 border border-solid  my-4">
           <Image
             src="/icon/design.png"
             alt="image"
@@ -65,7 +65,7 @@ export const RedevelopmentProcess = () => {
           </p>
         </div>
 
-        <div className="item grid lg:col-span-3 text-center place-content-center  p-4 border border-solid  my-4">
+        <div className="item grid w-[30%]  text-center place-content-center  p-4 border border-solid  my-4">
           <Image
             src="/icon/execution.png"
             alt="image"
@@ -83,7 +83,7 @@ export const RedevelopmentProcess = () => {
           </p>
         </div>
 
-        <div className="item grid lg:col-span-3 text-center place-content-center  p-4 border border-solid  my-4">
+        <div className="item grid w-[30%]  text-center place-content-center  p-4 border border-solid  my-4">
           <Image
             src="/icon/handover.png"
             alt="image"
