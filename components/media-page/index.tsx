@@ -192,7 +192,7 @@ export const MediaPage = () => {
       </div>
       <div className="container mx-auto gap-4 grid md:grid-cols-2 lg:grid-cols-4">
         {filteredMedia.map((news, index) => (
-          <div key={index} className="grid">
+          <div key={index} className="grid shadow-md p-4">
             <div className="image row-start-1 col-start-1">
               <Image
                 src={news.img}
@@ -202,7 +202,7 @@ export const MediaPage = () => {
                 className="block"
               />
             </div>
-            <div className="content text-black items-end p-5 text-center">
+            <div className="content text-black items-end p-5 pb-0 text-center">
               <h3 className="text-[2rem] lg:text-[1.6vw]">{news.title}</h3>
             </div>
           </div>
