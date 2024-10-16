@@ -38,7 +38,7 @@ export const Header = ({ menuList }: HeaderProps) => {
     <>
       <header className=" header px-4  flex justify-between items-center fixed w-full z-20 bg-gradient-to-b from-black/50">
         <GSAP />
-        <a href="/" className="flex w-28 md:w-40 lg:w-48 ">
+        <a href="/" className="flex w-28 md:w-40 lg:w-48 h-[7rem]">
           <Image
             src="/image/nandivardhan-logo.png"
             alt="logo"

@@ -180,7 +180,7 @@ export const MediaPage = () => {
           <button
             key={year}
             onClick={() => setSelectedYear(year)}
-            className={`m-2 p-2 border-2 border-black rounded ${
+            className={`m-2  shadow-md px-8 py-4 rounded ${
               selectedYear === year
                 ? "bg-black text-white"
                 : "bg-white text-black"
@@ -190,7 +190,7 @@ export const MediaPage = () => {
           </button>
         ))}
       </div>
-      <div className="container mx-auto gap-4 grid md:grid-cols-2 lg:grid-cols-3">
+      <div className="container mx-auto gap-4 grid md:grid-cols-2 lg:grid-cols-4">
         {filteredMedia.map((news, index) => (
           <div key={index} className="grid">
             <div className="image row-start-1 col-start-1">
