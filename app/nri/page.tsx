@@ -1,11 +1,11 @@
-import { Hero } from "@/components/hero";
-import { Redevelop } from "@/components/redevelop";
-import { RedevelopmentForm } from "@/components/redevelopment-form";
-import { RedevelopmentProcess } from "@/components/redevelopment-process";
-import React from "react";
 import { FAQ } from "@/components/faq";
+import { NRICorner } from "@/components/nri-corner";
+import { ProjectBanner } from "@/components/project-banner";
+import React from "react";
 const faq = {
   title: "Frequently Asked Questions",
+  subTitle:
+    "Find quick answers to your most common questions about our services and policies right here",
   list: [
     {
       question:
@@ -147,12 +147,13 @@ const faq = {
 };
 export default function page() {
   return (
-    <>
-      <Hero img="/image/projects.jpg" />
-      <Redevelop />
-      <RedevelopmentProcess />
-      <RedevelopmentForm />
+    <div>
+      <ProjectBanner
+        img="/image/nri-hero.jpeg"
+        text="Invest in Mumbai's Growing Real Estate Market"
+      />
+      <NRICorner />
       <FAQ {...faq} />
-    </>
+    </div>
   );
 }
