@@ -5,40 +5,48 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
-interface itemListProps {
+import FormHelperText from "@mui/material/FormHelperText";
+
+interface ItemListProps {
   id: number;
   name: string;
 }
+
+interface BasicSelectProps {
+  itemList: ItemListProps[];
+  label: string;
+  error: boolean;
+  value: string;
+  onChange: (event: SelectChangeEvent) => void; // Pass the onChange handler from parent
+  helperText?: string; // Optional helper text for error messages
+}
+
 export default function BasicSelect({
   itemList,
   label,
-}: {
-  itemList: itemListProps[];
-  label: string;
-}) {
-  const [age, setAge] = React.useState("");
-
-  const handleChange = (event: SelectChangeEvent) => {
-    setAge(event.target.value as string);
-  };
-
+  error,
+  value,
+  onChange,
+  helperText,
+}: BasicSelectProps) {
   return (
     <Box sx={{ minWidth: 120 }}>
-      <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">{label}</InputLabel>
+      <FormControl fullWidth error={error}>
+        <InputLabel id="basic-select-label">{label}</InputLabel>
         <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          value={age}
+          labelId="basic-select-label"
+          id="basic-select"
+          value={value}
           label={label}
-          onChange={handleChange}
+          onChange={onChange} // Use the parent's onChange handler
         >
-          {itemList.map((item, index) => (
-            <MenuItem key={index} value={item.id}>
+          {itemList.map((item) => (
+            <MenuItem key={item.id} value={item.name}>
               {item.name}
             </MenuItem>
           ))}
         </Select>
+        {error && helperText && <FormHelperText>{helperText}</FormHelperText>}
       </FormControl>
     </Box>
   );

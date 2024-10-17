@@ -15,7 +15,7 @@ export default function contact() {
     <div>
       <Hero img="/image/contact.jpeg" />
       <div className="container mx-auto">
-        <div className="lg:grid lg:grid-cols-2 mx-auto px-6 py-20">
+        <div className="lg:grid lg:grid-cols-2 mx-auto px-6 py-20 gap-10">
           <Contact />
           <div className="mt-8">
             <p className="text-[1.8rem] leading-none font-semibold timeline-desc">
