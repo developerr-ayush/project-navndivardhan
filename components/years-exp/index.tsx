@@ -7,7 +7,7 @@ export const YearsExp = () => {
   return (
     <SectionWrapper className=" YearsExp">
       <GSAP />
-      <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 timeline-title">
+      <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 text-center ">
         Timeline
       </Title>
 
