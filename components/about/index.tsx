@@ -10,7 +10,7 @@ export const About = () => {
     <SectionWrapper className="grid lg:grid-cols-12 items-center about overflow-hidden container mx-auto">
       <GSAP />
       <div className="lg:col-span-7 p-[3vw] content">
-        <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866] mb-6  ">
+        <Title className="text-[6vw] lg:text-[3vw] text-[#bb8866] mb-6  ">
           About Nandivardhan Group
         </Title>
         <p className="mb-4">
