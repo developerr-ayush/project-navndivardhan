@@ -1,46 +1,52 @@
 import Image from "next/image";
 import React from "react";
 import { GSAP } from "./gsap";
-import { Title } from "../title";
 import { SectionWrapper } from "../section-wrapper";
+import { Title } from "@/data/atom/title";
 export const Sustainability = () => {
   return (
-    <SectionWrapper className="bg-black ">
-      <div className="   max-w-[70rem] mx-auto sustainability ">
-        <GSAP />
+    <SectionWrapper className=" px-0 bg-black ">
+      <div className="  ">
+        {/* <GSAP /> */}
         <div className="head lg:text-center mb-8 lg:mb-16 sustainability-title">
-          <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]">
-            Sustainability
-          </Title>
+          <Title className="mx-auto ">Sustainability</Title>
           <p className="sustainability-desc text-white">
-            At Nandivardhan Group, sustainability is not just a buzzword – it’s
-            a core principle that guides every decision we make. Our projects
-            are designed with long-term environmental impacts in mind, focusing
-            on energy efficiency, water conservation, and green building
-            standards.
+            At Nandivardhan Group, sustainability is a core principle that
+            guides every decision we make. Our projects prioritize long-term
+            environmental impacts, focusing on energy efficiency, water
+            conservation, and green building standards. Every project complies
+            with green building norms and earns certifications that reflect our
+            dedication to creating eco-friendly spaces.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-          <div className="sustainability-project group">
-            <div className="overflow-hidden">
-              <Image
-                src="/image/green-certificate.png"
-                className="group-hover:scale-105 transition-all duration-300"
-                alt="green certificate"
-                width={1080}
-                height={1920}
-              />
+        <div className="grid grid-cols-1 gap-4 w-full isolate">
+          <div
+            className="sustainability-project w-full group grid items-end isolate relative"
+            style={{
+              background: "url('/image/green.jpg') no-repeat center/cover ",
+              backgroundAttachment: "fixed",
+              height: "80vh",
+            }}
+          >
+            <div className="absolute bg-black/30 inset-0 -z-[1]"></div>
+            <div className="wrapper col-start-1 row-start-1 p-8">
+              <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem]  font-semibold lg:mt-8">
+                Green certificate
+              </h3>
+              <p className="text-white">
+                At Nandivardhan Group, sustainability is a core principle that
+                guides every decision we make. Our projects prioritize long-term
+                environmental impacts, focusing on energy efficiency, water
+                conservation, and green building standards, with every project
+                complying with green building norms and earning certifications
+                that reflect our dedication to creating eco-friendly spaces. Our
+                commitment to sustainable urban living is exemplified through
+                the integration of solar energy systems and rainwater harvesting
+                in our developments.
+              </p>
             </div>
-            <h3 className="mt-4 text-[#bb8866] uppercase text-[1.8rem]  font-semibold lg:mt-8">
-              Green certificate
-            </h3>
-            <p className="text-white">
-              Every project complies with green building norms and receives
-              certifications that reflect our dedication to creating
-              eco-friendly spaces.
-            </p>
           </div>
-          <div className="sustainability-project">
+          {/* <div className="sustainability-project">
             <div className="overflow-hidden group">
               <Image
                 src="/image/case-study.png"
@@ -58,7 +64,7 @@ export const Sustainability = () => {
               harvesting, showcasing Nandivardhan’s commitment to sustainability
               in urban living.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </SectionWrapper>

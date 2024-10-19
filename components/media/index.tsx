@@ -4,8 +4,9 @@ import Image from "next/image";
 import React from "react";
 import { GSAP } from "./gsap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Title } from "../title";
 import { SectionWrapper } from "../section-wrapper";
+import { Autoplay, Navigation } from "swiper/modules";
+import { Title } from "@/data/atom/title";
 
 const media = [
   {
@@ -37,48 +38,51 @@ const media = [
 ];
 export const Media = () => {
   return (
-    <SectionWrapper className=" media overflow-hidden">
+    <SectionWrapper className="px-0 media overflow-hidden">
       <GSAP />
-      <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
-        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 media-title">
-          Media
-        </Title>
+      <div className="head px-[3vw]  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
+        <Title className="mx-auto media-title">Media</Title>
         {/* <p className="text-[1.8rem] leading-none font-semibold media-desc">
           Explore our insightful and crafted contect with expertise and fresh
           perspectives
         </p> */}
       </div>
-      <div className=" container mx-auto ">
-        <Swiper
-          slidesPerGroup={1}
-          spaceBetween={20}
-          className="media-swiper"
-          breakpoints={{
-            640: { slidesPerView: 2 }, // For phones
-            1024: { slidesPerView: 3 }, // For desktops
-          }}
-        >
-          {media.map((news, index) => (
-            <SwiperSlide key={index}>
-              <div className="grid ">
-                <div className="image row-start-1 col-start-1">
-                  <Image
-                    src={news.img}
-                    alt="news"
-                    width={1000}
-                    height={1000}
-                    className="block"
-                  />
+      <div className="">
+        <div className=" container mx-auto ">
+          <Swiper
+            slidesPerGroup={1}
+            spaceBetween={20}
+            className="media-swiper"
+            modules={[Navigation, Autoplay]}
+            autoplay
+            navigation
+            breakpoints={{
+              640: { slidesPerView: 1.5 }, // For phones
+              1024: { slidesPerView: 2 }, // For desktops
+            }}
+          >
+            {media.map((news, index) => (
+              <SwiperSlide key={index}>
+                <div className="grid ">
+                  <div className="image row-start-1 col-start-1">
+                    <Image
+                      src={news.img}
+                      alt="news"
+                      width={1000}
+                      height={1000}
+                      className="block"
+                    />
+                  </div>
+                  {/* <div className="content  text-white items-end p-5 text-center">
+                    <h3 className="text-[2rem] lg:text-[1.6vw] line-clamp-2">
+                      {news.title}
+                    </h3>
+                  </div> */}
                 </div>
-                <div className="content  text-black items-end p-5 text-center">
-                  <h3 className="text-[2rem] lg:text-[1.6vw] line-clamp-2">
-                    {news.title}
-                  </h3>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </SectionWrapper>
   );

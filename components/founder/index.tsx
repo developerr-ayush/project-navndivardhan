@@ -1,15 +1,16 @@
 import React from "react";
 import GSAP from "./gsap";
 import arrowRight from "@/public/icon/arrow-right-blue.svg";
-import { Title } from "../title";
 import Image from "next/image";
 import { SectionWrapper } from "../section-wrapper";
+import { Title } from "@/data/atom/title";
+import { Subtitle } from "@/data/atom/subtitle";
 
 export const Founder = () => {
   return (
     <SectionWrapper className="container   mx-auto Founder">
       <GSAP />
-      <Title className="mx-auto text-[2rem] tracking-[3.5px] lg:text-[3.125rem] text-[#bb8866]  text-center founder-title">
+      <Title className="mx-auto     text-center founder-title">
         Leadership
       </Title>
       <div className="founder-item my-8  mx-auto max-w-[60rem]">
@@ -17,15 +18,15 @@ export const Founder = () => {
           <Image
             width={500}
             height={800}
-            className="w-[20rem] lg:w-[25rem] shrink-0 max-w-full mb-4"
+            className="w-[20rem] lg:w-[25rem] shrink-0 max-w-full mb-4 grayscale hover:grayscale-0 transition-all duration-500 "
             src="/image/anil-mutha.png"
             alt=""
           />
           <div className="text">
-            <h3 className="text-[20px] md:text-[44px] text-[#bb8866]  ">
+            <Title className=" text-[#bb8866] lg:text-[38px]  ">
               Mr. Anil Nagraj Mutha
-            </h3>
-            <p className="text-[20px] mt-6 md:text-[25px] leading-none font-semibold">
+            </Title>
+            <p className="text-[20px] mt-6 md:text-[25px] leading-none font-semibold tracking-widest">
               Chief Visionary and Co-Founder
             </p>
             <p className="mt-8 founder-desc">

@@ -5,9 +5,9 @@ import "swiper/css";
 import { GSAP } from "./gsap";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
-import { Title } from "../title";
 import Image from "next/image";
 import { SectionWrapper } from "../section-wrapper";
+import { Title } from "@/data/atom/title";
 
 const projects = [
   {
@@ -51,10 +51,8 @@ export const Project = () => {
   return (
     <SectionWrapper className="px-0 bg-[#000] project overflow-hidden">
       <GSAP />
-      <Title className="px-[3vw] mx-auto mb-8 text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
-        Our Projects
-      </Title>
-      <p className="px-[3vw] text-[1.4rem] lg:text-[2.6rem] mb-20 project-desc text-center leading-none text-white">
+      <Title className="text-center">Our Projects</Title>
+      <p className="px-[3vw] text-[1.4rem] lg:text-[2.6rem] tracking-widest mb-20 project-desc text-center leading-none text-white">
         Explore our innovative projects, crafted with precision and excellence
       </p>
       <div className=" mx-auto ">

@@ -26,7 +26,7 @@ export const Cursor = () => {
   return (
     <div
       ref={cursorRef}
-      className="cursor fixed w-5 h-5 bg-[#bb8866] rounded-full pointer-events-none z-[200] hidden lg:block"
+      className="cursor fixed w-5 h-5 bg-[#bb8866]/50 rounded-full pointer-events-none z-[200] hidden lg:block"
     ></div>
   );
 };

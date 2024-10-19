@@ -7,12 +7,12 @@ export const YearsExp = () => {
   return (
     <SectionWrapper className=" YearsExp">
       <GSAP />
-      <Title className="mx-auto  text-[2rem] lg:text-[5.5rem] text-[#bb8866] mb-12 text-center ">
+      <Title className="mx-auto  text-[2rem] tracking-[6px] uppercase lg:text-[3.8vw] text-[#bb8866] mb-12 text-center ">
         Values Etched In Veracity
       </Title>
 
       <div
-        className="flex items-end justify-center gap-3
+        className="flex items-end justify-center gap-6 lg:gap-8
       "
       >
         <div className="text-bg-img-wrap">

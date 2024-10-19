@@ -19,7 +19,7 @@ export const AboutCompany = () => {
         />
       </div>
       <div className="lg:col-span-6  content">
-        <Title className="text-[7vw] lg:text-[3vw] text-[#bb8866]">
+        <Title className="text-[7vw] lg:text-[3vw] title text-[#bb8866]">
           About Company
         </Title>
         <p className="mb-4">
@@ -29,14 +29,14 @@ export const AboutCompany = () => {
           a Quality Living Experience,&quot; the Group has consistently raised
           the bar in delivering residential and commercial spaces that combine
           luxury, convenience, and sustainability. <br />
-          The journey of Nandivardhan
-          began with a singular vision-transforming the skyline of Mumbai and
-          Thane while providing unmatched living experiences. Driven by a
-          passion for innovation and a customer-first approach, the Group has
-          developed iconic properties that stand as landmarks of trust and
-          excellence. Over the years, Nandivardhan has built a legacy of success
-          by delivering projects that reflect thoughtful design,
-          state-of-the-art amenities, and the highest standards of quality.
+          The journey of Nandivardhan began with a singular vision-transforming
+          the skyline of Mumbai and Thane while providing unmatched living
+          experiences. Driven by a passion for innovation and a customer-first
+          approach, the Group has developed iconic properties that stand as
+          landmarks of trust and excellence. Over the years, Nandivardhan has
+          built a legacy of success by delivering projects that reflect
+          thoughtful design, state-of-the-art amenities, and the highest
+          standards of quality.
           <br />
           The Group&apos;s growth is underpinned by a leadership team that
           exemplifies strategic foresight, market understanding, and a deep
