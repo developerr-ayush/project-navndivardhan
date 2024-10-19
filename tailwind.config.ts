@@ -51,6 +51,12 @@ const config: Config = {
           "5": "hsl(var(--chart-5))",
         },
       },
+      height: {
+        screen: "100dvh",
+      },
+      minHeight: {
+        screen: "100dvh",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
