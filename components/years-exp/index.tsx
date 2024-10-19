@@ -1,11 +1,16 @@
 import React from "react";
 import GSAP from "./gsap";
 import { SectionWrapper } from "../section-wrapper";
+import { Title } from "../title";
 
 export const YearsExp = () => {
   return (
     <SectionWrapper className=" YearsExp">
       <GSAP />
+      <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 timeline-title">
+        Timeline
+      </Title>
+
       <div
         className="flex items-end justify-center gap-3
       "
