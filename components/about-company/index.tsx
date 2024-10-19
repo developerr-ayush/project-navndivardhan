@@ -28,7 +28,8 @@ export const AboutCompany = () => {
           through its visionary projects. With a firm belief in &quot;Innovating
           a Quality Living Experience,&quot; the Group has consistently raised
           the bar in delivering residential and commercial spaces that combine
-          luxury, convenience, and sustainability. The journey of Nandivardhan
+          luxury, convenience, and sustainability. <br />
+          The journey of Nandivardhan
           began with a singular vision-transforming the skyline of Mumbai and
           Thane while providing unmatched living experiences. Driven by a
           passion for innovation and a customer-first approach, the Group has

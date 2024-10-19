@@ -5,7 +5,7 @@ import React from "react";
 export default function page() {
   return (
     <>
-      <Hero img="/image/hero.jpeg" />
+      <Hero img="/image/media-banner.jpeg" />
       <MediaPage />
     </>
   );

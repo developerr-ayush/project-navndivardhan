@@ -74,7 +74,7 @@ export const Team = () => {
             satisfaction
           </p>
         </div>
-        {/* <div className="team-item my-14">
+        <div className="team-item my-14">
           <div className="info md:flex items-center gap-4 lg:gap-[4rem]">
             <img
               className="w-[15rem] max-w-full mb-4"
@@ -103,7 +103,7 @@ export const Team = () => {
             dedication to the Group, propelling Nandivardhan towards continued
             success and innovation in the ever-evolving real estate market.
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );
