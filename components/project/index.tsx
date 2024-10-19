@@ -31,12 +31,12 @@ const projects = [
 ];
 export const Project = () => {
   return (
-    <SectionWrapper className=" bg-[#eaecec] project overflow-hidden">
+    <SectionWrapper className=" bg-[#000] project overflow-hidden">
       <GSAP />
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
         Our Projects
       </Title>
-      <p className=" text-[1.4rem] lg:text-[2.6rem] mb-8 project-desc text-center leading-none">
+      <p className=" text-[1.4rem] lg:text-[2.6rem] mb-8 project-desc text-center leading-none text-white">
         Explore our innovative projects, crafted with precision and excellence
       </p>
       <div className=" mx-auto">
