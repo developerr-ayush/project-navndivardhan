@@ -63,6 +63,9 @@ export const Footer = () => {
             <p>
               <Link href="/faq">FAQ</Link>
             </p>
+            <p>
+              <Link href="/privacy">Privacy Policy</Link>
+            </p>
           </div>
         </div>
         <ul className="text-white list-none gap-2 flex">
