@@ -34,7 +34,7 @@ const testimonials = [
 export default function page() {
   return (
     <div>
-      <Hero img="/image/projects.jpg" />
+      <Hero img="/image/testimonial-banner.png" />
       <SectionWrapper className="px-0">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center">
           Whats our Partners Have to Says
