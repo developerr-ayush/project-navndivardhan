@@ -2,6 +2,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import { GSAPCONFIG } from "@/util";
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 export const GSAP = () => {
@@ -11,9 +12,8 @@ export const GSAP = () => {
       opacity: 0,
       scrollTrigger: {
         trigger: " .about .content",
-        start: "top 80%",
-        end:"+=50",
-        toggleActions: "play none reverse reset",
+        ...GSAPCONFIG,
+
       },
     });
     gsap.from(" .about  .image", {

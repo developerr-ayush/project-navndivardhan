@@ -56,7 +56,7 @@ export default function Timeline() {
     <SectionWrapper className="  flex px-0 flex-col justify-center timeline">
       <GSAP />
 
-      <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
+      <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16 px-[3vw]">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 timeline-title">
           Timeline
         </Title>
@@ -66,7 +66,7 @@ export default function Timeline() {
         </p>
       </div>
       <Swiper
-        className="mt-10 w-full timeline-swiper px-[4rem] timeline-swiper"
+        className="mt-10 w-full timeline-swiper px-[4rem] timeline-swiper "
         slidesPerView={1}
         modules={[Navigation]}
         autoplay

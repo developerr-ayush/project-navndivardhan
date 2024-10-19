@@ -2,6 +2,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import { GSAPCONFIG } from "@/util";
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 export const GSAP = () => {
@@ -9,9 +10,7 @@ export const GSAP = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".news-section",
-        start: "top 80%",
-        end: "+=50",
-        toggleActions: "play none reverse reset",
+        ...GSAPCONFIG,
       },
     });
     tl.from(".news-section .news-title", {

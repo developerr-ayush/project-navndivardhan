@@ -1,4 +1,5 @@
 "use client";
+import { GSAPCONFIG } from "@/util";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -8,9 +9,7 @@ const GSAP = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".Founder",
-        start: "top 80%",
-        end: "+=50",
-        toggleActions: "play none reverse reset",
+        ...GSAPCONFIG,
       },
     });
     tl.from(".founder-title", {
