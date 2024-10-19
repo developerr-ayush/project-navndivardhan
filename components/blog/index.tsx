@@ -42,7 +42,7 @@ function Blog({ blogPosts }: BlogProps) {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">{post?.title}</h3>
               <p className="text-gray-600 mb-4">{post?.description}</p>
-              <div className="flex justify-between items-center text-sm text-gray-500">
+              <div className="flex justify-between items-center text-sm text-gray-500 line-clamp-2">
                 <span>{post?.author?.username}</span>
                 <span>{post?.updated_at}</span>
               </div>
