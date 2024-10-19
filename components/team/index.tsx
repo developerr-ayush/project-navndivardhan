@@ -25,7 +25,7 @@ export const Team = () => {
               alt=""
             />
             <div className="text">
-              <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  font-semibold">
+              <h3 className="text-[20px] md:text-[44px] text-[#bb8866]  font-semibold">
                 Mr. Anil Nagraj Mutha
               </h3>
               <p className="text-[20px] md:text-[25px] leading-none font-semibold">
@@ -55,7 +55,7 @@ export const Team = () => {
               alt=""
             />
             <div className="text lg:text-right">
-              <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  font-semibold">
+              <h3 className="text-[20px] md:text-[44px] text-[#bb8866]  font-semibold">
                 Mr. Yash Ritesh Mutha
               </h3>
               <p className="text-[20px] md:text-[25px] leading-none font-semibold">
@@ -82,7 +82,7 @@ export const Team = () => {
               alt=""
             />
             <div className="text">
-              <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  font-semibold">
+              <h3 className="text-[20px] md:text-[44px] text-[#bb8866]  font-semibold">
                 Mr. Nagraj Talaji Mutha
               </h3>
               <p className="text-[20px] md:text-[25px] leading-none font-semibold">

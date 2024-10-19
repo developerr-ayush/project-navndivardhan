@@ -22,10 +22,10 @@ export const Founder = () => {
             alt=""
           />
           <div className="text">
-            <h3 className="text-[20px] md:text-[50px] text-[#bb8866]  ">
+            <h3 className="text-[20px] md:text-[44px] text-[#bb8866]  ">
               Mr. Anil Nagraj Mutha
             </h3>
-            <p className="text-[20px] md:text-[25px] leading-none font-semibold">
+            <p className="text-[20px] mt-6 md:text-[25px] leading-none font-semibold">
               Chief Visionary and Co-Founder
             </p>
             <p className="mt-8 founder-desc">
@@ -41,7 +41,7 @@ export const Founder = () => {
             </p>
             <a
               href="/about"
-              className="flex  items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
+              className="flex mt-8 items-center gap-2 text-[#85888a] font-semibold text-[1.2rem]  "
             >
               <Image
                 src={arrowRight}
