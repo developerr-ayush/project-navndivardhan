@@ -10,7 +10,7 @@ export default function page() {
     <>
       <Hero img="/image/hero.jpeg" />
       <AboutCompany />
-      <Timeline />;
+      <Timeline />
       <OurLeader />
       <Awards />
     </>
