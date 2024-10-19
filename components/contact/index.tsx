@@ -66,7 +66,7 @@ export const Contact: React.FC = () => {
     setIsSubmitting(true);
 
     const payload = {
-      Salutaion: formValues.name,
+      salutaion: formValues.name,
       email: formValues.email,
       phone_number: formValues.phone,
       residence_type: parseInt(formValues.residencyType), // Use ID of residence type
