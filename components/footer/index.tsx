@@ -22,7 +22,7 @@ export const Footer = () => {
           />
           <hr className="w-full" />
         </div>
-        <div className="grid gap-4 lg:gap-12 lg:grid-cols-3 my-4 lg:my-20">
+        <div className="grid gap-4 my-8 lg:gap-12 lg:grid-cols-3 lg:my-20">
           <div className="col-span-1 max-w-[20rem] text-white">
             <h3 className="underline text-[2rem] font-primary font-semibold underline-offset-[8px] mb-[3rem] decoration-white/50">
               Contact Details
@@ -57,7 +57,7 @@ export const Footer = () => {
             </p>
           </div>
           <div className="col-span-1 max-w-[20rem] text-white">
-            <h3 className="underline text-[2rem] font-primary font-semibold underline-offset-[8px] mb-[3rem] decoration-white/50">
+            <h3 className="underline text-[2rem] font-primary font-semibold underline-offset-[8px] mb-[1rem] lg:mb-[3rem] decoration-white/50">
               Quick Links
             </h3>
             <p>
