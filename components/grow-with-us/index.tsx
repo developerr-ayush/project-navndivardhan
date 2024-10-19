@@ -32,7 +32,7 @@ export const GrowWithUs: React.FC = () => {
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
     >
   ) => {
-    const { name, value, type, files } = e.target as any;
+    const { name, value, type, files } = e.target as HTMLInputElement;
 
     if (type === "file") {
       const selectedFile = files?.[0] || null;
