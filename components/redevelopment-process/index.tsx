@@ -13,7 +13,7 @@ export const RedevelopmentProcess = () => {
           How We Approach Redevelopment
         </p>
       </div>
-      <div className="grid grid-cols-2 gcontainer  flex-wrap mx-auto px-8 lg:flex gap-4 mb-10">
+      <div className="grid grid-cols-2 gcontainer  flex-wrap mx-auto px-8 lg:grid-cols-3 gap-4 mb-10">
         <div className="item grid text-center place-content-center  p-4 border border-solid  my-4">
           <Image
             src="/icon/feasibility.png"
