@@ -16,9 +16,9 @@ export const YearsExp = () => {
             <span className="shrink-0">2</span>
           </h2>
         </div>
-        <h2 className="flex flex-col pb-7 gap-2 text-[1.4rem] md:text-[2.4rem] md:pb-[3rem] leading-none textual-context">
-          <span className=" font-bold text-[#bb8866]">years of legacy</span>
-          <span>In Real Estate Development</span>
+        <h2 className="flex flex-col pb-7 gap-2 text-[1.4rem] md:text-[3rem] md:pb-[3.5rem] leading-none textual-context">
+          <span className="  text-[#bb8866]">years of legacy</span>
+          {/* <span>In Real Estate Development</span> */}
         </h2>
       </div>
     </SectionWrapper>
