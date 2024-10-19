@@ -13,7 +13,7 @@ export const Projects = () => {
   const [activeTab, setActiveTab] = useState("completed"); // State to track active tab
 
   return (
-    <SectionWrapper className="container mx-auto  project-page">
+    <SectionWrapper className=" mx-auto  project-page">
       <GSAP />
       <div className="head lg:text-center mb-8 lg:mb-16  ">
         <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-page-title">
@@ -80,7 +80,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -108,7 +111,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -136,7 +142,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -180,7 +189,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -208,7 +220,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -236,7 +251,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -280,7 +298,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -308,7 +329,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>
@@ -336,7 +360,10 @@ export const Projects = () => {
                     </h3>
                     <h4 className="text-[1.4rem]">Residential Project</h4>
                     <p className="text-[1.2rem]">Castle Mill, Thane</p>
-                    <a href="/project-detail" className="text-[#bb8866] underline uppercase">
+                    <a
+                      href="/project-detail"
+                      className="text-[#bb8866] underline uppercase"
+                    >
                       View Details
                     </a>
                   </div>

@@ -18,24 +18,30 @@ export const Redevelop = () => {
       </div>
       <div className="lg:col-span-6 p-[3vw] content">
         <Title className="text-[7vw] mb-4 lg:text-[3vw] text-[#bb8866]">
-          Why Choose Redevelopment?
+          Why Redevelop Your Society?
         </Title>
         <p className="mb-4 text-lg">
-          Redevelopment offers numerous benefits, both for residents and the
-          community. Here’s why it’s the smarter choice:
-          <br />
-          <br />
-          <b>Improved Infrastructure:</b> Old and outdated buildings are
-          replaced with modern structures, increasing safety and comfort.
-          <br />
-          <b>Enhanced Lifestyle:</b> New amenities like gyms, parks, and
-          co-working spaces improve overall quality of life.
-          <br />
-          <b>Sustainable Growth:</b> Redevelopment promotes eco-friendly
-          practices and helps minimize urban sprawl.
-          <br />
-          <b>Better Returns on Investment:</b> Property value increases with
-          modern upgrades, offering better returns for residents and investors.
+          Redeveloping your society can significantly enhance the quality of
+          life for residents while offering excellent returns on investment.
+          Here&apos;s why redevelopment is beneficial:
+          <ul className="list-disc pl-4">
+            <li className="my-4">
+              Modern Amenities: Renovating properties provides access to modern
+              features and comforts.
+            </li>
+            <li className="my-4">
+              Increased Property Value: Redevelopment boosts both land and
+              property value, making it an attractive investment.
+            </li>
+            <li className="my-4">
+              Compliance with Regulations: Updating properties to meet new
+              zoning regulations and building codes is essential.
+            </li>
+            <li className="my-4">
+              Profit Potential: Redevelopment can serve as a profitable
+              investment opportunity.
+            </li>
+          </ul>
         </p>
       </div>
     </SectionWrapper>

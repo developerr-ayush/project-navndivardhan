@@ -42,7 +42,7 @@ export const Header = ({ menuList }: HeaderProps) => {
           <Image
             src="/image/nandivardhan-logo.png"
             alt="logo"
-            className="w-full"
+            className="w-full object-contain"
             width={100}
             height={200}
           />

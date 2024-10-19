@@ -2,6 +2,7 @@ import React from "react";
 import { Title } from "../title";
 import { TextField } from "@mui/material";
 import { SectionWrapper } from "../section-wrapper";
+import { Button } from "../ui/button";
 
 export const RedevelopmentForm = () => {
   return (
@@ -14,11 +15,11 @@ export const RedevelopmentForm = () => {
           To Redevelop
         </p>
       </div>
+      <p className="text-center mb-8">
+        We follow a meticulous and transparent redevelopment process to ensure
+        that the needs of all stakeholders are met:
+      </p>
       <form action="" className="container mx-auto mb-10 lg:px-[10rem]">
-        <p>
-          We follow a meticulous and transparent redevelopment process to ensure
-          that the needs of all stakeholders are met:
-        </p>
         <div className="grid gap-4 md:grid-cols-2">
           <div className="input">
             <TextField
@@ -68,13 +69,10 @@ export const RedevelopmentForm = () => {
               variant="outlined"
             />
           </div>
-          <div className="sm:col-span-2 text-right">
-            <button
-              type="submit"
-              className="block max-w-[13rem] ml-auto w-full rounded-md bg-[#bb8866] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#7d4520] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
+          <div className="sm:col-span-2 text-center">
+            <Button type="submit" size={"xl"}>
               Let&apos;s talk
-            </button>
+            </Button>
           </div>
         </div>
       </form>

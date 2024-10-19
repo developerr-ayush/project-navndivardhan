@@ -8,7 +8,8 @@ import {
 
 interface FAQquest {
   question: string;
-  answer: string;
+  answer?: string;
+  html?: string;
 }
 interface FAQProps {
   title?: string;
@@ -36,7 +37,17 @@ export const FAQ = ({ title, subTitle, list }: FAQProps) => {
           {list.map((ele, i) => (
             <AccordionItem key={i} value={`item-${i}`} data-state="open">
               <AccordionTrigger>{ele.question}</AccordionTrigger>
-              <AccordionContent>{ele.answer}</AccordionContent>
+              <AccordionContent>
+                {ele.html ? (
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: ele.html,
+                    }}
+                  ></div>
+                ) : (
+                  ele.answer
+                )}
+              </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
