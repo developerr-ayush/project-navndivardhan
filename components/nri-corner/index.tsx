@@ -28,7 +28,7 @@ export const NRICorner = () => {
           <div className="flex flex-col xl:flex-row  ">
             <div className="xl:w-1/2 space-y-8 mb-8 xl:mb-0">
               <section>
-                <h2 className="text-2xl md:text-3xl font-semibold text-sky-500 mb-2">
+                <h2 className="text-2xl md:text-3xl font-semibold text-[#bb8866] mb-2">
                   Hassle-Free Purchase Process
                 </h2>
                 <p className="text-gray-700">
@@ -38,7 +38,7 @@ export const NRICorner = () => {
               </section>
 
               <section>
-                <h2 className="text-2xl md:text-3xl font-semibold text-sky-500 mb-2">
+                <h2 className="text-2xl md:text-3xl font-semibold text-[#bb8866] mb-2">
                   Exclusive Financial Guidance
                 </h2>
                 <p className="text-gray-700">
@@ -48,7 +48,7 @@ export const NRICorner = () => {
               </section>
 
               <section>
-                <h2 className="text-2xl md:text-3xl font-semibold text-sky-500 mb-2">
+                <h2 className="text-2xl md:text-3xl font-semibold text-[#bb8866] mb-2">
                   Property Management
                 </h2>
                 <p className="text-gray-700">
@@ -70,7 +70,7 @@ export const NRICorner = () => {
           </div>
 
           <div className="mt-12 xl:pl-16">
-            <h2 className="text-2xl md:text-3xl font-semibold text-sky-500 mb-4">
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#bb8866] mb-4">
               Legal Guidelines for NRI Investment
             </h2>
             <ul className="list-disc list-inside space-y-2 text-gray-700">
