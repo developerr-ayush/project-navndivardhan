@@ -17,7 +17,7 @@ export default function page() {
       </SectionWrapper>
       <SectionWrapper className="px-0">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center">
-          Whats our Customer Have to say Says
+          Whats our Customer Have to Says
         </Title>
 
         <TestimonialVideoCarousel />
