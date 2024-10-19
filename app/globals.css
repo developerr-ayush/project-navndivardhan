@@ -19,7 +19,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-secondary);
-  letter-spacing: 3.5px;
+  letter-spacing: 3px;
 }
 .font-primary {
   font-family: var(--font-primary);
