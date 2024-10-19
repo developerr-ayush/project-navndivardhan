@@ -21,6 +21,19 @@ const media = [
     title:
       "Enhanced connectivity & Redevelopment fuels south Central Mumbai's Real Estate Boom",
   },
+  {
+    img: "/image/media-1.jpg",
+    title: "Realiy boom in South-Central Munbai",
+  },
+  {
+    img: "/image/media-2.jpg",
+    title: "Growind Housing demand in South Mumbai",
+  },
+  {
+    img: "/image/media-3.jpg",
+    title:
+      "Enhanced connectivity & Redevelopment fuels south Central Mumbai's Real Estate Boom",
+  },
 ];
 export const Media = () => {
   return (

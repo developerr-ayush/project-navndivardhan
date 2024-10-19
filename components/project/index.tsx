@@ -28,6 +28,24 @@ const projects = [
     image: "/image/parkway.jpeg",
     logo: "/image/parkway-logo.png",
   },
+  {
+    title: "Mount Casa",
+    desc: "2 & 3 BHK luxurious residential homes",
+    image: "/image/mount-casa.jpeg",
+    logo: "/image/mount-casa-logo.png",
+  },
+  {
+    title: "Fortuna Blue",
+    desc: "2 & 3 BHK luxurious residential homes",
+    image: "/image/fortuna-blue.jpeg",
+    logo: "/image/fortuna-blue-logo.png",
+  },
+  {
+    title: "Parkway Matunga",
+    desc: "2 & 3 BHK luxurious residential homes",
+    image: "/image/parkway.jpeg",
+    logo: "/image/parkway-logo.png",
+  },
 ];
 export const Project = () => {
   return (
