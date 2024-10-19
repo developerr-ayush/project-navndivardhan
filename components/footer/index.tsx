@@ -50,10 +50,10 @@ export const Footer = () => {
               Ongoing Projects
             </h3>
             <p>
-              <a href="/">Mount Casa</a>
+              <a href="/project-detail">Mount Casa</a>
             </p>
             <p>
-              <a href="/">Fortuna Blue</a>
+              <a href="/project-detail">Fortuna Blue</a>
             </p>
           </div>
           <div className="col-span-1 max-w-[20rem] text-white">

@@ -9,15 +9,15 @@ import { SectionWrapper } from "../section-wrapper";
 
 const media = [
   {
-    img: "/image/news-1.png",
+    img: "/image/media-1.jpg",
     title: "Media title 1",
   },
   {
-    img: "/image/news-2.png",
+    img: "/image/media-2.jpg",
     title: "Media title 2",
   },
   {
-    img: "/image/news-3.png",
+    img: "/image/media-3.jpg",
     title: "Media title 3",
   },
 ];

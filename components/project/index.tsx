@@ -65,7 +65,7 @@ export const Project = () => {
                   />
                 </div>
                 <div className=" col-start-1 group-hover:opacity-0 transition-all duration-300   row-start-1 flex justify-end p-4 lg:p-8 text-white bg-gradient-to-t from-black to-transparent flex-col">
-                  <h3 className="text-[2rem] font-primary font-bold lg:text-[1.6vw]">
+                  <h3 className="text-[2rem] font-secondary text-[#bb8866] font-bold lg:text-[1.6vw]">
                     {project.title}
                   </h3>
                   <p className="text-[1.5rem] font-bold">{project.desc}</p>
