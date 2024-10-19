@@ -8,7 +8,7 @@ export const YearsExp = () => {
     <SectionWrapper className=" YearsExp">
       <GSAP />
       <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 text-center ">
-        Timeline
+        Values Etched In Veracity
       </Title>
 
       <div
@@ -23,7 +23,6 @@ export const YearsExp = () => {
         </div>
         <h2 className="flex flex-col pb-7 gap-2 text-[1.4rem] md:text-[3rem] md:pb-[3.5rem] leading-none textual-context tracking-[3.5px]">
           <span className="  text-[#bb8866]">years of legacy</span>
-          {/* <span>In Real Estate Development</span> */}
         </h2>
       </div>
     </SectionWrapper>
