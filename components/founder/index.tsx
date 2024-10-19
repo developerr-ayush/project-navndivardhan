@@ -9,7 +9,7 @@ export const Founder = () => {
   return (
     <SectionWrapper className="container   mx-auto Founder">
       <GSAP />
-      <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]  text-center founder-title">
+      <Title className="mx-auto text-[2rem] tracking-[3.5px] lg:text-[3.125rem] text-[#bb8866]  text-center founder-title">
         Leadership
       </Title>
       <div className="founder-item my-8  mx-auto max-w-[60rem]">
