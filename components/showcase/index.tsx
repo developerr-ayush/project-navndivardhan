@@ -32,7 +32,7 @@ export const Showcase = () => {
             height={500}
             src="/image/nandivardhan-logo.png"
           />
-          <h3 className="text-white text-center text-[2rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-20">
+          <h3 className="text-white text-center text-[2rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24">
             Crafting India&apos;s Finest <br /> Real Estate Experiences
           </h3>
         </div>
