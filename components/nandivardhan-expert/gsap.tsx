@@ -7,22 +7,21 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 export const GSAP = () => {
   useGSAP(() => {
-    gsap.from(".redevelop .content", {
+    gsap.from(".nandivardhan-expert .content", {
       x: -100,
       opacity: 0,
       scrollTrigger: {
-        trigger: " .redevelop .content",
+        trigger: " .nandivardhan-expert .content",
         ...GSAPCONFIG,
-
       },
     });
-    gsap.from(" .redevelop  .image", {
+    gsap.from(" .nandivardhan-expert  .image", {
       x: 100,
       opacity: 0,
       scrollTrigger: {
-        trigger: ".redevelop .image",
+        trigger: ".nandivardhan-expert .image",
         start: "top 80%",
-        end:"+=50",
+        end: "+=50",
 
         toggleActions: "play none reverse reset",
       },

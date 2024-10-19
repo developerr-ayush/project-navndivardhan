@@ -4,6 +4,12 @@ import { RedevelopmentForm } from "@/components/redevelopment-form";
 import { RedevelopmentProcess } from "@/components/redevelopment-process";
 import React from "react";
 import { FAQ } from "@/components/faq";
+import { Contact } from "@/components/contact";
+import { NandivardhanExpert } from "@/components/nandivardhan-expert";
+import { NandiVardhanLifestyle } from "@/components/nandivardhan-lifestyle";
+import TestimonialCarousel from "@/components/testimonial";
+import { SectionWrapper } from "@/components/section-wrapper";
+import { Title } from "@/components/title";
 const faq = {
   title: "Frequently Asked Questions",
   list: [
@@ -40,6 +46,20 @@ Development Plan Remark<br>
     },
   ],
 };
+const testimonials = [
+  {
+    name: "Mr. Sharma",
+    role: "Society President",
+    content:
+      "Working with Nandivardhan transformed our old society into a vibrant community. Their attention to detail and commitment to quality made the entire process smooth and satisfying",
+  },
+  {
+    name: "Ms. Rao",
+    role: "Resident",
+    content:
+      "The redevelopment project exceeded our expectations! The new amenities and designs have truly elevated our living standards",
+  },
+];
 export default function page() {
   return (
     <>
@@ -47,7 +67,19 @@ export default function page() {
       <Redevelop />
       <RedevelopmentProcess />
       <RedevelopmentForm />
+      <NandivardhanExpert />
+      <NandiVardhanLifestyle />
       <FAQ {...faq} />
+      <div className="mb-10">
+        <Contact />
+      </div>
+      <SectionWrapper className="px-0">
+        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] text-center">
+          Whats our Customer Have to Say
+        </Title>
+
+        <TestimonialCarousel testimonial={testimonials} />
+      </SectionWrapper>
     </>
   );
 }

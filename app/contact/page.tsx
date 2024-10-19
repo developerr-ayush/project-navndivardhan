@@ -60,8 +60,8 @@ export default function contact() {
             </div>
           </div>
         </div>
-        <Address />
       </div>
+      <Address />
     </div>
   );
 }

@@ -10,7 +10,7 @@ import { GSAP } from "./gsap";
 import { SectionWrapper } from "../section-wrapper";
 
 export const Projects = () => {
-  const [activeTab, setActiveTab] = useState("completed"); // State to track active tab
+  const [activeTab, setActiveTab] = useState("upcoming"); // State to track active tab
 
   return (
     <SectionWrapper className=" mx-auto  project-page">
@@ -28,12 +28,12 @@ export const Projects = () => {
       {/* Tab Navigation */}
       <div className="flex justify-between text-center my-16 project-page-tabs">
         <button
-          onClick={() => setActiveTab("completed")}
-          className={`text-[1.4rem] grid place-content-center flex-1 border-r-2 px-4 ${
-            activeTab === "completed" ? "font-bold" : ""
+          onClick={() => setActiveTab("upcoming")}
+          className={`text-[1.4rem] grid place-content-center border-r-2 flex-1 ${
+            activeTab === "upcoming" ? "font-bold" : ""
           }`}
         >
-          Completed Projects
+          Upcoming Projects
         </button>
         <button
           onClick={() => setActiveTab("ongoing")}
@@ -43,13 +43,14 @@ export const Projects = () => {
         >
           Ongoing Projects
         </button>
+
         <button
-          onClick={() => setActiveTab("upcoming")}
-          className={`text-[1.4rem] grid place-content-center flex-1 ${
-            activeTab === "upcoming" ? "font-bold" : ""
+          onClick={() => setActiveTab("completed")}
+          className={`text-[1.4rem] grid place-content-center flex-1  px-4 ${
+            activeTab === "completed" ? "font-bold" : ""
           }`}
         >
-          Upcoming Projects
+          Completed Projects
         </button>
       </div>
 

@@ -3,9 +3,9 @@ import Image from "next/image";
 import { GSAP } from "./gsap";
 import { Title } from "../title";
 import { SectionWrapper } from "../section-wrapper";
-export const Redevelop = () => {
+export const NandivardhanExpert = () => {
   return (
-    <SectionWrapper className="px-0 grid lg:grid-cols-12 items-center redevelop overflow-hidden  mx-auto">
+    <SectionWrapper className="px-0 grid lg:grid-cols-12 items-center nandivardhan-expert overflow-hidden  mx-auto">
       <GSAP />
       <div className="lg:col-span-6 p-[3vw] pl-0 image">
         <Image
@@ -18,12 +18,18 @@ export const Redevelop = () => {
       </div>
       <div className="lg:col-span-6 p-[3vw] content">
         <Title className="text-[7vw] mb-4 lg:text-[3vw] text-[#bb8866]">
-          Why Redevelop Your Society?
+          Nandivardhan’s Expertise
         </Title>
         <p className="mb-4 text-lg">
-          Redeveloping your society can significantly enhance the quality of
-          life for residents while offering excellent returns on investment.
-          Here&apos;s why redevelopment is beneficial:
+          At Nandivardhan, we specialize in transforming not just spaces, but
+          lives. Our reputation as top redevelopment builders in Mumbai is built
+          on our commitment to quality and detail. Our process is designed to
+          ensure that every homeowner&apos;s needs are met, from initial
+          planning to project completion.
+          <br />
+          <br />
+          <b className="text-lg">Key Strengths</b>
+          <br />
           <ul className="list-disc pl-4">
             <li className="my-4">
               Modern Amenities: Renovating properties provides access to modern

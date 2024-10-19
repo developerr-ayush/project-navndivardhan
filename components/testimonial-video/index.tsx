@@ -16,11 +16,10 @@ export default function TestimonialVideoCarousel() {
         modules={[Navigation, Pagination, A11y, Autoplay]}
         spaceBetween={30}
         slidesPerView={1.2}
-        centeredSlides={true}
         navigation
         breakpoints={{
-          768: { slidesPerView: 1.75 }, // For phones
-          1024: { slidesPerView: 3.3 }, // For desktops
+          768: { slidesPerView: 1.5 }, // For phones
+          1024: { slidesPerView: 1.8 }, // For desktops
         }}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         className="testimonial-swiper"
@@ -28,9 +27,8 @@ export default function TestimonialVideoCarousel() {
         <SwiperSlide>
           <video
             className="w-full h-full object-cover"
-            src="/video/Luxry-video-vertical.mp4"
+            src="/video/Luxry-video.mp4"
             controls
-            autoPlay
             loop
             muted
           />
@@ -38,9 +36,8 @@ export default function TestimonialVideoCarousel() {
         <SwiperSlide>
           <video
             className="w-full h-full object-cover"
-            src="/video/Luxry-video-vertical.mp4"
+            src="/video/Luxry-video.mp4"
             controls
-            autoPlay
             loop
             muted
           />
@@ -48,9 +45,8 @@ export default function TestimonialVideoCarousel() {
         <SwiperSlide>
           <video
             className="w-full h-full object-cover"
-            src="/video/Luxry-video-vertical.mp4"
+            src="/video/Luxry-video.mp4"
             controls
-            autoPlay
             loop
             muted
           />
@@ -58,9 +54,8 @@ export default function TestimonialVideoCarousel() {
         <SwiperSlide>
           <video
             className="w-full h-full object-cover"
-            src="/video/Luxry-video-vertical.mp4"
+            src="/video/Luxry-video.mp4"
             controls
-            autoPlay
             loop
             muted
           />

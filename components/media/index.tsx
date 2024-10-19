@@ -10,15 +10,16 @@ import { SectionWrapper } from "../section-wrapper";
 const media = [
   {
     img: "/image/media-1.jpg",
-    title: "Media title 1",
+    title: "Realiy boom in South-Central Munbai",
   },
   {
     img: "/image/media-2.jpg",
-    title: "Media title 2",
+    title: "Growind Housing demand in South Mumbai",
   },
   {
     img: "/image/media-3.jpg",
-    title: "Media title 3",
+    title:
+      "Enhanced connectivity & Redevelopment fuels south Central Mumbai's Real Estate Boom",
   },
 ];
 export const Media = () => {
@@ -57,7 +58,9 @@ export const Media = () => {
                   />
                 </div>
                 <div className="content  text-black items-end p-5 text-center">
-                  <h3 className="text-[2rem] lg:text-[1.6vw]">{news.title}</h3>
+                  <h3 className="text-[2rem] lg:text-[1.6vw] line-clamp-2">
+                    {news.title}
+                  </h3>
                 </div>
               </div>
             </SwiperSlide>
