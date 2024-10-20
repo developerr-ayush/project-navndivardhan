@@ -17,40 +17,40 @@ import { Subtitle } from "@/data/atom/subtitle";
 // Define an array of process steps for reusability and maintainability
 const processSteps = [
   {
-    imgSrc: "/icon/feasibility.png",
+    imgSrc: "/icon/society-eval.png",
     title: "Society Evaluation",
     description: "Evaluating the potential and requirements of the property.",
   },
   {
-    imgSrc: "/icon/feasibility.png",
+    imgSrc: "/icon/redevelopment-feasibility.png",
     title: "Redevelopment Feasibility Report",
     description: "Evaluating the potential and requirements of the property.",
   },
   {
-    imgSrc: "/icon/resident.png",
+    imgSrc: "/icon/terms-condition.png",
     title: "Terms & Conditions Review",
     description:
       "Engaging with property owners and tenants for a smooth and inclusive transition.",
   },
   {
-    imgSrc: "/icon/design.png",
+    imgSrc: "/icon/project-plan.png",
     title: "Project Plan & Design Development",
     description:
       "Creating sustainable, modern designs that prioritize comfort and efficiency.",
   },
   {
-    imgSrc: "/icon/execution.png",
+    imgSrc: "/icon/presentation.png",
     title: "Presentation & Selection",
     description:
       "Ensuring timely and quality construction using the best materials and techniques.",
   },
   {
-    imgSrc: "/icon/handover.png",
+    imgSrc: "/icon/feasibility.png",
     title: "Agreement and Approval of Sanctions",
     description: "A seamless transition to the new and improved property.",
   },
   {
-    imgSrc: "/icon/handover.png",
+    imgSrc: "/icon/physical.png",
     title: "Physical Possession of the Property",
     description: "A seamless transition to the new and improved property.",
   },
@@ -59,7 +59,7 @@ const processSteps = [
 export const RedevelopmentProcess: React.FC = () => {
   return (
     <SectionWrapper className="bg-[#000] px-0">
-      <div className="head max-w-[70rem] mx-auto lg:text-center mb-8 lg:mb-3">
+      <div className="head max-w-[70rem] mx-auto lg:text-center ">
         <Title className="mx-auto project-title">Our Process</Title>
         <Subtitle className=" mb-8 project-desc text-center leading-none">
           How We Approach Redevelopment

@@ -22,7 +22,11 @@ export const Loader = () => {
       ref={loader}
       className="loader fixed inset-0 bg-white z-[21] flex items-center justify-center"
     >
-      <Image src={logo} alt="logo" className="w-full lg:w-[10rem] " />
+      <Image
+        src={logo}
+        alt="logo"
+        className="w-full lg:w-[50rem] max-w-full "
+      />
     </div>
   );
 };

@@ -10,7 +10,7 @@ export const ProjectAmenities = () => {
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 media-title">
           Amenities
         </Title>
-        <p className="text-[1rem] leading-none font-semibold media-desc">
+        <p className="text-[1.4rem] leading-[1.4] media-desc">
           Give your family the gift of healthy living with fitness amenities and
           leisure activities. at Fortuna Blue, we have reserved ample of space
           for you to relax and unwind for an enriched way of life

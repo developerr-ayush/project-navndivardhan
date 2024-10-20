@@ -46,7 +46,7 @@ export default function ImageGrid() {
     <SectionWrapper className=" bg-[#eaecec]   mx-auto ">
       <div className="container mx-auto">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866]  leader-title text-center mb-8">
-          <span>Client Centric</span>
+          Client Centric
         </Title>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

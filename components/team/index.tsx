@@ -76,10 +76,12 @@ export const Team = () => {
         </div>
         <div className="team-item my-14">
           <div className="info md:flex items-center gap-4 lg:gap-[4rem]">
-            <img
+            <Image
               className="w-[15rem] max-w-full mb-4"
               src="/image/team-1.png"
               alt=""
+              width={500}
+              height={500}
             />
             <div className="text">
               <h3 className="text-[20px] md:text-[44px] text-[#bb8866]  font-semibold">

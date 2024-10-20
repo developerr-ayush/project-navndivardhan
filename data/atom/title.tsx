@@ -1,4 +1,5 @@
 import React from "react";
+import { SplitText } from "./SplitText";
 
 export const Title = ({
   className,
@@ -9,11 +10,13 @@ export const Title = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h2
+    <SplitText
+      text={children?.toString() || ""}
+      delay={50}
       {...props}
       className={`text-[7vw]  lg:text-[2.5vw] title text-[#bb8866] mb-8 ${className}`}
     >
-      {children}
-    </h2>
+      {}
+    </SplitText>
   );
 };

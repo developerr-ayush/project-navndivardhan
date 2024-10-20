@@ -20,10 +20,7 @@ export const GSAP = () => {
       opacity: 0,
       scrollTrigger: {
         trigger: ".about .image",
-        start: "top 80%",
-        end: "+=50",
-
-        toggleActions: "play none reverse reset",
+        ...GSAPCONFIG,
       },
     });
   });

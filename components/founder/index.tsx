@@ -4,7 +4,6 @@ import arrowRight from "@/public/icon/arrow-right-blue.svg";
 import Image from "next/image";
 import { SectionWrapper } from "../section-wrapper";
 import { Title } from "@/data/atom/title";
-import { Subtitle } from "@/data/atom/subtitle";
 
 export const Founder = () => {
   return (

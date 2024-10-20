@@ -2,7 +2,7 @@ import { Hero } from "@/components/hero";
 import { SectionWrapper } from "@/components/section-wrapper";
 import TestimonialCarousel from "@/components/testimonial";
 import TestimonialVideoCarousel from "@/components/testimonial-video";
-import { Title } from "@/components/title";
+import { Title } from "@/data/atom/title";
 import React from "react";
 const testimonials = [
   {

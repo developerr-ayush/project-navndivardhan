@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import { GSAP } from "./gsap";
 import { SectionWrapper } from "../section-wrapper";
 import { Title } from "@/data/atom/title";
 export const Sustainability = () => {

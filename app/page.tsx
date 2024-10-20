@@ -8,15 +8,19 @@ import { Showcase } from "@/components/showcase";
 import { Sustainability } from "@/components/sustainability";
 import { UpcomingVideo } from "@/components/upcoming-video";
 import { YearsExp } from "@/components/years-exp";
+import { SplitText } from "@/data/atom/SplitText";
+import { DELAY } from "@/util";
 import React from "react";
 
 export default function Home() {
   return (
     <>
       <Showcase />
-      <h2 className="text-[5vw] md:text-[3vw] main-text h-[15vh] md:h-[20vh] content-center text-center  bg-black text-[#bb8866]">
-        Transforming Spaces, Elevating Lives
-      </h2>
+      <SplitText
+        text="Transforming Spaces, Elevating Lives"
+        delay={DELAY}
+        className="text-[5vw] md:text-[3vw] main-text h-[15vh] md:h-[20vh] content-center text-center  bg-black text-[#bb8866]"
+      ></SplitText>
       <About />
       <UpcomingVideo />
       <YearsExp />

@@ -6,10 +6,12 @@ export const ExcelentConnectivity = () => {
   return (
     <SectionWrapper>
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16">
-        <Title className="mx-auto text-[2rem] lg:text-[5rem] opacity-40 leading-none text-[#bb8866] mb-2 media-title font-bold">
-          <span className="block font-bold">The Heart of</span>
-          <span className="block font-medium">Excellent Connectivity</span>
-        </Title>
+        <div className="mx-auto  opacity-40  text-[#bb8866] mb-2 media-title font-bold">
+          <Title className="block font-bold mb-0 text-[4vw]">
+            The Heart of
+          </Title>
+          <Title className="block font-medium">Excellent Connectivity</Title>
+        </div>
       </div>
       <Title className="text-center mt-8 mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 media-title">
         Location Highlights

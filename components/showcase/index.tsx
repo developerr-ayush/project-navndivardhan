@@ -1,14 +1,22 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { GSAP } from "./gsap";
 import Image from "next/image";
+import { SplitText } from "@/data/atom/SplitText";
+import { DELAY } from "@/util";
 export const Showcase = () => {
+  const [showTitle, setshowTitle] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setshowTitle(true);
+    }, DELAY * 1000 + 200);
+  }, []);
   return (
-    <div className="showcase grid-cols-1 grid lg:grid-cols-12 h-[85vh] lg:h-[80vh]">
+    <div className="showcase grid-cols-1 grid lg:grid-cols-12 h-screen">
       <GSAP />
       <div className="lg:col-span-12 row-start-1 col-start-1 -row-end-1 -col-end-1 relative">
         <video
-          className="w-full h-[85vh] md:h-[80vh] object-cover"
+          className="w-full h-screen object-cover"
           autoPlay
           loop
           muted
@@ -22,9 +30,18 @@ export const Showcase = () => {
             height={500}
             src="/image/nandivardhan-logo.png"
           />
-          <h3 className="text-white text-center text-[1.4rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24">
-            Crafting India&apos;s Finest <br /> Real Estate Experiences
-          </h3>
+          {showTitle && (
+            <SplitText
+              text=" Crafting India's Finest"
+              className="text-white text-center text-[1.4rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24"
+            ></SplitText>
+          )}
+          {showTitle && (
+            <SplitText
+              text=" Real Estate Experiences"
+              className="text-white text-center text-[1.4rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24"
+            ></SplitText>
+          )}
         </div>
       </div>
     </div>

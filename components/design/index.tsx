@@ -8,7 +8,7 @@ export const Design = () => {
     <SectionWrapper>
       <div className="text-center">
         <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 leader-title">
-          <span>Our Design Philisophy</span>
+          Our Design Philisophy
         </Title>
 
         <p className="block -medium">

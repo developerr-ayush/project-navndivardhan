@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Title } from "@/data/atom/title";
 
 interface FAQquest {
   question: string;
@@ -21,7 +22,7 @@ export const FAQ = ({ title, subTitle, list }: FAQProps) => {
     <div className="py-20">
       <div className="text-center mx-auto mb-20 px-[4rem]">
         {title && (
-          <h2 className="text-[20px] lg:text-[50px] text-[#bb8866]">{title}</h2>
+          <Title className="text-[20px] lg:text-[50px] text-[#bb8866]">{title}</Title>
         )}
         <p className="text-[30px] lg:text-[48px] leading-none font-semibold">
           {subTitle}

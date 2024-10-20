@@ -6,7 +6,6 @@ import Image from "next/image";
 import { SectionWrapper } from "../section-wrapper";
 import { Title } from "@/data/atom/title";
 import { Subtitle } from "@/data/atom/subtitle";
-import { Para } from "@/data/atom/para";
 
 export const Awards = () => {
   return (

@@ -27,7 +27,7 @@ export const KeyBenefits = () => {
       <GSAP />
       <div className="head  container mx-auto  lg:text-center mb-8 lg:mb-16">
         <Title className="mx-auto text-[2rem] lg:text-[4rem] lg:text-right text-[#bb8866] mb-2 key-benefits-title">
-          <b>Key</b> Benefits
+          Key Benefits
         </Title>
         {/* <p className="text-[1.8rem] leading-none font-semibold key-benefits-desc">
           Explore our insightful and crafted contect with expertise and fresh
