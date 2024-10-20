@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Showcase />
-      <h2 className="text-[3vw] main-text text-center py-10 bg-black text-[#bb8866]">
+      <h2 className="text-[5vw] md:text-[3vw] main-text h-[15vh] md:h-[20vh] content-center text-center  bg-black text-[#bb8866]">
         Transforming Spaces, Elevating Lives
       </h2>
       <About />

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { GSAP } from "./gsap";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { SectionWrapper } from "../section-wrapper";
 export const NandivardhanExpert = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import image from "@/public/image/about.jpg";
 import { GSAP } from "./gsap";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { SectionWrapper } from "../section-wrapper";
 export const AboutCompany = () => {
   return (
@@ -19,9 +19,7 @@ export const AboutCompany = () => {
         />
       </div>
       <div className="lg:col-span-6  content">
-        <Title className="text-[7vw] lg:text-[3vw] title text-[#bb8866]">
-          About Company
-        </Title>
+        <Title className=" title ">About Company</Title>
         <p className="mb-4">
           Nandivardhan Group has been a pioneering force in Mumbai and
           Thane&apos;s real estate landscape, known for redefining urban living

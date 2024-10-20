@@ -11,7 +11,7 @@ export const Subtitle = ({
   return (
     <p
       {...props}
-      className={`px-[3vw] text-[1.4rem] lg:text-[2.6rem] tracking-widest mb-20  leading-none  ${className}`}
+      className={` text-[1.4rem] lg:text-[2.6rem] tracking-widest mb-20  leading-[1.2]  ${className}`}
     >
       {children}
     </p>

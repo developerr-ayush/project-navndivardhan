@@ -1,131 +1,116 @@
+"use client";
 import React from "react";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { SectionWrapper } from "../section-wrapper";
 import Image from "next/image";
-export const RedevelopmentProcess = () => {
+
+// Import Swiper React components and modules
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { A11y, Autoplay, Navigation } from "swiper/modules";
+import { Subtitle } from "@/data/atom/subtitle";
+
+// Define an array of process steps for reusability and maintainability
+const processSteps = [
+  {
+    imgSrc: "/icon/feasibility.png",
+    title: "Society Evaluation",
+    description: "Evaluating the potential and requirements of the property.",
+  },
+  {
+    imgSrc: "/icon/feasibility.png",
+    title: "Redevelopment Feasibility Report",
+    description: "Evaluating the potential and requirements of the property.",
+  },
+  {
+    imgSrc: "/icon/resident.png",
+    title: "Terms & Conditions Review",
+    description:
+      "Engaging with property owners and tenants for a smooth and inclusive transition.",
+  },
+  {
+    imgSrc: "/icon/design.png",
+    title: "Project Plan & Design Development",
+    description:
+      "Creating sustainable, modern designs that prioritize comfort and efficiency.",
+  },
+  {
+    imgSrc: "/icon/execution.png",
+    title: "Presentation & Selection",
+    description:
+      "Ensuring timely and quality construction using the best materials and techniques.",
+  },
+  {
+    imgSrc: "/icon/handover.png",
+    title: "Agreement and Approval of Sanctions",
+    description: "A seamless transition to the new and improved property.",
+  },
+  {
+    imgSrc: "/icon/handover.png",
+    title: "Physical Possession of the Property",
+    description: "A seamless transition to the new and improved property.",
+  },
+];
+
+export const RedevelopmentProcess: React.FC = () => {
   return (
-    <SectionWrapper className="bg-[#e8e7e7] ">
-      <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-3">
-        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-title text-center">
-          Our Process
-        </Title>
-        <p className=" text-[1.4rem] lg:text-[2.6rem] mb-8 project-desc text-center leading-none">
+    <SectionWrapper className="bg-[#000] px-0">
+      <div className="head max-w-[70rem] mx-auto lg:text-center mb-8 lg:mb-3">
+        <Title className="mx-auto project-title">Our Process</Title>
+        <Subtitle className=" mb-8 project-desc text-center leading-none">
           How We Approach Redevelopment
-        </p>
+        </Subtitle>
       </div>
-      <div className="grid grid-cols-2 gcontainer  flex-wrap mx-auto px-8 lg:grid-cols-3 gap-4 mb-10">
-        <div className="item grid text-center place-content-center  p-4 border border-solid  my-4">
-          <Image
-            src="/icon/feasibility.png"
-            alt="image"
-            width={100}
-            height={100}
-            className="mx-auto mb-4"
-          />
-          <Title className="mx-auto text-[2rem]  text-[#bb8866] project-title text-center">
-            Society Evaluation
-          </Title>
 
-          <p>Evaluating the potential and equirements of the property.</p>
-        </div>
-        <div className="item grid text-center place-content-center  p-4 border border-solid  my-4">
-          <Image
-            src="/icon/feasibility.png"
-            alt="image"
-            width={100}
-            height={100}
-            className="mx-auto mb-4"
-          />
-          <Title className="mx-auto text-[2rem]  text-[#bb8866] project-title text-center">
-            Redevelopment Feasibility Report
-          </Title>
-
-          <p>Evaluating the potential and equirements of the property.</p>
-        </div>
-
-        <div className="item grid text-center place-content-center  p-4 border border-solid  my-4">
-          <Image
-            src="/icon/resident.png"
-            alt="image"
-            width={100}
-            height={100}
-            className="mx-auto mb-4"
-          />
-          <Title className="mx-auto text-[2rem]  text-[#bb8866] project-title text-center">
-            Terms & Conditions Review
-          </Title>
-
-          <p>
-            Engaging with property owners and tenants for a smooth and inclusive
-            transition.
-          </p>
-        </div>
-
-        <div className="item grid text-center place-content-center  p-4 border border-solid  my-4">
-          <Image
-            src="/icon/design.png"
-            alt="image"
-            width={100}
-            height={100}
-            className="mx-auto mb-4"
-          />
-          <Title className="mx-auto text-[2rem]  text-[#bb8866] project-title text-center">
-            Project Plan & Design Development
-          </Title>
-
-          <p>
-            Creating sustainable, modern designs that prioritize comfort and
-            efficiency.
-          </p>
-        </div>
-
-        <div className="item grid  text-center place-content-center  p-4 border border-solid  my-4">
-          <Image
-            src="/icon/execution.png"
-            alt="image"
-            width={100}
-            height={100}
-            className="mx-auto mb-4"
-          />
-          <Title className="mx-auto text-[2rem]  text-[#bb8866] project-title text-center">
-            Presentation & Selection
-          </Title>
-
-          <p>
-            Ensuring timely and quality construction using the best materials
-            and techniques.
-          </p>
-        </div>
-
-        <div className="item grid  text-center place-content-center  p-4 border border-solid  my-4">
-          <Image
-            src="/icon/handover.png"
-            alt="image"
-            width={100}
-            height={100}
-            className="mx-auto mb-4"
-          />
-          <Title className="mx-auto text-[2rem]  text-[#bb8866] project-title text-center">
-            Agreement and Approval of Sanctions
-          </Title>
-
-          <p>A seamless transition to the new and improved property.</p>
-        </div>
-        <div className="item grid  text-center place-content-center  p-4 border border-solid  my-4">
-          <Image
-            src="/icon/handover.png"
-            alt="image"
-            width={100}
-            height={100}
-            className="mx-auto mb-4"
-          />
-          <Title className="mx-auto text-[2rem]  text-[#bb8866] project-title text-center">
-            **Physical Possession of the Property
-          </Title>
-
-          <p>A seamless transition to the new and improved property.</p>
-        </div>
-      </div>
+      {/* Swiper Wrapper */}
+      <Swiper
+        modules={[Navigation, A11y, Autoplay]}
+        spaceBetween={20}
+        autoplay
+        slidesPerView={1}
+        navigation
+        breakpoints={{
+          640: {
+            slidesPerView: 1.5,
+          },
+          768: {
+            slidesPerView: 2.4,
+          },
+          1024: {
+            slidesPerView: 3.4,
+          },
+          1200: {
+            slidesPerView: 4.2,
+          },
+          1600: {
+            slidesPerView: 5,
+          },
+        }}
+      >
+        {processSteps.map((step, index) => (
+          <SwiperSlide key={index} className="h-full">
+            <div className="item grid text-center place-content-center p-7 border border-solid my-4">
+              <Image
+                src={step.imgSrc}
+                alt={step.title}
+                width={100}
+                height={100}
+                className="mx-auto mb-4 invert"
+              />
+              <h3 className="mx-auto text-[1.8rem] text-[#bb8866] project-title text-center line-clamp-2">
+                {step.title}
+              </h3>
+              <p className="text-white tracking-wider line-clamp-2">
+                {step.description}
+              </p>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </SectionWrapper>
   );
 };

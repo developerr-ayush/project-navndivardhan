@@ -1,4 +1,4 @@
-export const DELAY = 6;
+export const DELAY = 2.2;
 export const GSAPCONFIG = {
   scrub: 3,
   start: "top 80%",

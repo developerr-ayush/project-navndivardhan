@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { GSAP } from "./gsap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { SectionWrapper } from "../section-wrapper";
 
 const keyBenefit = [

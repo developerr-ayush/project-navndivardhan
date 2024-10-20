@@ -9,7 +9,7 @@ import { NandivardhanExpert } from "@/components/nandivardhan-expert";
 import { NandiVardhanLifestyle } from "@/components/nandivardhan-lifestyle";
 import TestimonialCarousel from "@/components/testimonial";
 import { SectionWrapper } from "@/components/section-wrapper";
-import { Title } from "@/components/title";
+import { Title } from "@/data/atom/title";
 const faq = {
   title: "Frequently Asked Questions",
   list: [

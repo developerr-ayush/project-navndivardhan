@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionWrapper } from "../section-wrapper";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import Image from "next/image";
 
 export const ProjectAmenities = () => {

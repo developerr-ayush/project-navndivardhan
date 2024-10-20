@@ -8,6 +8,8 @@ import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import { GSAP } from "./gsap";
 import { SectionWrapper } from "../section-wrapper";
+import { Title } from "@/data/atom/title";
+import { Subtitle } from "@/data/atom/subtitle";
 
 export const Projects = () => {
   const [activeTab, setActiveTab] = useState("upcoming"); // State to track active tab
@@ -16,13 +18,11 @@ export const Projects = () => {
     <SectionWrapper className=" mx-auto  project-page">
       <GSAP />
       <div className="head lg:text-center mb-8 lg:mb-16  ">
-        <h2 className="text-[2rem] lg:text-[3.125rem] text-[#bb8866] project-page-title">
-          Our Projects
-        </h2>
-        <p className="text-[30px] lg:text-[48px] leading-none font-semibold project-page-desc">
+        <Title className=" project-page-title">Our Projects</Title>
+        <Subtitle className=" project-page-desc">
           Discover our premium real estate projects, where design meets
           exceptional craftsmanship
-        </p>
+        </Subtitle>
       </div>
 
       {/* Tab Navigation */}
@@ -58,9 +58,9 @@ export const Projects = () => {
       <div className="body">
         {activeTab === "completed" && (
           <div className="project-group" id="completed">
-            <p className="title  text-[2rem] lg:text-[3rem] text-[#bb8866]">
+            <Title className="">
               <b className="font-bold">Completed</b> Projects
-            </p>
+            </Title>
             <Swiper
               modules={[Navigation]}
               navigation

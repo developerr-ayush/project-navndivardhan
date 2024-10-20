@@ -1,21 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import { GSAP } from "./gsap";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { SectionWrapper } from "../section-wrapper";
 export const NandiVardhanLifestyle = () => {
   return (
-    <SectionWrapper className="px-0 grid lg:grid-cols-12 items-center nandivardhan-lifestyle overflow-hidden  mx-auto">
+    <SectionWrapper className="px-0 grid lg:grid-cols-12  items-center nandivardhan-lifestyle overflow-hidden  mx-auto">
       <GSAP />
-      <div className="lg:col-span-6 p-[3vw] pl-0 image">
-        <Image
-          src="/image/construction.jpg"
-          alt="logo"
-          className="w-full h-full object-cover"
-          width={500}
-          height={1000}
-        />
-      </div>
+
       <div className="lg:col-span-6 p-[3vw] content">
         <Title className="text-[7vw] mb-4 lg:text-[3vw] text-[#bb8866]">
           Upgrading Lifestyle with Nandivardhan
@@ -42,6 +34,15 @@ export const NandiVardhanLifestyle = () => {
             </li>
           </ul>
         </p>
+      </div>
+      <div className="lg:col-span-6 p-[3vw] pl-0 image">
+        <Image
+          src="/image/construction.jpg"
+          alt="logo"
+          className="w-full h-full object-cover"
+          width={500}
+          height={1000}
+        />
       </div>
     </SectionWrapper>
   );

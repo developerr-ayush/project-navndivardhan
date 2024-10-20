@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { SectionWrapper } from "../section-wrapper";
 
 const amenities = [

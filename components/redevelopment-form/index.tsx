@@ -1,5 +1,5 @@
 import React from "react";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { TextField } from "@mui/material";
 import { SectionWrapper } from "../section-wrapper";
 import { Button } from "../ui/button";

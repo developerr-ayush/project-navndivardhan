@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 
 export const ProjectInfo = () => {
   return (

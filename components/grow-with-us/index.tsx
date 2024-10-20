@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import { TextField, MenuItem, FormControl, InputLabel } from "@mui/material";
 import { SectionWrapper } from "../section-wrapper";
 import { Button } from "../ui/button";

@@ -1,7 +1,7 @@
 import React from "react";
 import GSAP from "./gsap";
 import { SectionWrapper } from "../section-wrapper";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 
 export const YearsExp = () => {
   return (

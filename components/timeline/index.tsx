@@ -5,8 +5,9 @@ import "swiper/css";
 import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import { GSAP } from "./gsap";
-import { Title } from "../title";
 import { SectionWrapper } from "../section-wrapper";
+import { Subtitle } from "@/data/atom/subtitle";
+import { Title } from "@/data/atom/title";
 
 const timelineData = [
   {
@@ -57,13 +58,11 @@ export default function Timeline() {
       <GSAP />
 
       <div className="head  max-w-[70rem] mx-auto  lg:text-center mb-8 lg:mb-16 px-[3vw]">
-        <Title className="mx-auto text-[2rem] lg:text-[3.125rem] text-[#bb8866] mb-2 timeline-title">
-          Timeline
-        </Title>
-        <p className="text-[1.8rem] leading-none font-semibold timeline-desc">
+        <Title className="mx-auto  mb-2 timeline-title">Timeline</Title>
+        <Subtitle className=" timeline-desc">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
           perspiciatis?
-        </p>
+        </Subtitle>
       </div>
       <Swiper
         className="mt-10 w-full timeline-swiper px-[4rem] timeline-swiper "

@@ -3,7 +3,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import TextField from "@mui/material/TextField";
-import { Title } from "../title";
+import { Title } from "@/data/atom/title";
 import BasicSelect from "../select-dropdown";
 import { SelectChangeEvent } from "@mui/material";
 
