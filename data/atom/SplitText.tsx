@@ -27,7 +27,7 @@ export const SplitText = ({
           }
         }
       },
-      { threshold: 0.7, rootMargin: "-100px" }
+      { threshold: 0.3, rootMargin: "-100px" }
     );
 
     if (ref.current) {

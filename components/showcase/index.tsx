@@ -32,14 +32,14 @@ export const Showcase = () => {
           />
           {showTitle && (
             <SplitText
-              text=" Crafting India's Finest"
-              className="text-white text-center text-[1.4rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24"
+              text="Crafting India's Finest"
+              className="text-white text-center text-[1.2rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24"
             ></SplitText>
           )}
           {showTitle && (
             <SplitText
-              text=" Real Estate Experiences"
-              className="text-white text-center text-[1.4rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24"
+              text="Real Estate Experiences"
+              className="text-white text-center text-[1.2rem] md:text-[3rem] max-w-[40rem] tracking-[3.5px] translate-y-24"
             ></SplitText>
           )}
         </div>
